@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/presentationPage.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="./scripts/quiz.js"></script>
+    <script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
+    <title>Web Design &amp; Development</title>
+	<meta charset="utf-8" />
+    <script>
+        function LoadContent(path, elementId) {
+            try {
+                var c = new XMLHttpRequest();
+                c.open("GET", path, false);
+                c.send();
+                document.getElementById(elementId).innerHTML = c.response;
+                document.getElementById("page_links").setAttribute("class", "Nav VNav VNavMain Dark-dark Visible");
+
+            }
+            catch (e) {
+                document.getElementById("page_content").innerHTML = "<h1>" + e.message + "</h1>";
+            }
+        }
+
+        function HideMenu() {
+            document.getElementById("page_links").setAttribute("class", "Nav VNav VNavMain Dark-dark Invisible");
+        }
+    </script>
+    <script src="./scripts/shop.js" type="text/javascript"></script>
+    <script src="./scripts/gallery.js" type="text/javascript"></script>
+
+
+</head>
+<body class="MainBody Dark-dark">
+   
+    <div class="presentationContainer">
+        <div class="presentationHeader"><div class="projectTitle"><img src="./img/logo.gif" /></div><span class="subtitle">a project by</span></div>
+
+        <div class="nameLeft">
+            Syed<div class="element">
+                <div class="atomicNumber">92</div><div class="elementSymbol">U</div>
+            </div>l K<div class="element">
+                <div class="atomicNumber">1</div><div class="elementSymbol">H</div>
+            </div>an
+        </div>
+
+        <div class="nameRight">
+            A<div class="element">
+                <div class="atomicNumber">5</div><div class="elementSymbol">B</div>
+            </div>dul <div class="element">
+                <div class="atomicNumber">14</div><div class="elementSymbol">Si</div>
+            </div>kder
+        </div>
+
+        <div class="nameLeft">
+            <div class="element">
+                <div class="atomicNumber">57</div>
+                <div class="elementSymbol">La</div>
+            </div>urence Turn<div class="element">
+                <div class="atomicNumber">68</div>
+                <div class="elementSymbol">Er</div>
+            </div>
+        </div>
+
+        <div class="nameRight">
+            Angel<div class="element">
+                <div class="atomicNumber">76</div><div class="elementSymbol">Os</div>
+            </div> <div class="element">
+                <div class="atomicNumber">4</div><div class="elementSymbol">Be</div>
+            </div>rdos
+        </div>
+
+        <div class="presentationFooter">Web Design & Development - 4MMCS003W.Y</div>
+    </div>
+
+    <div class="PageHeader Dark-dark">
+    <div class="Header3">
+        <img class="Logo" src="img/logo.gif" />
+        <div class="LogoSlogan">Making Sciency Things Happen</div>
+        </div>
+    </div>    
+        <ul id="page_nav" class="Nav  HNav HNavMain Dark-medium">
+            <li style="z-index:5;"><a onclick="LoadContent('./pages/home.html', 'page_content'); LoadContent('./menus/science_menu.html', 'page_links');">Home</a></li>     
+            <li style="z-index:4;"><a onclick="LoadContent('./pages/shop.html', 'page_content'); HideMenu();">Shop</a></li>     
+            <li style="z-index:4;"><a onclick="LoadContent('./pages/gallery.html', 'page_content'); HideMenu();">Gallery</a></li>     
+            <li style="z-index:3;"><a onclick="LoadContent('./pages/about.html', 'page_content'); HideMenu();">About Us</a></li>
+            <li style="z-index:2;"><a onclick="LoadContent('./pages/contact.html', 'page_content'); HideMenu();">Contact</a></li>
+            <li style="z-index:2;"><a onclick="LoadContent('./pages/sitemap.html', 'page_content'); HideMenu();">Site Map</a></li>            
+        </ul>    
+       
+        <div id="page_container" class="PageContainer">
+            <ul id="page_links" class="Nav VNav VNavMain Dark-dark Invisible" style="float:right; right:16px;">
+                
+            </ul>           
+           <div id="page_content"></div>
+            <div> </div>
+        </div>
+  
+    <div class="PageFooter Dark-dark">Copyright shared by Angelos Berdos, Syedul Khan, Abdul Sikder and Laurence Turner.</div>
+    <style>
+        a{
+            color:white;
+            text-decoration:none;
+        }
+    </style>
+    <script>
+        LoadContent('./pages/home.html', 'page_content');
+        LoadContent('./menus/science_menu.html', 'page_links');
+    </script>
+</body>
+</html>

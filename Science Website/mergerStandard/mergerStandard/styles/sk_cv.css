@@ -1,0 +1,30 @@
+﻿.SKBody {
+    font-family: "Lato", sans-serif;
+    margin-left: 10%;
+    width: 60%;
+    border-left: 1px solid gray;
+    margin-right: 30%;
+    border-right: 1px solid gray;
+    padding: 1em;
+}
+
+.ProfilePic {
+    top: 0px;
+    position: relative;
+    float: right;
+    clear: none;
+    margin-right: 0px;
+    z-index: 2;
+}
+
+.WebLogo {
+    position: relative;
+    float: left;
+    clear:none;
+}
+
+.PersonalDetails {
+    margin-left: 190px;
+    text-align: center;
+    top: -15px;
+}

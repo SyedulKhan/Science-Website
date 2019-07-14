@@ -1,0 +1,44 @@
+﻿.AMCV .Line {
+    border: 1px solid white;
+}
+
+.AMCV h1 {
+    font-family: 'Times New Roman';
+}
+
+.AMCV h2 {
+    margin-bottom: 5px;
+}
+
+.AMCV h4 {
+    margin-top: 0px;
+}
+
+.AMCV .JobDescription {
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 800;
+}
+
+    .AMCV .JobDescription td {
+        text-align: right;
+    }
+
+    .AMCV .JobDescription th {
+        text-align: left;
+    }
+
+
+
+/* To apply one property to multiple classes you can do this: */
+
+.AMCV .Header, .AMCV .Body, .AMCV .Footer {   
+    padding: 0px;    
+    border: 3px black;    
+    border-radius: 0px;    
+    margin: 0px;
+}
+
+.AMCV .Header {
+    text-align: center;
+}

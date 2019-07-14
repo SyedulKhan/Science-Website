@@ -1,0 +1,12 @@
+BUGS:
+
+Gallery - Background colour resets on pic change
+Index - Gallery Link still has menu
+Index - Clear menu on page part load.
+Quiz - After restart, timer fails to start. - FIXED
+Quiz - After restart, no summary. - FIXED
+Quiz - Get score doesnt work after get score has occurred. - FIXED
+
+
+
+&#9776;

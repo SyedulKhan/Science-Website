@@ -1,0 +1,526 @@
+﻿body{
+    min-width:1024px;
+
+    /* IE scroll bar */
+    scrollbar-base-color: rgba(25,25,25,0.5); 
+    scrollbar-base-color: rgba(25,25,25,0.5); 
+    scrollbar-3dlight-color: rgba(25,25,25,0.5);
+    scrollbar-highlight-color:rgba(25,25,25,0.5); 
+    scrollbar-track-color: rgba(25,25,25,0.5); /* Main one */
+    scrollbar-arrow-color: rgba(150,150,150,0.5);
+    scrollbar-shadow-color: rgba(5,5,5,0.5);
+
+    /* Unselectable */    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor:default;
+}
+
+/* Chrome scroll bar */
+::-webkit-scrollbar { width: 15px; height: 100%;} 
+::-webkit-scrollbar-button {  background-color: rgba(50,50,50,0.5); } 
+::-webkit-scrollbar-track {  background-color: rgba(25,25,25,0.5);} /* Track */
+::-webkit-scrollbar-track-piece { background-color: rgba(25,25,25,0.5);} /* Also Track */
+::-webkit-scrollbar-thumb { height: 50px; background-color: rgba(75,75,75,0.5); border-radius: 10px;} /* Bar */
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;} 
+
+.Visible{
+    transition-duration:0.5s;
+    visibility:visible;    
+}
+
+.Invisible{
+    transition-duration:0.5s;
+    background-color:rgba(250,250,250,0);
+    color:rgba(250,250,250,0);
+    visibility:hidden;
+}
+
+.Header3{    
+    font-size:24px;
+    font-weight:800;
+    padding:0px;
+    margin:0px;
+    margin-left:auto;
+    margin-right:auto;
+    white-space:normal;
+    border:2px none rgba(25,25,25,0.8);
+    border-left:none;
+    border-right:none;
+    border-radius:1000px;
+    background-color:rgba(0,0,0,0.3);
+    box-shadow:0 0 20px 0px rgba(0, 70, 170, 0.8);
+    float:right;
+    margin-right:450px;
+    width:55px;
+    height:92px;    
+
+    padding-left:15px;
+    padding-right:25px;
+    
+}
+
+.LogoSlogan{
+    width:400px;
+    line-height:0px;
+    margin-top:3px;
+    padding-left:40px;
+}
+
+.PageHeader, .PageFooter{
+
+    position:relative;
+    float:left;
+    clear:both;    
+    color:white;
+    text-align:center;
+    width:100%;
+    height:25px;
+    background-color:rgba(0,0,0,0.3);
+    
+    border:1px solid rgba(240,240,240,0.2);
+    border-left:none;
+    border-right:none;
+    padding:0px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.PageHeader{
+    top:0px;
+    height:100px;
+    margin-bottom:0px;
+    right:0px;
+    width:100%;
+}
+.PageFooter{
+    position:absolute;
+    bottom:0px;
+    border-bottom:none;
+    margin-top:10px;
+}
+
+.MainBody {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x:hidden;
+    font-family: Calibri;   
+    background-image: url('../img/dna.jpg');    
+        
+    background-size:contain;
+    background-repeat:no-repeat;
+    
+}
+.MainFrame{
+    position:relative; 
+    float:left; 
+
+    clear:both; 
+    width:100%; 
+    
+    top:0px;
+    bottom:750px;
+}
+.PageContainer{  
+    
+    position:fixed;
+    border:none;
+    
+    float:left;
+    clear:right;  
+    
+    margin:0px;
+    top:178px;    
+    bottom:45px;
+    right:0px;
+
+    width:100%;
+
+    overflow-y:scroll;
+    /*  max-height:100%; */
+    background-color:rgba(0,0,0,0.3);          
+}
+
+#page_content{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+#page_links{
+   position:fixed;
+}
+
+.Nav li a{
+    display:block;   
+    height:50px;
+    line-height: 50px;
+}
+.Nav{      
+    position:relative;
+   
+    overflow:auto;
+    
+    
+    margin:0px;
+    margin-left:auto; 
+    margin-right:auto;
+    
+    z-index:5000;
+    padding:0px;
+    color:#CCC;
+
+    list-style:none;
+    transition-duration:0.5s;
+
+    border:1px solid rgba(240,240,240,0.2); 
+
+    
+}
+
+.HNav li {
+    float: left;
+    padding-top: 0px;
+    background-color: rgba(20,20,20,0.8);
+    border-right: 1px solid rgba(240,240,240,0.3);
+    cursor: pointer;
+    height:100%; 
+    border-bottom:5px solid #353535; 
+}
+.VNav li{
+    float:left;
+    clear:both;
+    width:99%;
+    border:1px solid rgba(240,240,240,0.3);
+    border-top:none;
+    cursor:pointer;
+    border-collapse:collapse;
+     
+    
+    padding-left:5px;
+    padding-top:0px;
+    background-color:rgba(20,20,20,0.2);
+    border-left:5px solid #353535; 
+}
+
+.HNavMain{
+    
+    position:relative;
+    float:left;
+    clear:both;
+
+    width:100%;
+    
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    overflow-y:hidden;
+}
+
+.HNavMain li{
+    border-bottom:5px solid #353535 inset; 
+    min-width:150px;
+    height:100%;       
+    background-color:rgba(20,20,20,0.8)
+}
+.VNavMain{
+    position:relative;    
+    
+    width:235px;    
+      
+    border-collapse:collapse;
+    border:none;
+}
+.VNavMain li{
+    float:left;
+    clear:both;
+    width:224px;
+    border:1px solid rgba(240,240,240,0.3);
+    border-left:5px solid #353535; 
+    border-top:none;
+    cursor:pointer;
+    border-collapse:collapse;
+    height:30px;     
+    padding-left:5px;
+    padding-top:0px;
+    background-color:rgba(20,20,20,0.2);
+    
+} 
+  
+.Nav li {
+    transition-duration:0.5s;
+
+    color: white;
+    text-align: center;    
+    height:50px;
+    text-decoration:none;
+    
+    border-collapse:collapse;    
+}
+.Nav li a:active {
+    display:block;
+    transition-duration:0.05s;
+    background-color: rgba(0, 255, 255, 0.50);
+}
+.Nav li:hover {
+     transition-duration:0.05s;
+    box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 20px 5px;
+    border-color:rgba(0, 170, 270, 0.8);
+    background-color:rgba(0, 70, 170, 0.1);
+    /*background-color:rgba(50,50,50,0.8);*/
+    
+    animation: Pulse 1.75s infinite normal;
+    
+}
+
+.VNav li:hover{
+     transition-duration:0.5s;    
+    border-left:5px solid aqua;
+    
+    
+    
+}
+.HNav li:hover{   
+    transition-duration:0.5s; 
+    border-bottom:5px solid aqua; 
+    
+     
+    border-right:1px solid rgba(240,240,240,0.3);
+     margin-bottom:0px;
+   
+}
+
+@keyframes Pulse {
+    0%{ background-color:none; box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 0px 0px; }
+    40%{ background-color:rgba(0, 70, 170, 0.2); box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 20px 2px; }
+    100%{ background-color:none; }
+}
+@keyframes FadeIn{
+    from{
+        background-color:rgba(0,0,0,0);
+        color:rgba(0,0,0,0);
+        box-shadow:0px 0px 5px 1px rgba(0,0,0,0.0);
+    }
+
+    to{
+        color:rgba(250,250,250,1);
+    }
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:visited{
+
+}
+
+.CVPage, .CVHeader, #cv_content, .Address, .CVPage a {
+    animation: FadeIn 2s ease 1;
+}
+.CVPage {
+    font-family: Calibri;
+    font-weight: 200;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 210mm;
+    border:1px solid rgba(200,200,200,0.1);
+    
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 50px 0px rgba(0, 70, 170, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.AuthorLink[data-authorname] {
+
+    transition-duration: 0.5s;
+    animation: Pulse 2s infinite normal;
+
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   
+
+    border: 1px solid rgba(0, 70, 170, 0.5);
+    border-radius: 50px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-right:none;
+    
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+    
+    padding: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    
+    width: 150px;
+    min-height: 20px;
+
+    margin:3px;
+    margin-right:0px;
+    margin-left:auto;
+    
+    
+}
+.AuthorLink::before{
+    content:"View Author";
+}
+.AuthorLink:hover{
+     transition-duration:0.75s;      
+    
+    /*background-color: rgba(240,240,240,0.2);*/
+    transition-duration:0.05s;        
+    /*padding-bottom: 0px;
+    border-bottom:5px solid aqua;*/
+    box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 20px 2px;
+    border-color:rgba(0, 170, 270, 0.8);
+    background-color:rgba(50,50,50,0.8);
+    
+}
+.AuthorLink[data-authorname]:hover::after{
+       content: ": " attr(data-authorname);
+}
+.AuthorLink:active{
+    transition-duration:0.1s;
+    background-color:rgba(0,255,255,0.8);
+}
+
+.Logo{        
+    width:406px;
+    height:92px; 
+    background-image:url('../img/logo.gif'); 
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+/* Colour schemes */
+/* Dark */
+.Dark-translucent{
+    color:rgba(250,250,250,1);
+    background-color:rgba(25,25,25,0.5);
+}
+.Dark-dark{
+    color:rgba(250,250,250,1);
+    background-color:rgba(10,10,10,0.75);
+}
+.Dark-medium{
+    color:rgba(250,250,250,1);
+    background-color:rgba(20,20,20,0.8);
+}
+.Dark-light{
+    color:rgba(250,250,250,1);
+    background-color:rgba(100,100,100,0.8);
+}
+.Dark-highlight{
+    color:aqua;
+    background-color:rgba(25,25,25,0.8);
+}
+
+/* Light */
+.Light-translucent{
+    color:rgba(0,0,0,1);
+    background-color:rgba(175,175,175,0.5);
+}
+.Light-dark{
+    color:rgba(0,0,0,1);
+    background-color:rgba(100,100,100,0.8);
+}
+.Light-medium{
+    color:rgba(0,0,0,1);
+    background-color:rgba(150,150,150,0.8);
+}
+.Light-light{
+    color:rgba(0,0,0,1);
+    background-color:rgba(200,200,200,0.8);
+}
+.Light-highlight{
+    background-color:rgba(250,250,250,0.8);
+    color:aqua;
+}
+
+.SciPage{
+        
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:20px;
+
+    min-width:10%;
+    max-width:60%;    
+
+    background-color:rgba(5,5,5,0.5);
+    color:white;
+    
+    border:1px solid rgba(240,240,240,0.2); 
+}
+.SciPage p{
+    padding: 0px 20px 5px 20px;
+}
+.SciSection{
+    
+    background-color:none;
+    color:inherit;
+}
+
+.SciPageTitle, .SciSectionTitle{
+    padding-left:20px;
+    background-color:none;
+    color:inherit;
+    text-shadow:0px 0px 15px 5px rgba(0, 70, 170, 0.8);
+    margin-top:20px;
+}
+.SciPageTitle{
+    font-size:xx-large;
+}
+.SciSectionTitle{
+    font-size:x-large;
+}
+.SciSectionText{
+    background-color:none;
+    color:inherit;
+}
+.SciPageAuthor{
+   
+    background-color:none;
+    color:inherit;
+}
+
+.Reference{
+   color:Highlight;
+}
+.Reference:hover{
+    color:white;
+    background-color:rgba(0, 70, 170, 0.5);
+}
+
+textarea{
+
+    background-color:rgba(0,0,0,0.8);
+    color:white;
+    border:none;
+    width:252px;
+}

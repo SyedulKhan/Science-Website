@@ -1,0 +1,88 @@
+﻿<div class="SciPage">
+    <div class="SciPageTitle">Polymorphism</div>
+    <article class="SciPageAuthor">
+        <div class="AuthorLink" onclick="showPage('cvs/abdul_cv', true);" data-authorname="Abdul" style="margin-right:-20px;"></div>
+    </article>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            Definition
+        </div>
+        <div class="SciSectionText">
+            <p>Where one object can be a part of more than one category of objects.</p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            Visualising polymorphism
+        </div>
+        <div style="width:600px; height:220px; margin:auto; margin-top:20px;">
+            <img src="http://www.whatprogramming.com/csharp/wp-content/uploads/2015/09/polymorphism.png" alt="polymorphism image">
+        </div>
+        <div class="SciSectionText">
+            <p> This would be a basic image of what polymorphism is and how it works. This means that a variable that stores a Vehicle object, can store any descendant of the Vehicle class.</p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            Types of Polymorphism
+        </div>
+        <div class="SciSectionText">
+            <p>Polymorphism can be one of 2 types, in this case it can be either static or dynamic.</p>
+            <ul>
+                <li>Static Polymorphism - The response to a function is determined at the compile time.</li>
+                <li>Dynamic Polymorphism - It is decided at run-time.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            What is Static Polymorphism?
+        </div>
+        <div class="SciSectionText">
+            <p>Static polymorphism is basically the apparatus of linking a function with an object during compile time. This is known as either early binding or static binding.</p>
+            <p>C# provides two techniques to implement static polymorphism. Which are known as:</p>
+            <ul>
+                <li>Function overloading</li>
+                <li>Operator overloading</li>
+            </ul>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            Function overloading
+        </div>
+        <div class="SciSectionText">
+            <p>This is where the user can have a multiple amount of definitions for an identical function name which belongs in the same scope. The definition of the function however must be different from each other by the types. The user cannot surplus function declarations that differ only by return type.</p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            Operator overloading
+        </div>
+        <div class="SciSectionText">
+            <p>Operator overloading is where the user can overload or redefine most of the built in available in c#. Overloaded operators are basically functions which contain special names followed by a keyword along with a symbol for the operator which is defined. Furthermore, it can also be stated that an overloaded operator has a return type along with a parameter list.</p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            What is Dynamic Polymorphism?
+        </div>
+        <div class="SciSectionText">
+            <p>Dynamic Polymorphism allows the user to create abstract classes which are used to provide partial class implementation of an interface. Initially the implementation is complete when a derived class in inherits from it. These abstract classes contain abstract methods which have been implemented by the derived classes which have more of a specialised functionality.</p>
+        </div>
+    </div>
+
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            Putting it in practise with examples
+        </div>
+        <div class="SciSectionText">
+            <ul>
+                <li>Vehicle v0 = new Vehicle();</li>
+                <li>Vehicle v1 = new Tank();</li>
+                <li>Vehicle v2 = new GolfMk2();</li>
+            </ul>
+            <p> This is the ability in which objects of different types provide a unique interface for different implementations of methods. Usually, used within the context of late binding where the behavior of an object replies to a call to its method members is determined based on object type at run time. Polymorphism permits redefining methods in derived classes. Polymorphism forms one of the essential perceptions of object-oriented programming, along with inheritance and encapsulation.</p>
+        </div>
+    </div>
+</div>

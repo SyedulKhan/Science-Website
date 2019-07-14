@@ -1,0 +1,5047 @@
+ == FILE START== : .//mergerStandard/mergerStandard/index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- High priority styles -->   
+    <!-- Presentation page -->
+    <link rel="stylesheet" type="text/css" href="./styles/presentation.css" />
+    <!-- Main page -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+
+    <title>RipStar Science</title>
+    <meta charset="utf-8" />
+    <!-- High load priority scripts -->
+    <script type="text/javascript" src="./scripts/main.js"></script>
+
+    <!-- Lower priority styles -->
+    <!-- Shop -->
+    <link rel="stylesheet" type="text/css" href="./styles/shop.css" />
+    <!-- Gallery -->
+    <link rel="stylesheet" type="text/css" href="./styles/gallery.css" />
+    <!-- Contact Page -->
+    <link rel="stylesheet" type="text/css" href="./styles/contact.css" />
+    <!-- About Page -->
+    <link rel="stylesheet" type="text/css" href="./styles/about.css" />
+    <!-- Site Map-->
+    <link rel="stylesheet" type="text/css" href="./styles/sitemap.css" />
+
+    <!-- Periodic Table Article -->
+    <link rel="stylesheet" type="text/css" href="./styles/periodic_table.css" />
+    <!-- Polymorphism -->
+    <link rel="stylesheet" type="text/css" href="./styles/polymorphism.css" />
+    <!-- Quiz -->
+    <link rel="stylesheet" type="text/css" href="./styles/quiz.css" />
+
+    <!-- Font sizing -->
+    <link rel="stylesheet" type="text/css" href="./styles/font_size.css" />
+
+    <!-- Syedul's CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/sk_cv.css" />
+    <!-- Laurence's CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/lt_cv.css" />
+    <!-- Abdul's CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/am_cv.css" />
+    <!-- Angelos' CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/ab_cv.css" />
+
+    <!-- Lower load priority scripts -->
+    <script type="text/javascript" src="./scripts/quiz.js"></script>
+    <script type="text/javascript" src="./scripts/shop.js"></script>
+    <script type="text/javascript" src="./scripts/gallery.js"></script>
+    <script type="text/javascript" src="./scripts/font_size.js"></script>
+</head>
+
+<body class="MainBody Dark-dark">
+    <!-- Segment of Angelos' work starts here -->
+    <div class="PresentationContainer">
+        <div class="PresentationHeader">
+		<div class="LogoStar"><div class="PresentationLogo"></div></div>            
+            <span class="SubTitle">a project by</span>
+        </div>
+        <div class="NameLeft">
+            Syed<div class="Element">
+                <div class="AtomicNumber">92</div><div class="ElementSymbol">U</div>
+            </div>l K<div class="Element">
+                <div class="AtomicNumber">1</div><div class="ElementSymbol">H</div>
+            </div>an
+        </div>
+        <div class="NameRight">
+            A<div class="Element">
+                <div class="AtomicNumber">5</div><div class="ElementSymbol">B</div>
+            </div>dul <div class="Element">
+                <div class="AtomicNumber">14</div><div class="ElementSymbol">Si</div>
+            </div>kder
+        </div>
+        <div class="NameLeft">
+            <div class="Element">
+                <div class="AtomicNumber">57</div>
+                <div class="ElementSymbol">La</div>
+            </div>urence Turn<div class="Element">
+                <div class="AtomicNumber">68</div>
+                <div class="ElementSymbol">Er</div>
+            </div>
+        </div>
+        <div class="NameRight">
+            Angel<div class="Element">
+                <div class="AtomicNumber">76</div><div class="ElementSymbol">Os</div>
+            </div> <div class="Element">
+                <div class="AtomicNumber">4</div><div class="ElementSymbol">Be</div>
+            </div>rdos
+        </div>
+        <div class="PresentationFooter">Web Design & Development - 4MMCS003W.Y</div>
+    </div>
+    <!-- Segment of Angelos' work ends here -->
+
+    <div class="PageHeader Dark-dark">
+        <div class="Header3">
+            <div class="Logo"></div>
+            <div class="LogoSlogan">Making Sciency Things Happen</div>
+        </div>
+    </div>    
+
+    <!-- Segment of Angelos' work starts here -->
+    <div class="FontControlPanel" id="fontPanel">
+        <div id="currentFontSize">M</div>
+        <input type="button" onclick="changeFontSize(1);" name="increaseText" value="Increase font"><br>
+        <input type="button" onclick="changeFontSize(-1);" name="decreaseText" value="Decrease font">
+        <div class="AuthorLink" onclick="showPage('cvs/angelos_cv', true);" data-authorname="Angelos" style="border-radius:0; width: 164px;"></div>
+    </div>
+    <div id="checkout" style="display:none;">
+        <div id="exitlayer" onclick="makeInvisible();"></div>
+        <div class="PopupForm FontSize" id="formcontainer"></div>
+    </div>   
+    <!-- Segment of Angelos' work ends here -->
+       
+        <ul id="page_nav" class="Nav HNav HNavMain Dark-medium FontSize">
+            <li><a onclick="showPage('home', true);">Home</a></li>
+            <li><a onclick="showPage('shop', false); setImages();">Shop</a></li>
+            <li><a onclick="showPage('gallery', false); ">Gallery</a></li>
+            <li><a onclick="showPage('about', false); ">About Us</a></li>
+            <li><a onclick="showPage('contact', false);">Contact</a></li>
+            <li><a onclick="showPage('sitemap', false);">Site Map</a></li>
+            <li><a onclick="showFontSizePanel();" id="fontSizePanelTab">Font Size</a></li>
+        </ul>
+       
+    
+    <div id="page_container" class="PageContainer FontSize">
+        <ul id="page_links" class="Nav VNav VNavMain Dark-dark Invisible" style="float:right; right:16px;"></ul>
+        <div id="page_content"></div>
+        
+    </div>
+    <div class="PageFooter Dark-dark FontSize">Copyright shared by Angelos Berdos, Syedul Khan, Abdul Sikder and Laurence Turner.<div class="SciPageAuthor" style="float:right; clear:both;">
+    <!-- <div class="AuthorLink" data-authorname="Laurence" onclick="showPage('cvs/laurence_cv', true);" style="margin-bottom:10px; margin-top:auto;"></div> -->
+</div></div>
+    <script>
+        showPage('home', true);
+    </script>
+</body>
+</html>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/contact_menu.html
+<li><a>Contact Menu</a></li>
+<li><a>Contact Menu</a></li>
+<li><a>Contact Menu</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/home_menu.html
+<li><a onclick="showPage('sci/gravitational_waves', true);">Gravitational Waves</a></li>
+<li><a onclick="showPage('sci/higgs_boson', true);">Higgs Boson</a></li>
+<li><a onclick="showPage('sci/periodic_table', true);">Periodic Table</a></li>
+<li><a onclick="showPage('sci/polymorphism', true);">Polymorphism</a></li>
+<li><a onclick="showPage('sci/quiz', true); restartQuiz();">Try Our Quiz!</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/shop_menu.html
+<li><a href="#prod1">Products - Section 1</a></li>
+<li><a href="#prod4">Products - Section 2</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/cvs/abdul_cv_menu.html
+<li><a href="#">content</a></li>
+<li><a href="#">content</a></li>
+<li><a href="#">content</a></li>
+<li><a href="#">content</a></li>
+<li><a href="#">content</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/cvs/angelos_cv_menu.html
+    <li><a href="#bio">Personal Statement</a></li>
+	<li><a href="#education">Education</a></li>    
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#work_exp">Work Experience</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/cvs/laurence_cv_menu.html
+    <li><a href="#education">Education</a></li>
+    <li><a href="#additional_qualifications">Additional Qualifications</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#career_history">Career History</a></li>
+    <li><a href="#interests">Interests</a></li>
+
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/cvs/syedul_cv_menu.html
+<li><a href="#pp">Personal Profile</a></li>
+<li><a href="#tp">Technical Profile</a></li>
+<li><a href="#aa">Academic Achievements</a></li>
+<li><a href="#we">Work Experience</a></li>
+<li><a href="#hi">Hobbies and Interests</a></li>
+<li><a href="#re">References</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/sci/gravitational_waves_menu.html
+<li><a onclick="showPage('sci/gravitational_waves', true);">Gravitational Waves</a></li>
+<li><a onclick="showPage('sci/higgs_boson', true);">Higgs Boson</a></li>
+<li><a onclick="showPage('sci/periodic_table', true);">Periodic Table</a></li>
+<li><a onclick="showPage('sci/polymorphism', true);">Polymorphism</a></li>
+<li><a onclick="showPage('sci/quiz', true); restartQuiz();">Try Our Quiz!</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/sci/higgs_boson_menu.html
+<li><a href="#background">Background</a></li>
+<li><a href="#preparation">Preparation</a></li>
+<li><a href="#discovery">Discovery</a></li>
+<li><a href="#considerations">Considerations</a></li>
+<li><a href="#making">Making your Higgs</a></li>
+<li><a href="#references">References</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/sci/periodic_table_menu.html
+<li><a onclick="showPage('sci/gravitational_waves', true);">Gravitational Waves</a></li>
+<li><a onclick="showPage('sci/higgs_boson', true);">Higgs Boson</a></li>
+<li><a onclick="showPage('sci/periodic_table', true);">Periodic Table</a></li>
+<li><a onclick="showPage('sci/polymorphism', true);">Polymorphism</a></li>
+<li><a onclick="showPage('sci/quiz', true); restartQuiz();">Try Our Quiz!</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/sci/polymorphism_menu.html
+<li><a onclick="showPage('sci/gravitational_waves', true);">Gravitational Waves</a></li>
+<li><a onclick="showPage('sci/higgs_boson', true);">Higgs Boson</a></li>
+<li><a onclick="showPage('sci/chemistry', true);">Periodic Table</a></li>
+<li><a onclick="showPage('sci/abdul_science', true);">Polymorphism</a></li>
+<li><a onclick="showPage('sci/quiz', false); restartQuiz();">Try Our Quiz!</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/menus/sci/quiz_menu.html
+<li id="quiz_restart"><a onclick="restartQuiz(false);">Restart</a></li>
+<li id="quiz_finish"><a onclick="endQuiz(true);">Finish</a></li>
+<li><a onclick="showPage('home', true);">< Back</a></li>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/about.html
+<div class="AboutContainer">
+    <div class="AboutTitle">The Squad</div>
+    <div class="Line"></div>
+    <div class="GroupContainer">
+        <div class="TeamMember">
+            <img src="./img/profile/ang_pic.jpg" alt="Avatar" class="Image">
+            <div class="InfoOverlay">
+                <div class="Text">
+                    Angelos Berdos
+                    <br />
+                    Student 1 <br />
+                    ID: W1497896
+                </div>
+            </div>
+        </div>
+        <div class="TeamMember">
+            <img src="./img/profile/lau_pic.jpg" alt="Avatar" class="Image">
+            <div class="InfoOverlay">
+                <div class="Text">
+                    Laurence Turner	<br />
+                    Student 2<br />
+                    ID: W1608219
+                </div>
+            </div>
+        </div>
+        <div class="TeamMember">
+            <img src="./img/profile/abd_pic.jpg" alt="Avatar" class="Image">
+            <div class="InfoOverlay">
+                <div class="Text">
+                    Abdul Sikder<br />
+                    Student 3<br />
+                    ID: W1542409
+                </div>
+            </div>
+        </div>
+        <div class="TeamMember">
+            <img src="./img/profile/sye_pic.png" alt="Avatar" class="Image">
+            <div class="InfoOverlay">
+                <div class="Text">
+                    Syedul Khan<br />
+                    Student 4<br />
+                    ID: W1533019
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/contact.html
+<div class="Submission ContactPage">
+    <table>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="text" id="email" placeholder="John.Smith@domain.com" /></td>
+        </tr>
+        <tr>
+            <td><label for="rating">I think this website is...</label></td>
+            <td>
+                <select id="rating">
+                    <option value="5">Amazing!</option>
+                    <option value="4">Really good!</option>
+                    <option value="3">Good.</option>
+                    <option value="2">Not bad.</option>
+                    <option value="1">Bad.</option>
+                    <option value="0">AHH! IT BURNS!</option>
+                </select>
+            </td>
+        </tr>
+        <tr><td style="vertical-align:top;"><label for="msg">Comments</label></td><td><textarea style="width:250px; border:inset 2px lightgrey; border-radius:3px; padding:3px;" rows="10" id="msg" placeholder="Enter your thoughts on our website here."></textarea></td></tr>
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <input type="button" id="page_nav" onclick="Submit();" value="Send">
+            </td>
+        </tr>
+    </table>
+
+</div>
+<div class="AuthorLink" data-authorname="Laurence" onclick="showPage('cvs/laurence_cv', true);"></div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/gallery.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8" />
+    <script src="../scripts/gallery.js" type="text/javascript"></script>
+</head>
+<body>
+    <fieldset id="colour_menu">
+        <legend>Changing Colour</legend>
+        <table border="0">
+            <tr>
+                <td>
+                    <label>Background Colour</label>
+                </td>
+                <td>
+                    <select id="backgColorList" class="backgColorLi">
+                        <option id="ps" value="inherit" onclick="changeBackGColor()">Default</option>
+                        <option id="re" value="rgba(200,0,0,0.5)" onclick="changeBackGColor()">Red</option>
+                        <option id="bl" value="rgba(0,120,200,0.5)" onclick="changeBackGColor()">Blue</option>
+                        <option id="ye" value="rgba(250, 250, 0, 0.5)" onclick="changeBackGColor()">Yellow</option>
+                        <option id="gr" value="rgba(0,200,0,0.5)" onclick="changeBackGColor()">Green</option>
+                        <option id="pu" value="rgba(100,0,100,0.5)" onclick="changeBackGColor()">Purple</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Font Colour</label>
+                </td>
+                <td>
+                    <select id="fontColorList">
+                        <option id="pls" value="inherit" onclick="changeFontColor()">Default</option>
+                        <option id="red" value="rgba(200,0,0,1)" onclick="changeFontColor()">Red</option>
+                        <option id="blu" value="rgba(0,120,200,1)" onclick="changeFontColor()">Blue</option>
+                        <option id="yel" value="rgba(250, 250, 0, 0.5)" onclick="changeFontColor()">Yellow</option>
+                        <option id="gre" value="rgba(0, 200, 0, 1)" onclick="changeFontColor()">Green</option>
+                        <option id="pur" value="rgba(100,0,100,1)" onclick="changeFontColor()">Purple</option>
+                        <option id="bro" value="rgba(100, 50, 50, 1)" onclick="changeFontColor()">Brown</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="button" class="Button" onclick="resetColors();" value="Reset Colors" />
+                </td>
+            </tr>
+        </table>
+        
+    </fieldset>
+    <div class="SciPage" style="margin-bottom:0px; max-width:70%; padding:20px;">
+        <div id="largeImg" class="ViewArea" style="background-image:url('./img/gallery/chem.png')">
+            
+        </div>
+        <div id="description" class="Description">
+            These are some test tubes used in chemistry experiments.
+        </div>
+
+        <div class="Thumbnails">
+            <div class="ThumbnailContainer">
+                <div id="imgs" onclick="changeImg(event)">
+                    <img class="ThumbnailImage" src="./img/gallery/chem.png" alt="These are some test tubes used in chemistry experiments." />
+                    <img class="ThumbnailImage" src="./img/gallery/eclipse.png" alt="This is a clear example of what a solar eclipse looks like." />
+                    <img class="ThumbnailImage" src="./img/gallery/microscope.png" alt="This piece of equipment known as a microscope is used to see the finer and microscopic details of an extract." />
+                    <img class="ThumbnailImage" src="./img/gallery/space.png" alt="This is an abstract view of what outer space looks like including the milkyway and stars." />
+                    <img class="ThumbnailImage" src="./img/gallery/plasma.png" alt="This image shows a plasma ball that exerts electricity and can make hair go upwards when touched." />
+                    <img class="ThumbnailImage" src="./img/gallery/emc.png" alt="This is an equation that we all have seen before." />
+                </div>
+            </div>
+        </div>
+        <div class="AuthorLink" data-authorname="Syedul" style="margin-top:20px; margin-right:-20px;" onclick="showPage('cvs/syedul_cv', true);" />
+    </div>
+    <script>startup();</script>
+</body>
+</html>
+
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/home.html
+<article class="SciPage" style="margin-top:20px;">
+    <article class="SciPageTitle">
+        Science makes the world go round!
+    </article>
+    <!-- Hidden 
+    <div style="position:relative; right:0px; top:5px; float:right; clear:none;">
+        <div class="AuthorLink" data-authorname="Abdul" onclick="showPage('cvs/abdul_cv', true);"></div>
+        <div class="AuthorLink" data-authorname="Angelos" onclick="showPage('cvs/angelos_cv', true);"></div>
+        <div class="AuthorLink" data-authorname="Laurence" onclick="showPage('cvs/laurence_cv', true);"></div>
+        <div class="AuthorLink" data-authorname="Syedul" onclick="showPage('cvs/syedul_cv', true);"></div>
+    </div> -->
+    <article class="SciSection">
+        <article class="SciSectionTitle">
+            What we do...
+        </article>
+        <article class="SciSectionText">
+            <p>Here at RipStar, we are strong believers that science is not just something you study at school, but a way of life.<br />It is our mission to remind you of some of the truely interesting features of the science around you.</p>
+        </article>
+    </article>
+    <article class="SciSection">
+        <article class="SciSectionTitle">
+            Our History
+        </article>
+        <article class="SciSectionText">
+            <p>RipStar.net have been bringing you science since February 2017 so we are clearly experts in the field.</p>
+            <p>In February 2017 we assembled an elite squad of programmers, web developers, design specialists and scientists, <br />
+            just to bring these awesome aspects of science to a public platform, readily available to the population, yes, you guessed it, the internet...</p>
+            <p>Having sought permission from the <em>Elders of the Internet&trade;</em> and collaborated with numerous 'neckbeards', we have brought you this awesome site.</p>
+            <p>We hope you will take the time to browse this site and some of the features it offers, and don't forget to try out our <a onclick="showPage('sci/quiz', true);" >quiz</a>!</p>
+        </article>
+    </article>
+    <div class="AuthorLink" data-authorname="Laurence" onclick="showPage('cvs/laurence_cv', true);" style="margin-bottom:10px; margin-right:-20px;"></div> 
+</article>
+<div></div>
+
+
+
+
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/quiz.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script type="text/javascript">
+		var duration = 910; 			// tenths of a second;
+		var warningThreshold = 600; 	// 60 seconds
+		var dangerThreshold = 200; 		// 20 seconds
+		
+        var durationRemaining = duration;
+
+        var score = 0;
+        var correct = 0;
+        var incorrect = 0;
+
+        startQuiz();
+        
+        var timer;       
+
+        function timerTick() {
+
+            var tDisplay = document.getElementById('TimeDisplay');
+
+            if(durationRemaining >= 1){
+                durationRemaining--;
+            }
+            else{
+                endQuiz();
+            }
+
+            if (durationRemaining <= dangerThreshold) {
+                tDisplay.className = "Timer TimerDanger";
+            } else if (warningThreshold <= 600) {
+                tDisplay.className = "Timer TimerWarning";
+            }
+            else {
+                tDisplay.className = "Timer";
+            }
+           
+            tDisplay.innerText = (durationRemaining/10).toFixed(1) + " seconds";
+        }
+
+        function startQuiz(){            
+            timer = setInterval(timerTick, 100);
+        }
+
+        function endQuiz(){
+            clearInterval(timer);
+            // score = getScore();
+        }
+    </script>
+   <style type="text/css">
+        .Question{
+
+            padding:10px;
+
+            margin-top:0px;
+            margin-left:auto;
+            margin-right:auto;
+
+            border:1px solid rgba(80,80,80,0.8);
+            background-color:rgba(50,50,50,0.8);
+
+            border-radius:5px;
+
+            width:450px;
+
+        }
+
+        .Quiz{
+            
+            color:white;
+            background-image:url('');
+            background-color:rgba(25,25,25,0.8);
+
+        }
+
+        form ol{
+            width:500px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .Timer{
+            float:right;
+            clear:both;
+            border:1px solid rgba(180,180,180,0.8);
+            border-radius:10px;
+            background-color:rgba(25,25,25,0.8);
+            position:fixed;
+            right:20px;
+            width:150px;
+            height:25px;
+            text-align:center;
+            margin:10px;
+            padding:3px;
+            font-size:24px;           
+        }
+
+        .TimerWarning{
+            color:yellow;
+        }
+
+        .TimerDanger{
+            color:red;
+        }
+
+        input[type="submit"]{
+            background-color:rgba(25,25,25,0.8);
+            border-radius:5px;
+			color:white;
+            width:450px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:10px;
+            border:1px grey solid;
+        }
+      
+    </style>
+</head>
+<body style="margin:0px; padding:0px; top:0px;">
+    <form style="margin:0px; padding:0px;" class="Quiz" action="/" method="post">
+        <div class="Timer" id="TimeDisplay"></div>
+        <ol style="margin:0px; margin-left:20px; padding:10px;">
+            <li>
+                <div class="Question">
+                    <p>What percentage of a dolphin's brain is dedicated to the cerebral cortex?</p>
+                    <input type="radio" name="Q1" id="Q1A1" value="2">60%<br />
+                    <input type="radio" name="Q1" id="Q1A2" value="-1">70%<br />
+                    <input type="radio" name="Q1" id="Q1A3" value="-1">80%<br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>How are gravitional waves measured?</p>
+                    <input type="radio" name="Q2" id="Q2A1" value="2">Lasers<br />
+                    <input type="radio" name="Q2" id="Q2A2" value="-1">Rulers<br />
+                    <input type="radio" name="Q2" id="Q2A3" value="-1">Tides<br />
+                </div>
+            </li>
+            
+            <li>
+                <div class="Question">
+                    <p>How long can a neuron can be expected to live?</p>
+                    <input type="radio" name="Q3" id="Q3A1" value="-1">Up to a year<br />
+                    <input type="radio" name="Q3" id="Q3A2" value="-1">Up to 50 years<br />
+                    <input type="radio" name="Q3" id="Q3A3" value="2">Over a hundred years<br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>Aging eyes have trouble distinguishing which colour?</p>
+                    <input type="radio" name="Q4" id="Q4A1" value="-1">Red<br />
+                    <input type="radio" name="Q4" id="Q4A2" value="-1">Green<br />
+                    <input type="radio" name="Q4" id="Q4A3" value="2">Blue<br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>Which of these chemicals can trigger pain receptors in the nose?</p>
+                    <input type="radio" name="Q5" id="Q5A1" value="2">Ammonia<br />
+                    <input type="radio" name="Q5" id="Q5A2" value="-1">Benzene<br />
+                    <input type="radio" name="Q5" id="Q5A3" value="-1">Carbon Dioxide<br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>Where do reflex responses such as a 'knee jerk' come from?</p>
+                    <input type="radio" name="Q6" id="Q6A1" value="-1">The Knee<br />
+                    <input type="radio" name="Q6" id="Q6A2" value="-1">The Brain<br />
+                    <input type="radio" name="Q6" id="Q6A3" value="2">The Spinal Cord<br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>A hypershere (four dimensional) has how many surfaces?</p>
+                    <input type="radio" name="Q7" id="Q7A1" value="-1">0<br />
+                    <input type="radio" name="Q7" id="Q7A2" value="2">1<br />
+                    <input type="radio" name="Q7" id="Q7A3" value="-1">2<br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>What is the standard value of the gravitational continent?</p>
+                    <input type="radio" name="Q8" id="Q8A1" value="-1">9.5 m/s<sup>2</sup><br />
+                    <input type="radio" name="Q8" id="Q8A2" value="2">9.8 m/s<sup>2</sup><br />
+                    <input type="radio" name="Q8" id="Q8A3" value="-1">10.7 m/s<sup>2</sup><br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>Approximately how many faces can an average human remember?</p>
+                    <input type="radio" name="Q9" id="Q9A1" value="-1">100<br />
+                    <input type="radio" name="Q9" id="Q9A2" value="-1">1,000<br />
+                    <input type="radio" name="Q9" id="Q9A3" value="2">10,000<br />
+                </div>
+            </li>
+            <li>
+                <div class="Question">
+                    <p>Approximately how much of an atom is empty space?</p>
+                    <input type="radio" name="Q10" id="Q10" value="-1">81.8181818181818<br />
+                    <input type="radio" name="Q10" id="Q10" value="-1">88.888888888888<br />
+                    <input type="radio" name="Q10" id="Q10" value="2">99.9999999999999<br />
+                </div>
+            </li>
+        </ol>
+        <input type="submit" name="name" value="Get Score!" onclick="endQuiz();" />        
+    </form>
+</body>
+</html>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/shop.html
+<div class="BackgroundLayer">
+    <div class="ShopContainer">
+        <div class="PopupContainer" id="windowcontainer" style="display:none;">
+            <div class="WindowHeader">
+                <div id="popupwindowtitle">Selected Product</div>
+                <div class="ExitProduct" onclick="makeInvisible();">x</div>
+            </div>
+            <div class="ColumnPrevious" id="previouscolumn" onclick="changeProduct(0);"><img src="../img/shop/myleftarrow.png" /></div>
+            <div id="windowphoto"></div>
+            <div id="infosection"></div>
+            <div class="ColumnNext" id="nextcolumn" onclick="changeProduct(1);"><img src="../img/shop/myrightarrow.png" /></div>
+        </div>
+        <table class="LayoutTable">
+            <tr>
+                <td colspan="3">
+                    <div class="CharityRow" id="charitywindow">
+                        <div class="Charity">
+                            <div class="CharityTitle">Your contribution to the world</div>
+                            5% of your order value will be given to various charities and environmental protection schemes! <br />
+                            <div id="charityamount">£ 0</div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="Product" onclick="showProduct(1);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod1" title="T-Shirt"></div>
+                        <div class="SmallDescription">Oceanic t-shirt<br />£15</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(2);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod2" title="Keyring"></div>
+                        <div class="SmallDescription">Divine Keyring<br />£10</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(3);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod3" title="Science Glasses"></div>
+                        <div class="SmallDescription">Legendary Shades<br />£25</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="Product" onclick="showProduct(4);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod4" title="Valerian"></div>
+                        <div class="SmallDescription">Silencer - A.k.a. Valerian £5/gram</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(5);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod5" title="Sticker"></div>
+                        <div class="SmallDescription">Plutonium Sticker<br />£4</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(6);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod6" title="Poster"></div>
+                        <div class="SmallDescription">Antimatter Poster<br />£30</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="Order">
+        <div class="Orderius">
+            <div class="OrderTitle">YOUR ORDER</div>
+            <div id="addeditem"> </div>
+            <div class="TotalAmount">
+                Total Amount <br /><div id="tamount">£ 0</div>
+            </div>
+            <div class="OrderButtons">
+                <input type="button" name="emptyorder" class="EmptyBasket" value="Empty Order" onclick="emptyOrder(); makeInvisible();" /><br />
+                <input type="button" name="proceedtocheckout" value="Proceed To Checkout" onclick="basketValidation();" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="AuthorLink AuthorShop" data-authorname="Angelos" onclick="showPage('cvs/angelos_cv', true);" />
+<div class="AdditionalInfo" id="show1" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Oceanic t-shirt<br /></div><div class="Price">£15</div><hr />
+        <div class="ProductDescription">
+            Do not be fooled by the humble appearance of this T-shirt. It is in fact made by dry sea-weeds
+            that can only be found near the lost empire of Atlantis. Some say it makes your skin glow at night. Kinky...
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="tshirtquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                Size:&nbsp;<select name="tshirtsize" class="DropDownShop">
+                    <option value="x-small">x-Small</option>
+                    <option value="small">Small</option>
+                    <option value="medium" selected="selected">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">x-Large</option>
+                </select><input type="button" onclick="addToBasket(1,this.form);" name="addtobasket" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="AdditionalInfo" id="show2" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Divine Keyring<br /></div><div class="Price">£10</div><hr />
+        <div class="ProductDescription">
+            This keyring shown in the picture is one of a few of the remaining artifacts forged by the ancient
+            God of blacksmiths, Hephaestus. Enhanced with divine powers once you allocate your keys in the key ring only their one true master
+            will be able to lift them from the ground and telepathically attract. Never lose them again!
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="keyringquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><input type="button" onClick="addToBasket(2,this.form);" name="addtobasket" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="AdditionalInfo" id="show3" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Legendary Shades<br /></div><div class="Price">£25</div><hr />
+        <div class="ProductDescription">
+            Once thought lost these last few pairs of glasses were made and owned by legendary warrior Perseus.
+            As we have all heard he managed to kill Medusa using a mirror but the truth is that he handmade those glasses that protected him
+            until the end of his heroic actions. Wear them with confidence!
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="glassquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                Size:&nbsp;<select name="glasssize" class="DropDownShop">
+                    <option value="small">Small</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <input type="button" name="addtobasket" onclick="addToBasket(3, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="AdditionalInfo" id="show4" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">The Silencer - A.k.a. Valerian<br /></div><div class="Price">£5/gram.</div><hr />
+        <div class="ProductDescription">
+            Only for a limited time, exclusively produced for our dedicated customers. Is your colleague at work chattering endlesly?
+            Are your classmates in the back row acting like a bunch of untrained baboons? Then look no further.
+            Step one: Simply slip a pinch of this in their drink or food and soon they will cease talking. Final step:
+            Embrace the tranquility. C'est la vie
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="valerianquantity" class="DropDownShop">
+                    <option value="1">1gram.</option>
+                    <option value="2">2gram.</option>
+                    <option value="4">4gram.</option>
+                    <option value="6">6gram.</option>
+                </select><input type="button" name="addtobasket" onclick="addToBasket(4, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="AdditionalInfo" id="show5" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Plutonium Sticker<br /></div><div class="Price">£4</div><hr />
+        <div class="ProductDescription">
+            After being sold out, now back in stock! Designed and printed by our London team.
+            <br />Dimensions: H14cm &amp; W26cm
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="stickerquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select><input type="button" name="addtobasket" onClick="addToBasket(5, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="AdditionalInfo" id="show6" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Antimatter Poster - Limited Edition<br /></div><div class="Price">£30</div><hr />
+        <div class="ProductDescription">
+            Feeling bored? Feeling like something is missing from your wall? Because of science, as always,
+            we are now able to offer you this awesome poster of an Antimatter atom. Only a few pieces of it will
+            be made so get your hands on it before it's gone. Printed in the heart of London by our team, this
+            unique poster will dazzle anyone who looks at it.<br />Dimensions: H80cm & W120cm
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="posterquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><input type="button" name="addtobasket" onClick="addToBasket(6, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="Form" id="show7" style="display:none;">
+    <div class="FormOrder">
+        <form action="" id="customerform">
+            <div class="FormAsterisk">Please complete all fields marked with an asterisk(*)</div>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <table class="TablePos">
+                    <tr>
+                        <td class="FormLeft">*Title:</td>
+                        <td class="FormRight">
+                            <select name="title" id="customertitle" class="DropDownShop">
+                                <option value="-" disabled selected="selected">-</option>
+                                <option value="miss">Miss</option>
+                                <option value="mr">Mr</option>
+                                <option value="mrs">Mrs</option>
+                                <option value="ms">Ms</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*First Name:</td>
+                        <td class="FormRight">
+                            <input type="text" class="testingname" name="firstname" id="customerfirstname" maxlength="25" placeholder="Frodo">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Last Name:</td>
+                        <td class="FormRight">
+                            <input type="text" name="lastname" id="customerlastname" maxlength="25" placeholder="Smith">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="FormLeft">*Email:</td>
+                        <td class="FormRight">
+                            <input type="text" name="email" id="customeremail" placeholder="example@mail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">Phone number:</td>
+                        <td class="FormRight"><input type="text" name="number" id="customernumber"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset id="fields">
+                <legend>Address Info</legend>
+                <table class="TablePos">
+                    <tr>
+                        <td class="FormLeft">*Address line 1:</td>
+                        <td class="FormRight">
+                            <input type="text" name="address1" id="customeraddress1" placeholder="In a hole in the ground" maxlength="40">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">Address line 2:</td>
+                        <td class="FormRight">
+                            <input type="text" name="address2" id="customeraddress2" placeholder="Upper Shire" maxlength="40">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Postal Code:</td>
+                        <td class="FormRight">
+                            <input type="text" name="postcode" id="customerpostcode" placeholder="NW9 7WL" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*City:</td>
+                        <td class="FormRight">
+                            <input type="text" name="city" id="customercity" placeholder="The Shire" maxlength="20">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset id="fields">
+                <legend>Payment Info</legend>
+                <table>
+                    <tr>
+                        <td class="FormLeft">*Card type:</td>
+                        <td class="FormRight">
+                            <input type="radio" class="CardType" name="cardtype" value="visadebit" id="visadebit">
+                            <label for="visadebit">Visa Debit</label>
+                            <input type="radio" class="CardType" name="cardtype" value="visacredit" id="visacredit">
+                            <label for="visacredit">Visa Credit</label>
+                            <input type="radio" class="CardType" name="cardtype" value="mastercard" id="mastercard">
+                            <label for="mastercard">Mastercard</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Cardholder Name:</td>
+                        <td class="FormRight">
+                            <input type="text" name="cardholder" id="cardholder" placeholder="John Smith" maxlength="75">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Card Number:</td>
+                        <td class="FormRight">
+                            <input type="text" name="cardnumber" id="cardnumber" placeholder="2391123498381235" maxlength="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Expiry Date:</td>
+                        <td class="FormRight">
+                            <select name="expirymonth" id="expirymonth" class="DropDownShop">
+                                <option value="-" disabled selected="selected">-</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select name="expiryyear" id="expiryyear" class="DropDownShop">
+                                <option value="-" disabled selected>-</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <div class="FormOptions">
+                <div class="MailingList">Subscribe to our mailing list<input type="checkbox" name="subscribe"></div><br>
+                <div class="TermsAndCondition">
+                    *I have read and understand this agreement and I accept and agree to all of its terms and conditions.
+                    I enter into this agreement voluntarily, with full knowledge of its effect.
+                    <input type="checkbox" name="termsandconditions" id="termsandconditions">
+                </div><br>
+            </div>
+            <div class="FormButtons">
+                <input type="button" onclick="makeInvisible();" name="goback" value="Back to products" />
+                <input type="button" onclick="emptyOrder(); makeInvisible();" name="cancelorder" value="Cancel order" />
+                <input type="button" onclick="validate(this.form);" name="confirmorder" value="Place order">
+            </div>
+        </form>
+    </div>
+</div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/sitemap.html
+<div class="SciPage" style="float:left; left:20px; right:20px; width:90%; max-width:90%;">
+    <div class="SciPage" style="padding:20px; width:20%; height:100%; float:left; clear:none;">
+        <ul class="PageList">
+            <li onclick="showPage('home', true);">Home
+                <ul>
+                    <li onclick="showPage('sci/higgs_boson', true);">Higgs Boson</li>
+                    <li onclick="showPage('sci/gravitational_waves', true);">Gravitational Waves</li>
+                    <li onclick="showPage('sci/chemistry', true);">Periodic Table</li>
+                    <li onclick="showPage('sci/abdul_science', true);">Abdul Science</li>
+                    <li onclick="showPage('sci/quiz', false);">Take the Quiz</li>
+                </ul>
+            </li>
+            <li onclick="showPage('shop', true);">Shop</li>
+            <li onclick="showPage('gallery', false);">Gallery</li>
+            <li onclick="showPage('about', false);">About Us</li>
+            <li onclick="showPage('contact', false);">Contact Us</li>
+            <li onclick="showPage('sitemap', false);">Site Map</li>
+        </ul>
+    </div>
+
+    <div class="SciPage" style="width:80%; float:left; clear:right; margin-left:10%; padding:20px;">
+        <div>
+            <table class="SiteMap">
+                <tr>
+                    <td colspan="10"></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('home', true);">RIPSTAR.NET</div></td>
+                    <td colspan="10"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="21"><div class="SiteHorizontalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('home', true);">Home</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('shop', false); setImages();">Shop</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('gallery', false);">Gallery</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('about', false);">About Us</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('contact', false);">Contact Us</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage">Site Map</div></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('cvs/angelos_cv', true);">Angelos&apos; CV</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('cvs/syedul_cv', true);">Syedul&apos;s CV</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('cvs/abdul_cv', true);">Abdul&apos;s CV</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('cvs/laurence_cv', true);">Laurence&apos;s CV</div></td>
+                    <td colspan="2"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('sci/higgs_boson', true);">Higgs Boson</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('sci/periodic_table', true);">Periodic Table</div></td>
+                    <td colspan="2"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('sci/gravitational_waves', true);">Gravitational Waves</div></td>
+                    <td colspan="2"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td><div class="SiteUpArrow"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteUpArrow"></div></td>
+                    <td></td>
+                    <td colspan="5"><div class="SiteHorizontalLine"></div></td>
+                    <td></td>
+                    <td><div class="SiteUpArrow"></div></td>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('sci/polymorphism', true);">Polymorphism</div></td>
+                    <td></td>
+                    <td colspan="3"><div class="SitePage" onclick="showPage('sci/quiz', true);">Quiz</div></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td colspan="3"></td>
+                    <td><div class="SiteVerticalLine"></div></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="21"><div class="SiteHorizontalLine"></div></td>
+                    <td></td>
+                </tr>
+            </table>
+
+        </div>
+        <!--<iframe style="width:99%; height:800px; margin-left:auto; margin-right:auto;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=sitemap%20(3)%20(1).xml#R5VxNl6I4FP01LtsDBBCXVU519aLnnJ7jzPT0MkIEppB4QvCjf%2F0ESQSClqVIMtK1qAovj3zcvAsv15QjMFvtXglcR7%2FjACUjywh2I%2FDbyLIsYAD2p7DsS4trG6UhJHFQmszKMI9%2FIm4UbnkcoKzhSDFOaLxuGn2cpsinDRskBG%2BbbkucNHtdwxC1DHMfJm3r9zigUWn1HKOyf0FxGImeTYPXLKD%2FFhKcp7y%2FkQWWh5%2ByegVFW9w%2Fi2CAtzUTeBmBGcGYlqXVboaSAlsBW3nf5zO1x3ETlNIP3SDGQfdi7ihgUPBLTGiEQ5zC5KWyPh%2Fmh4oWDHYV0VXCiiYrol1M%2FynMY4df%2FRA1KSX7WlVx%2BYM38C%2BidM9jAOYUM1PV71eM17yN9tz4dDOcE5%2BP3uLRAkmIuBePxWJetds4Hq8IrxAbDHMgKIE03jRDAPJICo9%2BFZqswAE9A645fHBtbeBawwfX0QYuGD64rjZwveGDa050oWu7j4auhNFNT%2BGu6B5ufSIE7msOaxynNKu1%2FK0wMAee57k8eeBJHphIuYbk7pjv%2BrNCOYBqmY8z%2BdjKT37FlbceYOWP6X9fK%2F9wT9R7rDx4gJWfTHpe%2BemvuPL2A6z81Oh35TkuG5jkfMJf2O2taGAb7HVRRDsG3nOA88WhxmyEQXG1jWKK5mt4wH1L4LoZGss4SWY4weTQbLGpt3yf2TNK8Buq1QTuwnXc91KnDSIU7d7NivYiU%2BQYbisRwhTSQVQTIMTadEmcHM1UMnunEvi%2FvD4%2FmRKZXOO6F6jk35lMoE2mOAzZDIxnnOFUHauQe4ZVk%2BnCMDqySqB%2FVN84mo6hkmaaRaH%2BaWafoJmW%2FcknILEGXLdBkfy7Jystlr0SuIkpg6AAnlV9hxuUDYxtU51k0ywS9k825wTZtKSHppTvue51%2BaHk35lsTotsswit4kxE0GAIZuvklz10frkn%2BNV14%2F1RdN1WCD8tgrzwmPsxSn2Fux0VgWxOdEayegnJUhzKQpPXLyIBeftjXlCR5O2Ped93hUCmxrQ%2F4RsqsIqK33%2Fk8c9hcQ0YGrkm2uibaz3TaXoP6lzWzdzpeFr%2FaTZYkpm3US3BtYy0pV6t6XXZm%2BTfnZHTFiNfYZIglclbrwqf4KH0ZFOq%2BLmKpIieBXLjNMIdedj65EIJDx1H6vWCMNga5Z2FQRF6jRwU58UI%2FlIoVKigoj3VSUVFQkXPVLyLzHf54IASKk7kXuWjlJdGad2ZiiKia4oGTin0h0hG19FIRmcQ%2Ball9ULGc2c5LtHvloi3WhE%2Fjxgqg4r0Y2TriHSg6LWj7CgiEP8tUNM4rJP8UaDfgaGdoj2Jrj54NYvPSuAVG2EN8Go4SOt4DYDHxhHwb4jEbAqIKItrUxvwD3eO9RZ4DV3w2oqyO63wAk9b9La3KdvtdkzidcYGOE7ZCK3P%2FlZZEuf56HQSt%2FAc27mXnC4nxSqlA0VZRs9n87yO8flBndq7RTq45USd16LBnMXtCg5s%2BzLRqZrZ7WfNV5iT8qNxY%2Fa3KqgDiLzlSahd30OL5RHqFq4n0D8vUEqayFFwUgJ1ey%2F%2BlIYowdkAkXY8nUi3D%2BOKYx9Dw1mWWNXi3D6OOd%2BjYQLtyYfEegSaXVbfX1C%2BOasviQAv%2FwE%3D"></iframe>-->
+
+        <div class="AuthorLink" data-authorname="Syedul" onclick="showPage('cvs/syedul_cv', true);" style="margin-right:-20px; margin-top:10px;"></div>
+    </div>
+</div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/cvs/abdul_cv.html
+
+<div id="top" class="CVPage AMCV">
+    <div class="Header">
+        <img src="./img/profile/abd_pic.jpg" align="right" alt="cv image" width="150" height="150" style="float:right; clear:none;">
+
+        <h1>Abdul Mumin Sikder</h1>
+        <p>
+            Address: 23 Ronnie Scott House, 34 Bow Common Lane, London, E3 4AX
+            <br />
+            Abdul-17@live.co.uk
+            <br />
+            DOB: 24/12/1995 | Nationality: British | Gender: Male
+        </p>
+    </div>
+    <div class="Body">
+        <h2>SUMMARY</h2>
+        <div class="Line"></div>
+        <p>I am a vibrant confident, dynamic and an adaptable person, hardworking and reliable. I always strive to help others. I am good at working as a team and building confidence in others. I am a fast-learner who is capable of grasping new concepts and skills. My Preparation from adolescence has enabled me to see how important education is and this has brought me to have high expectations of myself. I also possess a high degree of self-motivation, energy and flexibility. As being proficient in all aspects of each of my subjects, I have also learned to be well organized and reliable to be a team leader in order to demonstrate leadership skills during lessons. I consider myself to be a very motivated and determined person who is focused on reaching personal goals which I set myself.</p>
+        <h3>Relevant Skills/ Attributes</h3>
+        <ul>
+            <li>Very able in completing extended writing tasks</li>
+            <li>Ability to communicate effectively both verbally and in writing</li>
+            <li>Flexible and receptive to change, with an ability to maintain accuracy under pressure</li>
+            <li>A confident team member, able to interact well with others to achieve goals</li>
+            <li>Presents a professional outlet and build strong relationships with my peers and others</li>
+            <li>Highly organized self-starter with a strong work ethic and positive attitude</li>
+            <li>Have been involved in a scheme called the gifted and talented group for able young man with high academic ability for a prolonged period of time</li>
+        </ul>
+        <h2 id="employment_history">EMPLOYMENT HISTORY</h2>
+        <div class="Line"></div>
+        <table class="JobDescription">
+            <tr>
+                <th>Supervisor - JD Sports Fashion PLC</th>
+                <td>17th April 2016 – Present</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>130, Westfield Stratford City, The Arcade, Montfichet Road, London, E20 1EL</td>
+            </tr>
+        </table>
+        <ul>
+            <li>Maintaining control of the shop floor</li>
+            <li>Ensuring all staff are complying with the rules and regulations</li>
+            <li>Ensuring excellent service is provided by staff members</li>
+            <li>Organising staff schedules</li>
+            <li>Dealing with exchanges and refunds</li>
+            <li>Ensuring staff are achieving all their targets set by management</li>
+            <li>Coaching, counselling and disciplining staff members</li>
+            <li>Evaluating performances</li>
+            <li>Handle customers queries and complaints</li>
+        </ul>
+        <table class="JobDescription">
+            <tr>
+                <th>Senior Sales Assistant - JD Sports Fashion PLC</th>
+                <td>15th August 2015 – 16th April 2016</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> 268-269 Oxford Street, London, W1C 2DG</td>
+            </tr>
+        </table>
+        <ul>
+            <li>Ensuring all staff are correctly maintaining their sections</li>
+            <li>Monitoring the shop floor</li>
+            <li>Observing if staff are serving customers in an appropriate manner</li>
+            <li>Working with colleagues to ensure that staff meet sales targets </li>
+            <li>Dealing with any complaints or queries that customers may have</li>
+            <li>Serving on tills, providing customers with effective communication</li>
+        </ul>
+    </div>
+    <table class="JobDescription">
+        <tr>
+            <th>Customer Service Assistant - JD Sports Fashion PLC</th>
+            <td>19th May 2014 – 15th August 2015</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> 268-269 Oxford Street, London, W1C 2DG</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Maintain high standards when providing customer service to customers</li>
+        <li>Providing excellent communication skills when speaking to customers</li>
+        <li>Able to cooperate with staff and work together as part of a team</li>
+        <li>Perform various tasks such as working with staff in the textiles (clothing) and footwear department</li>
+        <li>Able to assist customers with any help they needed regarding a product</li>
+        <li>Keep consistency in terms of communication with customers as well as maintaining standards</li>
+    </ul>
+    <table class="JobDescription">
+        <tr>
+            <th>Customer Service Assistant - Lime Leaf Indian Cuisine Takeaway</th>
+            <td>4th November 2012 – 10th May 2014</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>60 Alderman’s Hill, Palmas Green, London, N13 4PP</td>
+        </tr>
+    </table>
+    <p>
+        I have worked part time for an Indian takeaway working in administration, taking customer orders and dealing with complaints.
+        I spoke to customers on a daily basis and placed the orders that they wanted. I spoke to customers in a positive manner and enjoyed
+        my time there. I also had a supervisory role, making sure that stock was continuously checked and had to ensure that each order was
+        provided properly so that customers would be satisfied with what they receive.
+    </p>
+    <h4 id="education">EDUCATION</h4>
+    <div class="Line"></div>
+    <h4>Bow School of Maths and Computing</h4>
+    <ul>
+        <li>9 GCSEs A-C grades including Maths and English</li>
+    </ul>
+    <h3>Further Education</h3>
+    <div class="Line"></div>
+    <h4>Sir John Cass Sixth Form College</h4>
+    <ul>
+        <li>Triple Distinction* - ICT BTEC National Diploma course</li>
+    </ul>
+    <h3>Higher Education</h3>
+    <div class="Line"></div>
+    <h4>Westminster University</h4>
+    <ul>
+        <li>Computer Science - Undergraduate Course</li>
+    </ul>
+    <h3>Hobbies and Other Skills</h3>
+    <div class="Line"></div>
+    <p>
+        My interests and social activities are vital in creating my personal ethic and wellbeing. I like to do extra reading to advance my knowledge
+        as well as improve my language skills. Studying A levels has created a more positive attitude to society for me and has shown me that the world
+        of work is a world of hardship. I have received mentoring from mentors in Rothschild bank which enhanced my provisional and communicational skills.
+        My strongest asset is my communication skills with people.
+    </p>
+    <p>
+        I was also a member of the Tower Hamlets Metropolitan police cadets unit, training on how to be an officer and learning what goes on in a
+        police officer’s daily career. Previously I was also awarded the Jack Petchey Foundation for outstanding achievement.
+    </p>
+    <h3>Reference</h3>
+    <div class="Line"></div>
+    <p> Avalable upon request</p>
+</div>
+
+
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/cvs/angelos_cv.html
+<div class="WrapperA CVPage">
+    <table>
+        <tr>
+            <td colspan="2" class="CVTitleA"><b>Angelos Berdos</b></td>
+        </tr>
+        <!-------- DETAILS -------->
+        <tr>
+            <td class="SideTableA" width="20">
+                <table class="PersonalInfoA">
+                    <tr>
+                        <td><img src="./img/profile/ang_pic.jpg" class="CVPhotoA" alt="CV photo"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>Address</h3></td>
+                    </tr>
+                    <tr>
+                        <td>Flat 2, 46 Chagson Street, London,N1 9GB</td>
+                    </tr>
+                    <tr>
+                        <td><h3>Mobile</h3></td>
+                    </tr>
+                    <tr>
+                        <td>07457313187</td>
+                    </tr>
+                    <tr>
+                        <td><h3>email</h3></td>
+                    </tr>
+                    <tr>
+                        <td><address><a href="mailto:berdos.ang@gmail.com">berdos.ang@gmail.com</a></address></td>
+                    </tr>
+                    <tr>
+                        <td><h3>Languages</h3></td>
+                    </tr>
+                    <tr>
+                        <td>Fluent Greek & English</td>
+                    </tr>
+                    <tr>
+                        <td><h3>Sports</h3></td>
+                    </tr>
+                    <tr>
+                        <td>Swimming, Cycling & Skiing</td>
+                    </tr>
+                    <tr>
+                        <td><h3>Interests</h3></td>
+                    </tr>
+                    <tr>
+                        <td>Electronics, Computer Hardware, Shaolin Kung Fu</td>
+                    </tr>
+                </table>
+            </td>
+            <!------- MAIN INFO -------->
+            <td width="750">
+                <table>
+                    <tr>
+                        <td id="bio"><h3>Personal Statement</h3></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Having worked in a variety of different jobs, I have learned how to adjust to and meet
+                            an employer’s expectations. I see work as a continuous learning experience and am
+                            committed to gaining as much as possible from my employment and because of this, I am
+                            now in a position to offer to my workplace good team work, efficiency and organization.
+                            I show pride in the work I do and work well under pressure, but I am also capable of
+                            working independently with less guidance.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="education"><h3>Education</h3></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>2016-Present: </b>Software Engineering at the
+                            <a href="https://www.westminster.ac.uk/">University of Westminster</a>, London
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>2015-2016: </b>Computer Systems Engineering at
+                            <a href="https://www.city.ac.uk/">City University</a>, London
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>2014 - 2015: </b>Architectural technology with foundation at the
+                            <a href="http://www.uwl.ac.uk/">University of West London</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>2011 - 2012: </b>Electronic engineering & telecommunications at
+                            <a href="https://www.teithe.gr/">ATEITH</a>, Greece
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>2009 - 2011: </b>Architectural drawing and sketching at "To Ergastiri" Art school, Greece </td>
+                    </tr>
+                    <tr>
+                        <td id="skills"><h3>Skills</h3></td>
+                    </tr>
+                    <tr>
+                        <td>Knowledge of MS OS: Windows XP, Windows 7, Windows 10</td>
+                    </tr>
+                    <tr>
+                        <td>Knowledge of other OS: Ubuntu, Arch Linux, Linux CLI, MacOS</td>
+                    </tr>
+                    <tr>
+                        <td>Knowledge of mobile platforms: Android, iOS</td>
+                    </tr>                    
+                    <tr>
+                        <td>Knowledge of development in: Java, HTML5, Python, CSS, Javascript</td>
+                    </tr>
+                    <tr>
+                        <td id="work_exp"><h3>Work Experience</h3></td>
+                    </tr>
+                    <tr>
+                        <td class="JobTitleA"><b>Stockroom Assistant at Mango, Regents Street. 2015 to Present</b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            As a stockroom assistant I developed a number of skills which enabled me to work
+                            well in a very busy and demanding environment. This included strong organization skills and the
+                            ability to prioritize my tasks so as to manage my time efficiently. Main responsibilities are
+                            handling deliveries, updating logistics files and supplying the shop floor with the required products
+                            while keeping the workplace clean and cooperating with my colleagues.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="JobTitleA"><b>Barista at Yumchaa, Camden Town. 2014 Mar - Oct</b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Responsibilities involve customer service and the preparation of food, tea and coffee, requiring
+                            thorough knowledge of the menu and variety of products on offer. Also include keeping the shop
+                            clean at all times, completing health and safety documents, monitoring stock in shops and ordering
+                            daily where needed, and filling and organizing spreadsheets for accounting. Have gained considerable
+                            sales experience from the work I also do in market stalls, where I am given specific
+                            monetary targets.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="JobTitleA"><b>Supervisor at Bubbleology, Soho. 2012 - 2013</b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            In my role as supervisor I synchronized team members and tasks, dealt with payment issues, customer
+                            complaints and functional issues. Also tackled situations such as unexpected deliveries and VIP customers.
+                            As ‘international trainer’ I trained new staff members in the UK and abroad in Moscow-based branches.
+                            As manager I kept track of team members’ schedules to produce the weekly rota, and kept records to ensure
+                            that health and safety regulations were met.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/cvs/laurence_cv.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LTURNER CV</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="cv_page" class="CVPage LTCV">
+        <img class="CVProfilePicture" src="./img/profile/lau_pic.jpg" alt="Profile Picture" />
+        <div class="CVHeader">
+            <p style="font-size:20pt; font-weight:600;">Laurence Turner</p>
+            <p class="Address">
+                1 Some Road, Some Town, London AB1 2CD
+                <br />
+                <span style="margin-right:20px;"><b>Mobile: </b> 0771 2345 678 </span>
+                <span><b>Email: </b> <a href="mailto:no-reply@ripstar.net">no-reply@ripstar.net</a></span>
+            </p>
+            <p>
+                <span style="margin-right:20px;"><b>Date of birth: </b> 1<sup>st</sup> Jan 1970</span>
+                <span> <b>Nationality: </b> British</span>
+            </p>
+        </div>
+        <div class="CVBody">
+            <div id="education">
+                <div class="SectionHeader">Education</div>
+                <hr>
+                <table>
+                    <tr>
+                        <th style="width:200px;">1900 - 1910 Some School</th>
+                        <td>Some Road, London AB12 3CD</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th>9 GCSEs</th>
+                        <td>A* - C Information Technology, Physics, Design &amp; Technology, Chemistry, Biology, Maths, English Language, English Literature, Geography, French</td>
+                    </tr>
+                    <tr>
+                        <th>4 AS Levels</th>
+                        <td>Computing, Physics, Chemistry, Design &amp; Technology</td>
+                    </tr>
+                    <tr>
+                        <th>2 A Levels</th>
+                        <td>Computing, Design &amp; Technology</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="additional_qualifications">
+                <div class="SectionHeader">Additional Qualifications</div>
+                <hr>
+                <table>
+                    <tr>
+                        <td>2013</td>
+                        <td>City University London</td>
+                        <td>Advanced .NET Application Development Using C#</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="skills">
+                <div class="SectionHeader">Skills</div>
+                <hr>
+                <span>Excellent knowledge of operating systems:</span>
+                <ul>
+                    <li>Microsoft Windows XP, 7, 8/8.1, 10</li>
+                    <li>Microsoft Server 2012/2012r2, 2008/2008r2</li>
+                </ul>
+                <span>Good knowledge of databases:</span>
+                <ul>
+                    <li>Microsoft SQL and Microsoft SQL Server Management Studio</li>
+                    <li>Microsoft SQL Server Data Tools (formerly Microsoft Business Intelligence)</li>
+                    <li>MySQL and MySQL Workbench</li>
+                </ul>
+                <span>Fair knowlegdge of webservers:</span>
+                <ul>
+                    <li>Microsoft Internet Information Services (IIS6 and later)</li>
+                    <li>Apache Web Server</li>
+                    <li>Online hosting: Heart Internet, GoDaddy, Namecheap</li>
+                </ul>
+                <span>Excellent knowledge of web browsers:</span>
+                <ul>
+                    <li>Microsoft Internet Explorer 8, 9, 10, 11</li>
+                    <li>Mozilla Firefox versions 23 to current</li>
+                    <li>Google Chrome</li>
+                </ul>
+                <span>Good knowledge of languages:</span>
+                <ul>
+                    <li>C#</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>VB</li>
+                    <li>SQL (and MySQL)</li>
+                    <li>XML</li>
+                </ul>
+                <b>Other:</b>
+                <p>Project management (TargetProcess, Trello), browser automation &amp; automated testing (in C# using Selenium Webdriver), creating and using web APIs, DHCP, Port Forwarding, FTP, VPN, Microsoft Office 2000-2016, Visual Studio 12 - 15 </p>
+            </div>
+            <div id="career_history">
+                <div class="SectionHeader">Career History</div>
+                <hr>
+                <div class="CareerEntry">
+                    <span class="CareerTitle">Lead Quality Analyst – Medical Management Systems</span>
+                    <span class="CareerDate">June 2013 – Date</span>
+                    <p class="CareerDescription">
+                        Reporting to the Technical Director to ensure MMS software products meet a high standard of quality and consistency of service, identifing any areas where this may be lacking or areas with potential for fault or improvement.
+                    </p>
+                    <span><b>Duties &amp; Responsibilities</b></span>
+                    <ul>
+                        <li>Responsible for running multiple test environments.</li>
+                        <li>Ensure thorough testing of the application is carried out continously and to a high standard.</li>
+                        <li>Organise and maintain the test plan and supervise its growth.</li>
+                        <li>Organise test plan coverage with other members of staff involved in quality assurance, analysis and testing.</li>
+                        <li>Set up and configure new servers, environments and systems.</li>
+                        <li>Review performance and prioritise testing of areas of known or suspected fault, or areas that have recently undergone change.</li>
+                        <li>Provide out of hours cover for and/or support to staff as required.</li>
+                        <li>Provide in-house assistance and feedback to the development team, technical support team and other colleagues when necessary.</li>
+                        <li>Liaise with development team on automated testing projects and implementation.</li>
+                        <li>Provide analysis on in-house systems, including the support ticketing system and other third party products.</li>
+                        <li>Provide root cause analysis and statistical reports for the Technical Director and Operations Director on user raised issues and issues raised through software testing.</li>
+                        <li>Provide product &amp; support training to new technical staff and provide assistance during their entry period.</li>
+                    </ul>
+                </div>
+                <div class="CareerEntry">
+                    <span class="CareerTitle">Technical Support Engineer – Medical Management Systems</span>
+                    <span class="CareerDate">August 2011 – June 2013</span>
+                    <p class="CareerDescription">
+                        Reporting to the Operations Director to ensure MMS technical support and customer relations maintain a high standard and flag any major or critical issues with the development team.
+                    </p>
+                    <span><b>Duties &amp; Responsibilities</b></span>
+                    <ul>
+                        <li>
+                            Providing 1
+                            <sup>st</sup>, 2
+                            <sup>nd</sup> and 3
+                            <sup>rd</sup> line technical support to clients and colleagues.
+                        </li>
+                        <li>Receive, manage, process technical support requests via phone and online ticketing system.</li>
+                        <li>Diagnose and resolve technical issues for clients and colleagues.</li>
+                        <li>Monitor, review and revise support procedure and strategies.</li>
+                        <li>Maintain and support the online ticketing system.</li>
+                        <li>Maintain and support internal phone systems.</li>
+                        <li>Maintain and monitor internal backup protocols.</li>
+                    </ul>
+                    <div class="CareerEntry">
+                        <span class="CareerTitle">Other</span>
+                        <ul>
+                            <li>Fire Marshal (2014)</li>
+                            <li>Princes Trust Personal Development Course (2006)</li>
+                            <li>Qualified Lifeguard - Royal Life Saving Society (2004)</li>
+                            <li>ASA Certificate for Teaching Swimming (2003)</li>
+                            <li>Member of the Institute of Swimming (2003)</li>
+                            <li>City and Guilds Key Skills Course (2003)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="Interests">
+                    <div class="SectionHeader">Interests</div>
+                    <hr>
+                    <p>Web &amp; desktop software development, fire poi, contact juggling, mountain biking, swimming.</p>
+                </div>
+            </div>
+            <div class="CVFooter"></div>
+        </div>
+    </div>
+</body>
+</html>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/cvs/syedul_cv.html
+<div class="SKBody CVPage">
+    <div id="photo" class="ProfilePic">
+        <img src="./img/profile/sye_pic.png" alt="My Photo" width="115" height="165" style="border:3px solid rgba(250,250,250,0.8); margin-bottom:0px; margin-top:0px;">
+    </div>
+    <div id="OurLogo" class="WebLogo">
+        <img src="./img/logo.gif" alt="My Photo" width="160" height="150" style="border:3px solid rgba(250,250,250,0.8); margin-bottom:0px; margin-top:0px;">
+    </div>
+    <div id="pd" class="PersonalDetails">
+        <h1 id="top"> Syedul Khan </h1>
+        <p>70 Unknown Road, Walthamstow, London, E17 1OL</p>
+        <p>Mobile Number: 07897456321</p>
+        <p>Email Address: <a href="mailto:syedulkhan@gmail.com">syedulkhan@gmail.com</a></p>
+    </div>
+    <hr>
+    <h2 id="pp"><u> Personal Profile </u></h2>
+    <p>I am currently undertaking my first year of my Software Engineering degree at University of Westminster. I would describe mysels as pro-active and a quick learner with a wide range of transferrable skills including teamwork, communication and time management.</p>
+    <hr>
+    <h2 id="tp"><u>Technical Profile</u></h2>
+    <ul>
+        <li>
+            Software Applications
+            <ul>
+                <li>Word Processor - Proficient</li>
+                <li>Presentation - Proficient</li>
+                <li>Spreadsheet</li>
+                <li>Database</li>
+                <li>Entities</li>
+            </ul>
+        </li>
+        <li>
+            Programming Languages
+            <ul>
+                <li>Java</li>
+                <li>Visual Basic</li>
+                <li>HTML5</li>
+                <li>JavaScript</li>
+                <li>UNIX</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h2 id="aa"><u>Academic Achievements</u></h2>
+    <p><b>BEng Software Engineering- September 2015-Present</b></p>
+    <ul>
+        <li>
+            Foundation Year
+            <ul>
+                <li>Created a game using Visual Basic</li>
+                <li>Completed and delievered 2 group presentations</li>
+                <li>Created company spreadsheets</li>
+                <li>Created databases</li>
+            </ul>
+        </li>
+        <li>
+            First Year
+            <ul>
+                <li>Created a digital timer using Java</li>
+                <li>Created a Hangman game using Java</li>
+                <li>Created web pages using HTML5</li>
+            </ul>
+        </li>
+    </ul>
+    <p><b>A Levels, September 2013-June 2015</b></p>
+    <p>Sir George Monoux College</p>
+    <p>190 Chingford Rd, Walthamstow, E17 5AA</p>
+    <ul>
+        <li>Geography - B</li>
+        <li>Economics - C</li>
+        <li>Maths - D</li>
+    </ul>
+    <p><b>GCSE's, September 2009-June 2013</b></p>
+    <p>Willowfield Humanities College</p>
+    <ul>
+        <li>English Language - B</li>
+        <li>English Literature - B</li>
+        <li>Maths - A</li>
+        <li>Core Science - B</li>
+        <li>Additional Science - B</li>
+        <li>History - B</li>
+        <li>Geography - A</li>
+        <li>R.E - A</li>
+        <li>Citizenship - A</li>
+        <li>BTEC ICT (Double Award) - Distinction & Merit</li>
+        <li>Graphics - C</li>
+        <li>P.E - Grade 2</li>
+    </ul>
+    <hr>
+    <h2 id="we"><u>Work Experience</u></h2>
+    <p><b>Class Assistant - September 2013-Present</b></p>
+    <p>KUMON</p>
+    <p>Responsibilities:</p>
+    <ul>
+        <li>Marking childrens` class work</li>
+        <li>Recording childrens` homework</li>
+        <li>Monitoring childrens` progress - creating line graphs</li>
+        <li>Providing help and guidance when requested</li>
+    </ul>
+
+    <p><b>Office Assistant (Volunteer) - January 2016-Present</b></p>
+    <p>REACHING OUT EAST</p>
+    <p>Responsibilities:</p>
+    <ul>
+        <li>Filing and organising charity and client documents</li>
+        <li>Providing assistance with spreadsheets</li>
+        <li>Providing support with charity website</li>
+    </ul>
+    <p><b>Non-Medical Helper - September 2014-Present</b></p>
+    <p>STUDENT FINANCE OF ENGLAND - DSA</p>
+    <p>Responsibilities:</p>
+    <ul>
+        <li>Helping a student who has a disability/long term health condition with their academic studies</li>
+        <li>Personally having to learn about their degree (BA Hons Health and Social Care)</li>
+        <li>
+            Main duties include:
+            <ul>
+                <li>Note taking</li>
+                <li>Scribe</li>
+                <li>Reading through their materials</li>
+                <li>Typing documents</li>
+                <li>Helping the student prepare for exams</li>
+            </ul>
+        </li>
+    </ul>
+    <p><b>Receptionist (Volunteer) - April 2016-September 2016</b></p>
+    <p>CITIZEN`S ADVICE WALTHAM FOREST</p>
+    <p>Responsibilities:</p>
+    <ul>
+        <li>Answering client enquiries</li>
+        <li>Providing clients with correct and additional information</li>
+        <li>Inputting client details in organisation`s database</li>
+        <li>Referring clients to other organisations if necessary</li>
+        <li>Answering phone calls</li>
+        <li>Sorting and recording incoming mail</li>
+    </ul>
+    <p><b>Shop Assistant (Year 10 Work Experience) - June 2012 (2 weeks)</b></p>
+    <p>ISLAMIC RELIEF</p>
+    <p>Responsibilities:</p>
+    <ul>
+        <li>Answering customer enquiries</li>
+        <li>Operating the till</li>
+        <li>Providing excellent customer service</li>
+        <li>Organising donations</li>
+        <li>Keeping an eye on the security of the shop</li>
+    </ul>
+    <hr>
+    <h2 id="hi"><u>Hobbies and Interests</u></h2>
+    <ul>
+        <li>Football</li>
+        <li>Gaming</li>
+        <li>Playing Badminton</li>
+        <li>Programming</li>
+    </ul>
+    <hr>
+    <h2 id="re"><u>References</u></h2>
+    <p>References are available upon request</p>
+    <hr>
+    <p><a href="#Top">Back to Top</a></p>
+    <p>Last Modified Date: 15/02/2017</p>
+</div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/sci/gravitational_waves.html
+<article class="SciPage">
+    
+    <article class="SciPageTitle" style="text-align:center;">
+        Gravitational Waves
+    </article>
+    <article class="SciPageAuthor" style="margin-top:20px;">
+        <div class="AuthorLink" data-authorname="Laurence" onclick="showPage('cvs/laurence_cv', true);" style="margin-right:-20px;"></div>
+    </article>
+    <article class="SciSection">
+        <article class="SciPageTitle">
+            <!-- No title -->
+        </article>
+        <article>
+            <iframe id="grav_ref02a" style="margin-left:20%; margin-right:20%;" width="685" height="385" src="https://www.youtube.com/embed/vd1Pak5f6GQ?ecver=2&start=155" frameborder="0" allowfullscreen></iframe><p style="text-align:center;"><sup style=""><a href="#grav_ref01b" id="grav_ref01a" class="Reference">[1]</a></sup></p>
+        </article>
+    </article>
+    <article class="SciSection">
+        <article class="SciSectionTitle">
+            History
+        </article>
+        <article class="SciSectionText">
+            <p>Although Albert Einstein often gets recognition for predicting gravitational waves based on his renouned theories of relativity and fields, the possibility was in fact previously discussed by Oliver Heavside as far back as 1893<sup><a href="#grav_ref02b" id="grav_ref02a" class="Reference">[2]</a></sup>. 
+            Another mention of note is Henri Poincaré, in 1905, who first proposed gravitational waves emanating from a body and propogating at the speed of light. Only later in 1916 did Einstein predict gravitational waves that transport energy as gravitational radiation. </p>
+            <p>On 11<sup>th</sup> February 2016, The LIGO Scientific Collaboration (LSC) announced they had detected gravitational waves.</p>
+        </article>
+    </article>
+    <article class="SciSection">
+        <article class="SciSectionTitle">
+            Theory
+        </article>
+        <article class="SciSectionText">
+            <p>
+                The principle behind Newtonain gravity is that each body of matter has a gravitational property proportional to its mass, an effect of this property is that bodies of matter are drawn to it. The closer the matter is the stronger the affect of its gravity.
+            </p><p>Einstein&apos;s theory adds that the effects of gravity results from the matter&apos;s affect on the curvature of spacetime, the higher the mass, the greater the curvature and the greater the curvature the greater the gravity. Accelerating objects can generate changes in the curvature of space time, a good analogy would be the waves on water created by the wake of a boat. From properties of the waves such as the frequency and amplitude, it is possible to tell the amount of distortion caused by the object allowing us to calculate its size and mass.</p>
+        </article>
+    </article>
+    <article class="SciSection">
+        <article class="SciSectionTitle">
+            Research
+        </article>
+        <article class="SciSectionText">
+            <p>Research into the theory has been carried out by many notable scientists over the years, but the first gravitational waves to be detected were by The LIGO Scientific Collaboration (LSC) 14<sup>th</sup> September 2015 (to be later announced on 11<sup>th</sup> February 2016). They have continued to detect additional gravitational waves.</p>
+        </article>
+    </article>
+    <article class="SciSection">
+        <article class="SciSectionTitle">
+            Implications
+        </article>
+        <article class="SciSectionText">
+            <p>While previously having a view of the universe limited to objects emitting electromagnetic radiation that were not travelling away from earth at the speed of light, the detection of gravitational waves allows observers to recieve metrics from billions of years in the past, billions of lightyears away!</p>
+            <p>This will undoubtedly further our knowledge of our universe and the theoretical spacial occurences that have previously been out of our reach. On a personal note, I suspect that this closer look at the theories of gravity may potentially result in a significant furthering of multi-dimensional theories, hopefully including what other effects the supposedly weakest of the fundamental forces maybe having outside our of perceivable dimensions.</p>
+        </article>
+    </article>
+    <article class="SciSection">
+        <article class="SciSectionTitle">
+            References
+        </article>
+        <article class="SciSectionText">
+            <p>
+                <a href="#grav_ref01a" id="grav_ref01b" class="Reference">[1] Gizmodo, 11 Feb 2016.<br />Physicists Announce the Detection of Gravitational Waves. [video online]</a><br />
+                Available at: &lt;<a class="Reference" href="https://www.youtube.com/watch?v=vd1Pak5f6GQ" target="_blank">https://www.youtube.com/watch?v=vd1Pak5f6GQ</a>&gt;<br />[Accessed 12<sup>th</sup> February 2016].
+            </p>
+            <p>
+                <a href="#grav_ref02a" id="grav_ref02b" class="Reference">[2] CA2MI et al, 2016.<br />Gravitational wave [online]</a><br />
+                Available at: &lt;<a class="Reference" href="https://en.wikipedia.org/wiki/Gravitational_wave">https://en.wikipedia.org/wiki/Gravitational_wave</a>&gt;<br />[Accessed 2<sup>nd</sup> March 2017].
+            </p>
+        </article>
+    </article>
+    
+</article>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/sci/higgs_boson.html
+<div class="SciPage">
+    <div class="SciPageTitle" style="text-align:center;">Higgs boson: From theory to discovery</div>
+
+    <div class="SciSection">
+        <div class="SciSectionTitle" id="background">
+            Background
+        </div>
+        <div class="SciSectionText">
+            <p>
+                Back in the 1970s, scientists and researchers realised that there are
+                correlations between two of the four fundamental forces; the electromagnetic
+                force and the weak force. Those two forces were analysed into theory and formed
+                the grounds of the Standard Model. This Model belongs to particle physics, a field
+                driven by physicists dedicated to breaking down the endlessly complicated
+                universe to its most fundamental building blocks. The relationship between the
+                electromagnetic and weak force implied that electricity, magnetism, light and some
+                types of radioactivity are all manifestations of a single underlying force known
+                as the electroweak force.
+            </p>
+            <p>
+                The equations and theorems that described this force and its particles, the
+                photon and the <a href="https://en.wikipedia.org/wiki/W_and_Z_bosons" target="_blank" class="Reference">W and Z bosons</a>, were all correct apart from a big problem; all
+                these particles emerged without a mass. Now that would not be a problem for the
+                photon, but the W and Z have mass. This is where theoretical physicists
+                <a href="https://en.wikipedia.org/wiki/Robert_Brout" target="_blank" class="Reference">Robert
+                Brout</a>, 
+                <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Englert" target="_blank" class="Reference">Francois Englert</a> 
+                and <a href="https://en.wikipedia.org/wiki/Peter_Higgs" target="_blank" class="Reference">Peter Higgs</a> came in to solve this problem. They
+                suggested a mechanism, which took the name Brout-Englert-Higgs mechanism
+                afterwards, that gives a mass to the W and Z when they interact with an invisible
+                field, now called the Higgs field, which fills the universe. The Higgs Field,
+                like most fundamental fields, should have an associated particle – the Higgs
+                boson. That boson, when found, would be a visible manifestation of the Higgs
+                field.
+            </p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle" id="preparation">
+            Preparation
+        </div>
+        <div class="SciSectionText">
+            <p>
+                To implement and put in practise all these years of questioning, reasoning and
+                theorems, a colossal source of experimental energy should exist to make such goals
+                even observable.  For this reason, but for many other as well, the famous Large Hadron
+                Collider was built. For those that have not heard of it, Large Hadron Collider is a
+                particle collider built by <acronym title="European Organization for Nuclear Research">CERN</acronym>. To construct this, it took 10 years and 10.000
+                scientists and engineers. Hence, one could argue that <acronym title="Large Hadron Collider">LHC</acronym> is the most complex and
+                sophisticated experimental facility ever built.
+            </p>
+            <p>
+                The collider is equipped with superconducting magnets and accelerating structures
+                that are required to boost the speed of the colliding particles. In order to avoid
+                the loss of energy and achieve minimal electrical resistance these magnets need to
+                be cooled down to -271.3&deg;C and for that reason the <acronym title="Large Hadron Collider">LHC</acronym> is being
+                supplied with liquid helium. The accelerator contains two pipes; each is filled with
+                high-energy particle beams that are being accelerated in opposite directions until
+                they reach a speed that is close to that of the speed of light. Making that happen
+                requires keeping those two pipes at ultrahigh vacuum. Then the two beams, being under
+                control, are made to collide.
+            </p>
+            <p>
+                Many experiments were conducted with no desired outcome throughout the starting years
+                of <acronym title="Large Hadron Collider">LHC's</acronym> function, but the scientists that work there reported helpful evidence
+                every time.
+            </p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle" id="discovery">
+            Discovery
+        </div>
+        <div class="SciSectionText">
+            <p>
+                On the 4<sup>th</sup> of July 2012, two experiments that were being conducted at 
+                <acronym title="European Organization for Nuclear Research">CERN’s</acronym>
+                <acronym title="Large Hadron Collider">LHC</acronym>
+                announced they had each observed a new particle that possesses a mass of approximately
+                126 giga-electron volts (1 GeV = 1 billion electron volts). This particle consisted
+                with the Higgs boson that was predicted by the Standard Model.
+            </p>
+            <p>
+                A year later, Francois Englert and Peter Higgs were awarded with the Nobel prize in
+                physics for their theoretical work that contributed in understanding the origin of
+                mass of subatomic particles. You can see the nomination video 
+                <a href="https://www.youtube.com/watch?v=aBBOTC0xg4s" target="_blank" class="Reference">here</a>.
+            </p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle" id="considerations">
+            Considerations
+        </div>
+        <div class="SciSectionText">
+            <p>
+                There are researchers that argue that even though the Higgs boson that was discovered
+                back in 2012 may indeed look like what they were looking for, it is not exactly that.
+                Looking back to our history we have seen cases that theories became realities and
+                remain so but we have also witnessed cases that theories were made into beliefs that
+                lasted centuries and afterwards were disproved. The latter case though, was not caused
+                by misguidance but because of insufficient evidence paired together with the
+                non-perishable impatience of the humankind. In which categories of the two does the
+                Higgs discovery belong to? Only a few might be able to really tell but even so it is
+                too early to say. Not to mention that there are many other theorems related to Higgs
+                boson that are waiting to be tested upon in <acronym title="Large Hadron Collider">LHC</acronym>.
+            </p>
+            <p>
+                Finding such a particle or any particle for that
+                matter is like a person that clapped too early in a special event; at that moment,
+                nobody knows if it was the right action but that single clap could result to the
+                whole audience clapping. Higgs boson or not, the people that are pursuing and devoting
+                their lives to this, certainly deserve our gratitude for trying to solve one of the
+                biggest questions of humankind.
+            </p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle" id="making">
+            Making your own Higgs boson
+        </div>
+        <div class="SciSectionText">
+            <p>
+                And if all that intrigued you and you feel like being involved in the discovery of
+                it but it all sounds too complicated, you can always start small
+                <a href="https://home.cern/about/updates/2016/07/make-your-own-higgs-boson-pizza" target="_blank" class="Reference">here</a>.
+            </p>
+        </div>
+    </div>
+    <div class="SciSection">
+        <div class="SciSectionTitle" id="references">
+            References
+        </div>
+        <div class="SciSectionText">
+            <p>
+                CERN, 2014. The origins of the Brout-Englert-Higgs mechanism.
+                [online] Available at:
+                <<a href="https://home.cern/topics/higgs-boson/origins-brout-englert-higgs-mechanism" target="_blank" class="Reference"> link </a>>
+            </p>
+            <p>
+                CERN, 2014. The Large Hadron Collider. [online] Available at:
+                <<a href="https://home.cern/topics/large-hadron-collider" target="_blank" class="Reference"> link </a>>
+            </p>
+            <p>
+                CERN, 2014. The Higgs boson. [online] Available at:
+                <<a href="https://home.cern/topics/higgs-boson" target="_blank" class="Reference"> link </a> >
+            </p>
+        </div>
+    </div>
+</div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/sci/periodic_table.html
+<div class="pTableContent SciPage">
+    <h1 class="pTable_Title">The Periodic Table</h1>
+    <img src="../../img/gallery/periodic_table.png" alt="Periodic Table" height="500" width="800" class="pTable_Img" />
+    <!--This is to insert image of periodic table-->
+    <div id="content" class="pTable_Container">
+        <p>
+            Every single element has a specified position in the periodic table as seen in the image above.
+            One of the most iconic periodic tables was produced by a scientist from Russia named Dmitri Mendeleev
+            back in the 19th century. His ideas of the elements have been used throughout the modern era and the ideas
+            include the following list:
+        </p>
+        <ul class="pTable_Pattern">
+            <li>All the elements are arranged in order of increasing atomic number</li>
+            <li>The horizontal rows are known as periods</li>
+            <li>The vertical columns are known as groups</li>
+            <li>Elements in the same group have similar chemical properties</li>
+        </ul>
+        <p>
+            All of the groups are numbered from 1 to 7 going in the direction from left to right. However, the final group on
+            the right is numbered as 0.
+            The middle section of the table are known as the Transition Metals.
+            The boundary (zig-zag) as well as the different colours separate the metals (left) from the non-metals (right).
+            Hydrogen is also classified as a non-metal but it is placed on the top left according to the atomic number.
+            Each and every element in the periodic table is associated with a chemical symbol in the form of letters.
+        </p>
+        <!--This contains information about the periodic table-->
+        <form>
+            <fieldset id="prediction_Container">
+                <h3 class="pTable_Title">Making predictions using the periodic table</h3>
+                <p>
+                    As mentioned before, every group in the periodic table contains elements with similar chemical properties.
+                    We can use these similarities in each group to identify more about what they have in common as well as make predictions
+                    when undertaking chemical experiments. The table, showing group one elements, below exemplifies of how can make predictions
+                    for different properties
+                </p>
+
+                <table border="1" class="group_One_Table">
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Melting Point</th>
+                        <th>Density</th>
+                        <th>Reactivity</th>
+                    </tr>
+                    <tr>
+                        <th>Sodium</th>
+                        <td>Decreases</td>
+                        <td>Increases</td>
+                        <td>Increases</td>
+                    </tr>
+                    <tr>
+                        <th>Potassium</th>
+                        <td>Decreases further</td>
+                        <td>Increases further</td>
+                        <td>Increases further</td>
+                    </tr>
+                    <tr>
+                        <th>Rubidium</th>
+                        <td>Decreases further and further</td>
+                        <td>Increases further and further</td>
+                        <td>Increases further and further</td>
+                    </tr>
+                </table>
+                <!--This table contains chemical properties of group 1 elements-->
+                <p>
+                    The next element in the group is called Caesium which is below the element Rubidium.
+                    Caesium is the next element in group 1, and it can be found below rubidium.
+                    We can predict that Caesium's melting point will decrease even more than the other elements before it, its density
+                    will increase even further than the other elements and its reactivity will also increase more.
+                </p>
+            </fieldset>
+        </form>
+        <div class="AuthorLink" data-authorname="Syedul" onclick="showPage('cvs/syedul_cv', true);" />
+        <!--A link to my CV-->
+    </div>
+</div>
+
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/sci/polymorphism.html
+<div class="SciPage">
+    <div class="SciPageTitle">Polymorphism</div>
+    <div class="SciSection">
+        <div class="SciSectionTitle">
+            Subtitle
+        </div>
+        <div class="SciSectionText">
+            text
+        </div>
+    </div>
+    <div class="Header">
+        <img src="http://www.whatprogramming.com/csharp/wp-content/uploads/2015/09/polymorphism.png" align="Left" alt="polymorphism image" width="600" height="250" style="float:right; clear:none;">
+    </div>
+    <h1>Polymorphism</h1>
+    <p> Definition - Where one object can be a part of more than one category of object.</p>
+    <div class="Body">
+        <h3>What is polymorphism?</h3>
+        <div>
+            <img src="" align="Left" alt="polymorphism image" width="200" height="200" style="float:right; clear:none;">
+        </div>
+        <p> This would be a basic image of what polymorphism is and how it works. This means that a variable that stores a Vehicle object, can store any descendant of the Vehicle class.</p>
+        <p>Example:</p>
+        <ul>
+            <li>Vehicle v0 = new Vehicle();</li>
+            <li>Vehicle v1 = new Tank();</li>
+            <li>Vehicle v2 = new GolfMk2();</li>
+        </ul>
+        <p> This is the ability in which objects of different types provide a unique interface for different implementations of methods. Usually, used within the context of late binding where the behavior of an object replies to a call to its method members is determined based on object type at run time. Polymorphism permits redefining methods in derived classes. Polymorphism forms one of the essential perceptions of object-oriented programming, along with inheritance and encapsulation.</p>
+
+        <h3>Types of Polymorphism</h3>
+        <p>Polymorphism can be one of 2 types, in this case it can be either static or dynamic.</p>
+
+        <ul>
+            <li>Static Polymorphism - The response to a function is determined at the compile time.</li>
+            <li>Dynamic Polymorphism - It is decided at run-time.</li>
+        </ul>
+
+        <h3>What is Static Polymorphism?</h3>
+        <p>Static polymorphism is basically the apparatus of linking a function with an object during compile time. This is known as either early binding or static binding.</p>
+        <p>C# provides two techniques to implement static polymorphism. Which are known as:</p>
+
+        <ul>
+            <li>Function overloading</li>
+            <li>Operator overloading</li>
+        </ul>
+
+        <h3>Function overloading</h3>
+        <p>This is where the user can have a multiple amount of definitions for an identical function name which belongs in the same scope. The definition of the function however must be different from each other by the types. The user cannot surplus function declarations that differ only by return type.</p>
+        <h3>Operator overloading</h3>
+        <p>Operator overloading is where the user can overload or redefine most of the built in available in c#. Overloaded operators are basically functions which contain special names followed by a keyword along with a symbol for the operator which is defined. Furthermore, it can also be stated that an overloaded operator has a return type along with a parameter list.</p>
+
+        <h3>What is Dynamic Polymorphism?</h3>
+        <p>Dynamic Polymorphism allows the user to create abstract classes which are used to provide partial class implementation of an interface. Initially the implementation is complete when a derived class in inherits from it. These abstract classes contain abstract methods which have been implemented by the derived classes which have more of a specialised functionality.</p>
+    </div>
+        <article class="SciPageAuthor" style="margin-top:20px;">
+            <div class="AuthorLink" data-authorname="Abdul" onclick="showPage('cvs/abdul_cv', true);" />
+        </article>
+</div>
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/pages/sci/quiz.html
+<div class="PopUp Dark-dark" id="score_popup">This should not be visible.</div>
+<div class="SciPage" style="position:fixed; top:177px; margin:20px; text-align:center; display:block;">
+    <div class="Timer" id="TimeDisplay"></div>
+</div>
+<div class="SciPage" style="width:80%; margin-left:auto; margin-right:auto;">
+    <div class="AuthorLink" data-authorname="Abdul" onclick="showPage('cvs/abdul_cv', true);" style="float:right; clear:none; margin-right:-20px;"></div>
+    <ol style="margin:0px; margin-left:20px; padding:10px; display:block; ">
+        <li>
+            <div class="Question">
+                <p>What percentage of a dolphin's brain is dedicated to the cerebral cortex?</p>
+                <input type="radio" name="Q1" id="Q1A1" value="2" onclick="setQuestionScore(1, 2);" data-content="60%">60%<br />
+                <input type="radio" name="Q1" id="Q1A2" value="-1" onclick="setQuestionScore(1, -1);" data-content="70%">70%<br />
+                <input type="radio" name="Q1" id="Q1A3" value="-1" onclick="setQuestionScore(1, -1);" data-content="80%">80%<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>How are gravitional waves measured?</p>
+                <input type="radio" name="Q2" id="Q2A1" value="2" onclick="setQuestionScore(2, 2);" data-content="Lasers">Lasers<br />
+                <input type="radio" name="Q2" id="Q2A2" value="-1" onclick="setQuestionScore(2, -1);" data-content="Rulers">Rulers<br />
+                <input type="radio" name="Q2" id="Q2A3" value="-1" onclick="setQuestionScore(2, -1);" data-content="Tides">Tides<br />
+            </div>
+        </li>
+
+        <li>
+            <div class="Question">
+                <p>How long can a neuron can be expected to live?</p>
+                <input type="radio" name="Q3" id="Q3A1" value="-1" onclick="setQuestionScore(3, -1);" data-content="Up to a year">Up to a year<br />
+                <input type="radio" name="Q3" id="Q3A2" value="-1" onclick="setQuestionScore(3, -1);" data-content="Up to 50 years<">Up to 50 years<br />
+                <input type="radio" name="Q3" id="Q3A3" value="2" onclick="setQuestionScore(3, 2);" data-content="Over a hundred years">Over a hundred years<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Ageing eyes have trouble distinguishing which colour?</p>
+                <input type="radio" name="Q4" id="Q4A1" value="-1" onclick="setQuestionScore(4, -1);" data-content="Red">Red<br />
+                <input type="radio" name="Q4" id="Q4A2" value="-1" onclick="setQuestionScore(4, -1);" data-content="Green">Green<br />
+                <input type="radio" name="Q4" id="Q4A3" value="2" onclick="setQuestionScore(4, 2);" data-content="Blue">Blue<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Which of these chemicals can trigger pain receptors in the nose?</p>
+                <input type="radio" name="Q5" id="Q5A1" value="2" onclick="setQuestionScore(5, 2);" data-content="Ammonia">Ammonia<br />
+                <input type="radio" name="Q5" id="Q5A2" value="-1" onclick="setQuestionScore(5, -1);" data-content="Benzene">Benzene<br />
+                <input type="radio" name="Q5" id="Q5A3" value="-1" onclick="setQuestionScore(5, -1);" data-content="Carbon Dioxide">Carbon Dioxide<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Where do reflex responses such as a 'knee jerk' come from?</p>
+                <input type="radio" name="Q6" id="Q6A1" value="-1" onclick="setQuestionScore(6, -1);" data-content="The Knee">The Knee<br />
+                <input type="radio" name="Q6" id="Q6A2" value="-1" onclick="setQuestionScore(6, -1);" data-content="The Brain">The Brain<br />
+                <input type="radio" name="Q6" id="Q6A3" value="2" onclick="setQuestionScore(6, 2);" data-content="The Spinal Cord">The Spinal Cord<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>A hypershere (four dimensional) has how many surfaces?</p>
+                <input type="radio" name="Q7" id="Q7A1" value="2" onclick="setQuestionScore(7, -1);" data-content="0">0<br />
+                <input type="radio" name="Q7" id="Q7A2" value="-1" onclick="setQuestionScore(7, 2);" data-content="1">1<br />
+                <input type="radio" name="Q7" id="Q7A3" value="-1" onclick="setQuestionScore(7, -1);" data-content="2">2<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>What is the standard value of the gravitational constant?</p>
+                <input type="radio" name="Q8" id="Q8A1" value="-1" onclick="setQuestionScore(8, -1);" data-content="9.5 m/s<sup>2</sup>">9.5 m/s<sup>2</sup><br />
+                <input type="radio" name="Q8" id="Q8A2" value="2" onclick="setQuestionScore(8, 2);" data-content="9.8 m/s<sup>2</sup>">9.8 m/s<sup>2</sup><br />
+                <input type="radio" name="Q8" id="Q8A3" value="-1" onclick="setQuestionScore(8, -1);" data-content="10.7 m/s<sup>2</sup>">10.7 m/s<sup>2</sup><br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Approximately how many faces can an average human remember?</p>
+                <input type="radio" name="Q9" id="Q9A1" value="-1" onclick="setQuestionScore(9, -1);" data-content="100">100<br />
+                <input type="radio" name="Q9" id="Q9A2" value="-1" onclick="setQuestionScore(9, -1);" data-content="1,000">1,000<br />
+                <input type="radio" name="Q9" id="Q9A3" value="2" onclick="setQuestionScore(9, 2);" data-content="10,000">10,000<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Approximately how much of an atom is empty space?</p>
+                <input type="radio" name="Q10" id="Q10A1" value="-1" onclick="setQuestionScore(10, -1);" data-content="81.8181818181818">81.8181818181818<br />
+                <input type="radio" name="Q10" id="Q10A2" value="-1" onclick="setQuestionScore(10, -1);" data-content="88.8888888888888">88.8888888888888<br />
+                <input type="radio" name="Q10" id="Q10A3" value="2" onclick="setQuestionScore(10, 2);" data-content="99.9999999999999">99.9999999999999<br />
+            </div>
+        </li>
+    </ol>
+</div>
+
+
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/scripts/font_size.js
+function changeFontSize(change) {
+    var elemSize = document.getElementsByClassName("FontSize");
+    var fontSizes = ["xx-small", "x-small", "small", "medium", "large", "x-large"];
+    var fontSizeAbr = ["XXS", "XS", "S", "M", "L", "XL"];
+    var hasValue = false;
+    var sizeChar;
+    var size = elemSize[0].style.fontSize;
+
+    if (size == "x-large" && change==1) {
+        alert("This is the maximum font size");
+    }
+    else if (size == "xx-small" && change==-1) {
+        alert("This is the minimum font size");
+    }
+    else {
+        for (var j = 0; j < fontSizes.length; j++) {
+            if (size == fontSizes[j]) {
+                hasValue = true;
+                var newSize = fontSizes[j + change];
+                sizeChar = fontSizeAbr[j + change];
+                break;
+            }
+        }
+        if (!hasValue) {
+            if (change == 1) {
+                newSize = "large";
+                sizeChar = "L";
+            }
+            else {
+                newSize = "small";
+                sizeChar = "S";
+            }
+        }
+        document.getElementById("currentFontSize").innerHTML = sizeChar;
+        for (var i = 0; i < elemSize.length; i++) {
+            elemSize[i].style.fontSize = newSize;
+        }
+    }
+}
+
+function showFontSizePanel() {
+    
+    var panelState = document.getElementById("fontPanel").style;
+    
+    if (panelState.display == "block") {
+        panelState.display = "none";
+       document.getElementById("fontSizePanelTab").innerHTML = "Font Size";
+    }
+    else {
+        panelState = "block";
+       document.getElementById("fontSizePanelTab").innerHTML = "Hide Panel";
+    }  
+    document.getElementById("fontPanel").style.display = panelState;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/scripts/gallery.js
+var currentForegroundColour = "inherit";
+var currentBackgroundColour = "inherit";
+
+function startup() {
+    var imgs = document.getElementById("imgs").getElementsByTagName("img");
+
+    for (var i = 0; i < imgs.length; i++) {
+        imgs[i].onmouseover = function () {
+            this.style.cursor = 'hand';
+            this.style.borderColor = 'green';
+        }
+
+        imgs[i].onmouseout = function () {
+            this.style.cursor = 'pointer';
+            this.style.borderColor = 'black';
+        }
+    }
+}
+
+function changeImg(event) {
+    var targetElement = event.srcElement;
+    var description = document.getElementById("description");
+
+    if (targetElement.tagName == "IMG") {
+        changeBackgroundImage("largeImg",targetElement.getAttribute("src"));
+        description.innerHTML = targetElement.alt;
+    }
+
+    setColors(currentForegroundColour, currentBackgroundColour);
+}
+
+function changeBackgroundImage(elementId, imageUrl)
+{
+    document.getElementById(elementId).setAttribute('style', "background-image:url('" + imageUrl + "')");
+
+}
+function changeBackGColor() {
+    var bColor = document.getElementById("backgColorList");
+    currentBackgroundColour = bColor.value;
+
+    setColors(currentForegroundColour, currentBackgroundColour);
+}
+
+function changeFontColor() {
+    var fColor = document.getElementById("fontColorList");
+    currentForegroundColour = fColor.value;
+    
+    setColors(currentForegroundColour, currentBackgroundColour);    
+}
+
+function resetColors() {
+    currentBackgroundColour = "inherit";
+    currentForegroundColour = "inherit";
+
+    setColors(currentForegroundColour, currentBackgroundColour);
+
+    var fColor = document.getElementById("fontColorList");
+    var bColor = document.getElementById("backgColorList");
+
+    //fColor.sel
+}
+
+
+function setColors(foreground, background) {
+    document.getElementById("description").setAttribute("style", "color:" + foreground + ";");
+    document.getElementById("largeImg").style.backgroundColor = background;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/scripts/main.js
+// Loads an HTML document into an element as its inner HTML.
+function loadContent(path, elementId, showMenu)
+{
+    try
+    {
+        // Prepare for HTTP Request.
+        var c = new XMLHttpRequest();
+
+        // Requests HTML file.
+        c.open("GET", path, false);
+        c.send();
+
+        // Returns the response as HTML and sets it to the inner HTML of the specified element
+        document.getElementById(elementId).innerHTML = c.response;
+
+        // Makes the menu visible/invisible.
+        if(showMenu) document.getElementById("page_links").setAttribute("class", "Nav VNav VNavMain Dark-dark Visible");
+        else document.getElementById("page_links").setAttribute("class", "Nav VNav VNavMain Dark-dark Invisible");
+    }
+    catch (e)
+    {
+        // document.getElementById("page_content").innerHTML = "<h1>Error: " + e.message + "</h1>";
+        throw e;
+    }
+}
+
+// Handles path assembly for the loadContent() function using standardised paths
+function showPage(pageName, showMenu)
+{
+    var pageUrl = "./pages/home.html";
+    var menuUrl = "./menus/home_menu.html";
+           
+    pageUrl = "./pages/" + pageName + ".html";
+    menuUrl = "./menus/" + pageName + "_menu.html";
+         
+    try{
+        loadContent(pageUrl, 'page_content', false);
+    } catch (e) {
+        // Return to home page on exception if possible.
+        if (pageName != 'home')
+            showPage('home', true);
+    }
+    try{
+        if (showMenu) loadContent(menuUrl, 'page_links', true);
+    } catch (e) {
+       // Do nothing.
+    }
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/scripts/quiz.js
+var duration = 900;             // 90 seconds (in tenths of a second)
+var warningThreshold = 600; 	// 60 seconds (in tenths of a second)
+var dangerThreshold = 300; 		// 30 seconds (in tenths of a second)
+var hidePopupAfter = 15;        // Seconds
+		
+var durationRemaining = duration;
+
+var score = 0;
+var correct = 0;
+var incorrect = 0;
+
+var scores = []; 
+var totalScore = 0;
+
+startQuiz();
+        
+var timer;
+var popupTimer;  // One second interval.
+var popupCountdown = hidePopupAfter;
+var timerIsRunning = false;
+var popupIsVisible = false;
+
+function popup(htmlText) {
+    if (!popupIsVisible) {
+        popupCountdown = hidePopupAfter;
+        popupTimer = setInterval(popupTick, 1000);
+
+        var popup = document.getElementById("score_popup");
+        
+        popup.innerHTML = htmlText;
+
+        popup.setAttribute("Class", "PopUp Dark-dark Unhidden");
+    }
+    //clearInterval(popupTimer);
+}
+
+function popupTick() {
+
+    try {
+        if (popupCountdown > 0)
+            popupCountdown--;
+        else {            
+            var popup = document.getElementById("score_popup");
+            popup.setAttribute("Class", "PopUp Dark-dark");
+            clearInterval(popupTimer);
+        }
+    } catch (e) {
+        clearInterval(popupTimer);
+    }
+}
+
+function timerTick() {
+    try{
+        if (timerIsRunning) {
+            var tDisplay = document.getElementById('TimeDisplay');
+
+            if (durationRemaining >= 1)
+                durationRemaining--;
+            else 
+                endQuiz(true);
+        
+
+            if (durationRemaining <= dangerThreshold) {
+                tDisplay.className = "Timer TimerDanger";
+            } else if (durationRemaining <= warningThreshold) {
+                tDisplay.className = "Timer TimerWarning";
+            }
+            else {
+                tDisplay.className = "Timer";
+            }
+
+            tDisplay.innerText = (durationRemaining / 10).toFixed(1) + " seconds";
+        }
+        else {
+            
+            clearInterval(timer);
+        }
+    }
+    catch(exc){
+        clearInterval(timer);
+    }
+}
+
+function setQuestionScore(question, score) {
+    timerIsRunning = true;
+    scores[question - 1] = score;
+}
+
+function getScore() {
+    totalScore = 0;
+    for (var i = 0; i < scores.length; i++)
+        totalScore += scores[i];
+
+    if (scores.length < 10) {
+        var unanswered = 10 - scores.length;
+        totalScore += unanswered * -1;
+    }
+
+    return totalScore;
+}
+
+function startQuiz() {
+    
+    timerIsRunning = true;
+    timer = setInterval(timerTick, 100);
+   
+}
+
+function restartQuiz(showScores) {
+    timerIsRunning = false;
+    clearInterval(timer);
+    clearAnswers();
+    durationRemaining = duration;
+    startQuiz();
+}
+
+function clearAnswers() {
+    for (var q = 1; q <= 10; q++) 
+        for (var a = 1; a <= 3; a++) {
+            var id = "Q" + q + "A" + a;
+            var answer = document.getElementById(id);
+            answer.checked = false;
+        }
+
+}
+
+function endQuiz(showAlert) {
+    timerIsRunning = false;
+    clearInterval(timer);
+    var s = -10;
+    if (showAlert)
+        try {
+            s = getScore();
+        } catch (e) {
+           // Do nothing.
+        }
+        
+    popup(getSummary());
+}
+
+function getSummary() {
+
+    var questions = document.getElementsByClassName("Question");
+    var wrongAnswers = "";
+    var rightAnswers = "";
+    var timeInSeconds = (duration - durationRemaining)/10;
+
+    for (var i = 0; i < 10; i++) {
+        var question = questions[i];
+        summary += question.id + "<br />";
+        var questionText = question.getElementsByTagName("p")[0].innerText;
+        var answers = question.getElementsByTagName("input");
+
+        for (var a = 0; a < 3; a++) {
+            var answer = answers[a];
+            var value = answer.getAttribute("value");
+            var answerText = answer.getAttribute("data-content");
+            var isSelected = answer.checked;
+
+            if (isSelected) 
+                if (value == 2) {
+                    rightAnswers += questionText + "<br /><em color=\"grey\">" + answerText + "</em><br /><br />";
+
+                }
+                else {
+                    wrongAnswers += questionText + "<br /><em color=\"grey\">" + answerText + "</em><br /><br />";
+                }
+        }
+    }
+            // Show correct answers, if any.
+            // Show incorrect answers, if any.
+            var summary =
+                ((rightAnswers != "") ? "<h4>Correct Answers</h4>" + rightAnswers : "") +
+                ((wrongAnswers != "") ? "<h4>Incorrect Answers</h4>" + wrongAnswers : "");
+
+            summary += "<table><tr><td>Time taken: </td><td>" + timeInSeconds + " seconds</td></tr>";
+   
+
+    return summary;
+
+
+}
+
+
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/scripts/shop.js
+//Global variables
+var currentProduct;
+var tShirtQuantity = 0;
+var totalKeyrings = 0;
+var glassQuantity = 0;
+var totalValerian = 0;
+var totalStickers = 0;
+var totalPosters = 0;
+var orderTotal = 0;
+var currentTshirt;
+var currentGlasses;
+var currentQuantity = 0;
+var tShirtsOrderedBySize = [0, 0, 0, 0, 0];
+var tShirtsAmountBySize = [0, 0, 0, 0, 0];
+var glassesOrderedBySize = [0, 0, 0];
+var glassesAmountBySize = [0, 0, 0];
+var individualProductTotal = [0, 0, 0, 0];
+var inputIds = ["customertitle", "customerfirstname", "customerlastname", "customeremail", "customernumber", "customeraddress1", "customeraddress2", "customerpostcode", "customercity", "visadebit", "visacredit", "mastercard", "cardholder", "cardnumber", "expirymonth", "expiryyear", "termsandconditions"];
+var counter = 0;
+var photoPaths = ["../img/shop/tshirt.jpg", "../img/shop/keyringscience.jpg", "../img/shop/scienceglasses.jpg", "../img/shop/valerian.jpg", "../img/shop/plutonium.jpg", "../img/shop/poster.jpg"];
+
+//Setting images in product tiles of the shop
+// and in the enlarged popup product
+function setImages() {
+    
+    for (var i = 0 ; i < photoPaths.length; i++) {     
+		//Calls reused function to change background image
+        changeBackgroundImage('prod' + (i+1), photoPaths[i]);
+    }
+    
+}
+
+//Called by "onclick" when user selects a product and
+// enlarges the product and shows additional information
+function showProduct(prodNo) {
+    currentProduct = prodNo;
+    makeInvisible();
+    
+    if (prodNo == 7) {
+        document.getElementById("formcontainer").innerHTML = document.getElementById("show7").innerHTML;
+        document.getElementById("formcontainer").style.display = "block";
+    }
+    else {        
+        document.getElementById("infosection").innerHTML = document.getElementById("show" + prodNo).innerHTML;
+        changeBackgroundImage('windowphoto', photoPaths[prodNo - 1]);
+        document.getElementById("windowcontainer").style.display = "block";
+    }
+
+}
+
+//Makes enlarged popup (product and personal details) invisible
+function makeInvisible() {
+    document.getElementById("windowcontainer").style.display = "none";
+    document.getElementById("formcontainer").style.display = "none";
+    document.getElementById("checkout").style.display = "none";
+}
+
+//Called to add an item to user basket
+function addToBasket(prodNo, frm) {
+
+    if (prodNo == 1) {
+        currentQuantity = parseInt(frm.tshirtquantity.value);
+        var tShirtSize = frm.tshirtsize.value;
+        if (tShirtSize == "x-small") {
+            tShirtsOrderedBySize[0] += parseInt(frm.tshirtquantity.value);
+            currentTshirt = 0;
+        }
+        else if (tShirtSize == "small") {
+            tShirtsOrderedBySize[1] += parseInt(frm.tshirtquantity.value);
+            currentTshirt = 1;
+        }
+        else if (tShirtSize == "medium") {
+            tShirtsOrderedBySize[2] += parseInt(frm.tshirtquantity.value);
+            currentTshirt = 2;
+        }
+        else if (tShirtSize == "large") {
+            tShirtsOrderedBySize[3] += parseInt(frm.tshirtquantity.value);
+            currentTshirt = 3;
+        }
+        else if (tShirtSize == "x-large") {
+            tShirtsOrderedBySize[4] += parseInt(frm.tshirtquantity.value);
+            currentTshirt = 4;
+        }
+
+        tShirtsAmountBySize[currentTshirt] += currentQuantity * 15;
+        //Checks if there is already this item in the basket and if not catches it and creates new entry
+		try {
+            document.getElementById(tShirtSize + "T").innerHTML = tShirtsOrderedBySize[currentTshirt] + " " + tShirtSize + " Oceanic t-shirts : £" + tShirtsAmountBySize[currentTshirt];
+        }
+        catch (Exception) {
+            document.getElementById("addeditem").innerHTML = document.getElementById("addeditem").innerHTML + "<div id=\"" + tShirtSize + "T\">" + tShirtsOrderedBySize[currentTshirt] + " " + tShirtSize + " Oceanic t-shirt(s) : £" + tShirtsAmountBySize[currentTshirt] + "</div><br />";
+        }
+    }
+
+    if (prodNo == 2) {
+        currentQuantity = parseInt(frm.keyringquantity.value);
+        totalKeyrings += parseInt(frm.keyringquantity.value);
+        individualProductTotal[0] += currentQuantity * 10;
+		//Checks if there is already this item in the basket and if not catches it and creates new entry
+        try {
+            document.getElementById("orderedkeyrings").innerHTML = totalKeyrings + " Divine keyrings : £" + individualProductTotal[0];
+        }
+        catch (Exception) {
+            document.getElementById("addeditem").innerHTML = document.getElementById("addeditem").innerHTML + "<div id=\"orderedkeyrings\">" + totalKeyrings + " Divine keyring(s) : £" + individualProductTotal[0] + "</div><br />";
+        }
+
+    }
+
+    if (prodNo == 3) {
+        currentQuantity = parseInt(frm.glassquantity.value);
+        var glassSize = frm.glasssize.value;
+        if (glassSize == "small") {
+            glassesOrderedBySize[0] += parseInt(frm.glassquantity.value);
+            currentGlasses = 0;
+        }
+        else if (glassSize == "medium") {
+            glassesOrderedBySize[1] += parseInt(frm.glassquantity.value);
+            currentGlasses = 1;
+        }
+        else if (glassSize == "large") {
+            glassesOrderedBySize[2] += parseInt(frm.glassquantity.value);
+            currentGlasses = 2;
+        }
+
+        glassesAmountBySize[currentGlasses] += currentQuantity * 25;
+		//Checks if there is already this item in the basket and if not catches it and creates new entry
+        try {
+            document.getElementById(glassSize + "G").innerHTML = glassesOrderedBySize[currentGlasses] + " pairs of " + glassSize + " Legendary Shades : £" + glassesAmountBySize[currentGlasses];
+        }
+        catch (Exception) {
+            document.getElementById("addeditem").innerHTML = document.getElementById("addeditem").innerHTML + "<div id=\"" + glassSize + "G\">" + glassesOrderedBySize[currentGlasses] + " pair(s) of " + glassSize + " Legendary Shades : £" + glassesAmountBySize[currentGlasses] + "</div><br />";
+        }
+    }
+
+    if (prodNo == 4) {
+        currentQuantity = parseInt(frm.valerianquantity.value);
+        totalValerian += parseInt(frm.valerianquantity.value);
+        individualProductTotal[1] += currentQuantity * 5;
+		//Checks if there is already this item in the basket and if not catches it and creates new entry
+        try {
+            document.getElementById("orderedvalerian").innerHTML = totalValerian + " grams of Silencer : £" + individualProductTotal[1];
+        }
+        catch (Exception) {
+            document.getElementById("addeditem").innerHTML = document.getElementById("addeditem").innerHTML + "<div id=\"orderedvalerian\">" + totalValerian + " gram(s) of Silencer : £" + individualProductTotal[1] + "</div><br />";
+        }
+    }
+
+    if (prodNo == 5) {
+        currentQuantity = parseInt(frm.stickerquantity.value);
+        totalStickers += parseInt(frm.stickerquantity.value);
+        individualProductTotal[2] += currentQuantity * 4;
+		//Checks if there is already this item in the basket and if not catches it and creates new entry
+        try {
+            document.getElementById("orderedstickers").innerHTML = totalStickers + " Plutonium stickers : £" + individualProductTotal[2];
+        }
+        catch (Exception) {
+            document.getElementById("addeditem").innerHTML = document.getElementById("addeditem").innerHTML + "<div id=\"orderedstickers\">" + totalStickers + " Plutonium sticker(s) : £" + individualProductTotal[2] + "</div><br />";
+        }
+    }
+
+    if (prodNo == 6) {
+        currentQuantity = parseInt(frm.posterquantity.value);
+        totalPosters += parseInt(frm.posterquantity.value);
+        individualProductTotal[3] += currentQuantity * 30;
+		//Checks if there is already this item in the basket and if not catches it and creates new entry
+        try {
+            document.getElementById("orderedposters").innerHTML = totalPosters + " Antimatter Posters : £" + individualProductTotal[3];
+        }
+        catch (Exception) {
+            document.getElementById("addeditem").innerHTML = document.getElementById("addeditem").innerHTML + "<div id=\"orderedposters\">" + totalPosters + " Antimatter Poster(s) : £" + individualProductTotal[3] + "</div><br />";
+        }
+    }
+
+    calcTotal(prodNo, currentQuantity);
+}
+
+//Calculates the order total (price)
+function calcTotal(prodNo, quantity) {
+    switch (prodNo) {
+        case 1: orderTotal += quantity * 15;
+            break;
+        case 2: orderTotal += quantity * 10;
+            break;
+        case 3: orderTotal += quantity * 25;
+            break;
+        case 4: orderTotal += quantity * 5;
+            break;
+        case 5: orderTotal += quantity * 4;
+            break;
+        case 6: orderTotal += quantity * 30;
+            break;
+        default:
+            break;
+    }
+    charityCalc(orderTotal);
+    document.getElementById("tamount").innerHTML = "£ " + orderTotal;
+}
+
+//Calculates the charity contribution
+function charityCalc(orderTotal) {
+
+    var charTotal = orderTotal * 5 / 100;
+    var charWindow = document.getElementById("charitywindow");
+    document.getElementById("charityamount").innerHTML = "£ " + orderTotal * 5 / 100;
+
+}
+
+//Reset/empties the user's basket
+function emptyOrder() {
+    document.getElementById("addeditem").innerHTML = "";
+    document.getElementById("tamount").innerHTML = "£ 0";
+    document.getElementById("charityamount").innerHTML = "£ 0";
+
+    orderTotal = 0;
+    tShirtsOrderedBySize = [0, 0, 0, 0, 0];
+    glassesOrderedBySize = [0, 0, 0];
+    tShirtsAmountBySize = [0, 0, 0, 0, 0];
+    glassesAmountBySize = [0, 0, 0];
+    individualProductTotal = [0, 0, 0, 0];
+    totalValerian = 0;
+    totalStickers = 0;
+    totalPosters = 0;
+    totalKeyrings = 0;
+    document.getElementById("show7").style.display = "none";
+
+    charityCalc(0);
+}
+
+//Validates if the basket contains at least one item
+// before continuing to checkout form
+function basketValidation() {
+    if (orderTotal == 0) {
+        alert("Your basket is empty!");
+    }
+    else {
+        showProduct(7);
+        document.getElementById("checkout").style.display = "block";
+    }
+}
+
+//Highlights all input fields that were given wrong input format
+// by the user
+function styleInputForm(valid, id) {
+    if (valid) {
+        document.getElementById(id).style.boxShadow = "";
+        return true;
+    }
+    else {
+        document.getElementById(id).style.boxShadow = "rgba(219, 0, 0, 0.7) 0 0 3px 3px";
+        return false;
+    }
+}
+
+//Displays order summary when completed
+function messageOrder(frm) {
+    
+    var name = frm.firstname.value;
+    var orderSummary = document.getElementById("addeditem").innerText;
+    alert("Dear " + name + ", we are happy to inform you that your order was successful.\n Here is a summary of your order:\n" + orderSummary + "\n\nYour total bill is £" + orderTotal);
+    makeInvisible();
+    emptyOrder();
+    var feedback = confirm("Thank you for shopping with us.\n\n" + "Take a minute to tell us what you think of our website");
+    if (feedback) {
+        showPage('contact', false);
+    }
+}
+
+//Called by "onclick" when the user is navigating in the enlarged product pop up
+// and is the mechanism of the previous and next item buttons
+function changeProduct(move) {
+    if (move == 0) {
+        if (currentProduct == 1) {
+            currentProduct = 6;
+        }
+        else {
+            currentProduct--;
+        }
+    }
+    else if (move == 1) {
+        if (currentProduct == 6) {
+            currentProduct = 1;
+        }
+        else {
+            currentProduct++;
+        }
+    }
+    showProduct(currentProduct);
+}
+
+//Validation for the checkout form (personal details)
+function validate(frm) {
+
+    var emailFormat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    var radiobuttons = document.getElementsByClassName("CardType");
+    var uncheckedRadioButtons = 0;
+    var defGood = false;
+    var allGood = new Array(15);
+
+    if (frm.title.value == "-") {
+        allGood[0] = styleInputForm(false, "customertitle");
+    } else {
+        allGood[0] = styleInputForm(true, "customertitle");
+    }
+
+    if (frm.firstname.value.length < 3 || !frm.firstname.value.match(/^[a-zA-Z ]+$/)) {
+        allGood[1] = styleInputForm(false, "customerfirstname");
+    } else {
+        allGood[1] = styleInputForm(true, "customerfirstname");
+    }
+
+    if (frm.lastname.value.length < 4 || !frm.lastname.value.match(/^[a-zA-Z]+$/)) {
+        allGood[2] = styleInputForm(false, "customerlastname");
+    } else {
+        allGood[2] = styleInputForm(true, "customerlastname");
+    }
+
+    if (emailFormat.test(frm.email.value) == false) {
+        allGood[3] = styleInputForm(false, "customeremail");
+    } else {
+        allGood[3] = styleInputForm(true, "customeremail");
+    }
+
+    if (!frm.number.value == "") {
+        if (frm.number.value.length < 10 || !frm.number.value.match(/^[0-9]+$/)) {
+            allGood[4] = styleInputForm(false, "customernumber");
+        } else {
+            allGood[4] = styleInputForm(true, "customernumber");
+        }
+    } else {
+        allGood[4] = styleInputForm(true, "customernumber");
+    }
+
+    if (frm.address1.value.length < 8) {
+        allGood[5] = styleInputForm(false, "customeraddress1");
+    } else {
+        allGood[5] = styleInputForm(true, "customeraddress1");
+    }
+
+    if (!frm.address2.value == "") {
+        if (frm.address2.value.length < 4) {
+            allGood[6] = styleInputForm(false, "customeraddress2");
+        } else {
+            allGood[6] = styleInputForm(true, "customeraddress2");
+        }
+    } else {
+        allGood[6] = styleInputForm(true, "customeraddress2");
+    }
+
+    if (frm.postcode.value.length < 5 || !frm.postcode.value.match(/\d+/g) || !frm.postcode.value.match(/^[a-zA-Z]/) || !frm.postcode.value.match(/[a-zA-Z]$/) || !frm.postcode.value.match(/[a-zA-Z0-9 *]/)) {
+        allGood[7] = styleInputForm(false, "customerpostcode");
+    } else {
+        allGood[7] = styleInputForm(true, "customerpostcode");
+    }
+
+    if (frm.city.value.length < 4 || !frm.city.value.match(/^[a-zA-Z]+$/)) {
+        allGood[8] = styleInputForm(false, "customercity");
+    } else {
+        allGood[8] = styleInputForm(true, "customercity");
+    }
+
+    for (var i = 0; i < radiobuttons.length - 3; i++) {
+        if (radiobuttons[i].checked) {
+            allGood[9] = styleInputForm(true, "visadebit");
+            allGood[9] = styleInputForm(true, "visacredit");
+            allGood[9] = styleInputForm(true, "mastercard");
+            break;
+        }
+        else {
+            uncheckedRadioButtons++;
+        }
+    }
+
+    if (uncheckedRadioButtons == 3) {
+        allGood[9] = styleInputForm(false, "visadebit");
+        allGood[9] = styleInputForm(false, "visacredit");
+        allGood[9] = styleInputForm(false, "mastercard");
+    }
+
+    if (frm.cardholder.value.length < 6 || !frm.cardholder.value.match(/^[a-zA-Z ]+$/)) {
+        allGood[10] = styleInputForm(false, "cardholder");
+    } else {
+        allGood[10] = styleInputForm(true, "cardholder");
+    }
+
+    if (frm.cardnumber.value.length < 16 || !frm.cardnumber.value.match(/^[0-9]+$/)) {
+        allGood[11] = styleInputForm(false, "cardnumber");
+    } else {
+        allGood[11] = styleInputForm(true, "cardnumber");
+    }
+
+    if (frm.expirymonth.value == "-") {
+        allGood[12] = styleInputForm(false, "expirymonth");
+    } else {
+        allGood[12] = styleInputForm(true, "expirymonth");
+    }
+
+    if (frm.expiryyear.value == "-") {
+        allGood[13] = styleInputForm(false, "expiryyear");
+    } else {
+        allGood[13] = styleInputForm(true, "expiryyear");
+    }
+
+    if (frm.expirymonth.value < 4 && frm.expiryyear.value == 2017) {
+        allGood[12] = styleInputForm(false, "expirymonth");
+        allGood[13] = styleInputForm(false, "expiryyear");
+        alert("Your card has expired");
+    }
+
+    if (!frm.termsandconditions.checked) {
+        allGood[14] = styleInputForm(false, "termsandconditions");
+    } else {
+        allGood[14] = styleInputForm(true, "termsandconditions");
+    }
+
+    var falseCounter = 0;
+    for (var i = 0; i < allGood.length; i++) {
+        if (allGood[i] == false) {
+            falseCounter++;
+        }
+    }
+    if (falseCounter == 0) {
+        messageOrder(frm);
+    }
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/ab_cv.css
+.CVPhotoA {
+    border-radius: 30px;
+    width: 100px;
+}
+
+.CVTitleA {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.SideTableA {
+    vertical-align: top;
+    padding-top: 50px;
+    margin-right: 5px;
+}
+
+.PersonalInfoA {
+    border-right-style: solid;
+    border-right-width: 2px;
+    text-align: center;
+}
+
+.WrapperA h3 {
+    text-align: center;
+}
+
+.WrapperA {
+    width: 750px;
+}
+
+.JobTitleA {
+    font-weight: 800;
+    font-size: 17px;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/about.css
+.AboutContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.GroupContainer {
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutTitle {
+    position: relative;   
+    margin: 30px auto 15px auto;
+
+    font-size: 2.6em;
+}
+
+.TeamMember {
+    position: relative;
+    clear: none;
+
+    width: 250px;
+    height: 250px;
+    
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+.Image {
+    width: 250px;
+    height: 250px;
+
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.Line {
+    border: 1px solid rgba(250,250,250,0.6);
+}
+
+.InfoOverlay {
+    opacity: 0;
+    position: absolute;
+
+    transition: .5s ease;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 250px;
+    height: 240px;
+    padding-top:10px;
+    
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.TeamMember:hover .InfoOverlay {
+    opacity: 1;
+}
+
+.Text {
+    position: relative;
+
+    color: white;
+    font-size: 1.4em;    
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/am_cv.css
+.AMCV .Line {
+    border: 1px solid white;
+}
+
+.AMCV h1 {
+    font-family: 'Times New Roman';
+}
+
+.AMCV h2 {
+    margin-bottom: 5px;
+}
+
+.AMCV h4 {
+    margin-top: 0px;
+}
+
+.AMCV .JobDescription {
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 800;
+}
+
+    .AMCV .JobDescription td {
+        text-align: right;
+    }
+
+    .AMCV .JobDescription th {
+        text-align: left;
+    }
+
+
+
+/* To apply one property to multiple classes you can do this: */
+
+.AMCV .Header, .AMCV .Body, .AMCV .Footer {   
+    padding: 0px;    
+    border: 3px black;    
+    border-radius: 0px;    
+    margin: 0px;
+}
+
+.AMCV .Header {
+    text-align: center;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/contact.css
+body {
+    color: white;
+}
+
+td {
+    padding: 5px;
+}
+
+input[type=text], select {
+    color: white;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.7);
+    
+    padding: 3px;
+}
+
+select {   
+    width: 260px;
+}
+
+#submit {
+    width: 150px;
+    background-color: rgba(55,55,55,0.7);
+}
+
+input[type=button]{
+    color:white;
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid rgba(240,240,240,0.2);
+    background-color: rgba(0,0,0,0.3);
+    transition-duration: 0.5s;
+    min-height:25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .Button:hover {
+        background-color: rgba(240,240,240,0.2);
+        transition-duration: 0.5s;
+    }
+
+.Submission {
+    margin: 20px;
+    border: 1px solid rgba(240,240,240,0.2);
+    background-color: rgba(0,0,0,0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+    .Submission > table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/font_size.css
+.FontControlPanel {    
+    position:absolute;
+    z-index: 5050;
+    float:right;
+
+    width:185px;
+    height: 112px;
+
+    margin-top:175px;
+    margin-left:905px;
+    
+    border:1px solid rgba(0, 255, 255,0.6);
+    background-color: rgba(20,20,20,0.9);
+}
+#fontPanel{
+    display:none;
+}
+.FontControlPanel input{
+    width:118px;
+    height:34px;
+
+	margin-left:2px;
+    margin-top:2px;
+    box-shadow: inset rgba(0, 70, 170, 0.5) 0 0 8px 1px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+#currentFontSize{    
+    float:right;   
+    width:55px;
+
+    margin-right:5px;
+    margin-top:10px;
+        
+    font-size:40px;
+    text-align:center;    
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/gallery.css
+#colour_menu {
+    color: inherit;
+    margin-left: 5px;
+    float: left;
+    clear: none;
+    position: fixed;
+    padding: 3px;
+}
+
+    #colour_menu td select {
+        min-width: 100px;
+    }
+
+    #colour_menu input, #colour_menu select, #colour_menu legend {
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        color: inherit;
+    }
+
+
+    #colour_menu select {
+        background-color: rgba(15,15,15,0.5);
+    }
+
+
+.ViewArea {
+    margin: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    background-position: center;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: inherit;
+    min-height: 400px;
+    border: 1px rgba(250,250,250,0.1) solid;
+}
+
+.ThumbnailImage {
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    margin: 5px;
+    cursor: pointer;
+}
+
+    .ThumbnailImage:hover {
+        border: 1px solid white;
+        box-shadow: 0px 0px 5px 1px #FFF;
+        
+    }
+
+/* Inner */
+.ThumbnailContainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: contents;
+}
+
+/* Outer */
+.Thumbnails {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    border: 1px rgba(250, 250, 250, 0.1) solid;
+    padding: 10px;
+}
+
+.Description {
+    border: 1px rgba(250, 250, 250, 0.1) solid;
+    padding: 10px;
+    min-height: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/lt_cv.css
+.SectionHeader {
+    font-weight: 600;
+    font-size: 14pt;
+    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.CVProfilePicture {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    float: right;
+    clear: none;
+    width: 100px;
+    height: 100px;
+    border: 1px outset grey;
+    border-radius: 1000px;
+    z-index: 9001;
+}
+
+.Bold {
+    font-weight: 600;
+}
+
+.Address {
+    color: white;
+}
+
+.CVHeader {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+LTCV table th, LTCV table td {
+    text-align: left;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+LTCV table th, LTCV td {
+    padding-left: 20px;
+}
+
+.CareerTitle, .CareerDate {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.CareerEntry {
+    margin-top: 30px;
+}
+
+.CareerTitle {
+}
+
+.CareerDate {
+    float: right;
+    margin-left: 50px;
+    width: 230px;
+}
+
+.CVPage b {
+    font-weight: 800;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/periodic_table.css
+.pTableContent {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pTable_Container {
+    text-align: justify;
+}
+
+.group_One_Table {
+    margin: 0 auto 0 auto;
+    border-color: blue;
+    background-color: rgba(150,150,250,0.7);
+    color: #000033;
+}
+
+.pTable_Pattern {
+    margin: 0 auto 0 auto;
+    list-style-type: square;
+}
+
+.pTable_Title {
+    text-align: center;
+}
+
+.pTable_Img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-image-repeat: stretch;
+}
+
+#prediction_Container {
+    border: 5px solid black;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/presentation.css
+.PresentationContainer{
+    position:absolute;
+    visibility:hidden;
+
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px; 
+    
+    transform:scale(0);
+
+    height:inherit;
+    min-height:500px;
+    min-width:750px;
+
+    background-size:cover;
+    
+    color:white;
+    font-family:'Century Gothic';
+   
+    animation-name: fadeOut;    
+    animation-duration:8s; /*CHANGE TO 8 TO SEE PRES. PAGE*/
+    animation-iteration-count:1;   
+
+    background-image:url("../img/dna.jpg");
+    background-size:auto;
+    background-repeat:no-repeat;
+    
+    opacity:0;
+}
+
+.PresentationHeader{
+    position:relative;
+    
+    margin-bottom:80px;    
+    padding-top:30px; 
+}
+.PresentationFooter{  
+    position:fixed; 
+    bottom:0px;
+     
+    width:100vw;
+    min-width: 1000px;
+
+    text-align:center;
+    font-size: 20px;
+    font-weight:700;
+    color:rgba(138, 243, 255, 0.95);
+    background-color: rgba(40,40,40,0.65);
+}
+
+.PresentationLogo{
+    width:240px;
+    height:80px;
+    margin-left:-40px;
+
+    background-image: url("../img/logo.gif");
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.LogoStar{
+    width:140px;
+    height:140px;
+    
+    margin-left:auto;
+    margin-right:auto;
+          
+    border-radius: 200px;
+    box-shadow: 0px 0px 20px 6px rgba(240,240,250,1);
+    background-color:rgba(0, 0, 0, 0.87);    
+}
+
+.SubTitle{
+    float:right;        
+    width:170px;
+    margin-left:70%;
+    margin-right:30%;
+
+    font-size: 26px;
+    color:rgba(209, 250, 255, 0.96);
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+.NameLeft, .NameRight{
+    position:relative;
+    height:15vh;
+
+    font-size: 6.5vh;
+}
+.NameLeft{       
+    padding-left:18%;    
+}
+.NameRight{
+    padding-right:18%;    
+    text-align:right;       
+}
+
+/********************   ELEMENT LETTER TILES    ******************/
+.Element{     
+    display:inline-block;
+    
+    width:8.2vh;
+    height:8.2vh;
+
+    margin-left:3px;
+    margin-right:3px;  
+
+    border: 1px solid white;
+    border-radius:2px;
+    background-color: rgba(39, 118, 58,0.8);
+
+    animation-name: fadeIn;    
+    animation-duration:8s;
+}
+
+.AtomicNumber{
+    height:20%;
+    padding-right:5px;
+    padding-top:3px;
+    
+    font-size:2vh;
+    font-weight:300;
+    text-align:right;
+}
+.ElementSymbol{
+    height:80%;
+    margin-top: -8px;
+
+    text-align:center;    
+    font-size:6.5vh;
+}
+
+/*****  CSS Animations  *****/
+
+/*Animation for Element Symbols' fade in*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    15%{
+        opacity: 0;
+    }
+    55% {
+        opacity: 0.9;
+    }
+
+    90%{
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*Animation for presentation page fade out*/
+@keyframes fadeOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        z-index: 9000;
+        display: normal;
+        visibility: visible;
+    }
+
+    80% {
+        z-index: 8000;
+    }
+
+    90% {
+        opacity: 1;
+        z-index: 9000;
+        color: white;
+    }
+
+    99% {
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        z-index: 0;
+        display: none;
+        visibility: hidden;
+        color: rgba(0,0,0,0);
+        transform: scale(0);
+    }
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/quiz.css
+.Question {
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid rgba(80,80,80,0.8);
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+    .Question > input {
+        padding-left: 10px;
+        margin-left: 40px;
+    }
+
+
+.Timer {
+    margin-top: 13px;
+    font-size: 24px;
+}
+
+.TimerWarning {
+    color: yellow;
+}
+
+.TimerDanger {
+    color: red;
+}
+
+input[type="submit"] {
+    background-color: rgba(25,25,25,0.8);
+    border-radius: 5px;
+    color: white;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px grey solid;
+}
+
+.PopUp {
+    position: fixed;
+    top: 177px;
+    width: 20%;
+    left: 17px;
+    margin-left: 20px;
+    z-index: 9000;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    visibility: hidden;
+    border:1px grey outset;
+}
+
+.PopUp table{
+    margin:0px;
+}
+
+.Unhidden {
+    transition-duration:3s;
+    animation: Pop 15s 1;
+    visibility: visible;
+    max-height: 0px;
+}
+
+@keyframes Pop {
+    0% {
+        border: 1px #555 solid;
+        visibility: visible;
+        height: 0px;
+    }
+
+    10% {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-height: 70%;
+    }
+
+    90% {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-height: 70%;
+    }
+
+    99% {
+        border: 1px #555 solid;
+        visibility: visible;
+    }
+
+    100% {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        max-height: 0px;
+        visibility: hidden;
+        border: none;
+    }
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/shop.css
+.ShopContainer {  
+    position:relative; 
+    clear:none;
+    float:left;
+     
+    width:79%;
+    min-width:900px;
+    margin: 0 auto 0 auto;
+    
+    font-family: "Century Gothic";
+}
+.BackgroundLayer{
+    width:100%;
+    height:950px;
+    display:inline-flex;
+}
+
+.AuthorShop{
+    position:relative;   
+    height:23px;
+}
+
+/**********  CHARITY TOP WINDOW  *******/
+.CharityRow {
+    width:600px; 
+    margin-left: auto;
+    margin-right: auto;    
+    margin-bottom: 20px;
+    
+    text-align: center;
+
+    border-radius: 8px;
+    box-shadow: rgba(129, 219, 233, 0.73) 0 0 8px 3px;     
+    background-color: rgba(1, 63, 95, 0.98);
+}
+
+.Charity {  
+    width: 570px;
+    height: 100%;  
+    margin-left: auto;
+    margin-right: auto;
+
+    border-left: 3px solid rgba(20, 20, 20, 0.9);
+    border-right: 3px solid rgba(20, 20, 20, 0.9);
+
+    color:black;
+    background-color:rgba(177, 233, 241, 0.94);    
+}
+
+
+.CharityTitle{    
+    width:100%;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px; 
+    
+    font-size: 1.3em; 
+    color: rgba(177, 233, 241, 1);
+
+    border-bottom:2px solid;
+    border-color:rgba(20, 20, 20, 0.9);
+    background-color: rgba(1, 63, 95, 0.98);
+}
+
+#charityamount {
+    font-size:1.3em;
+    font-weight:600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/****************   PRODUCT TILES   ****************/
+.LayoutTable {
+    margin-left:auto;
+    margin-right:auto; 
+    margin-top:30px;
+}
+
+.Product {    
+    margin: 20px 20px 20px 20px;        
+    width: 250px;    
+    text-align: center;
+    
+    border-radius: 4px;
+    border: 1px solid rgba(0, 255, 208, 0.3);
+
+    box-shadow: rgba(0, 70, 170, 0.6) 0 0 8px 4px;
+    background-color: rgba(2, 76, 116,0.96);
+}
+.PhotoTile{
+    height: 220px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.Product:hover{    
+    cursor: pointer;   
+    box-shadow: rgba(54, 208, 217, 0.66) 0 0 7px 7px;
+}
+
+.SmallDescription {    
+    color:white;
+    padding-bottom:5px;
+}
+
+.Overlay {   
+    opacity: 0;
+    height:25px;        
+    width: 100%;
+    padding-top:5px;
+
+    color: white;    
+    font-size:15px;
+    font-weight: 600;
+    
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.Product:hover .Overlay {
+    opacity: 1;
+}
+
+/****************** ORDER SIDE WINDOW *****************/
+.Order {    
+    position:relative;    
+    top:23%;
+
+    height:70%;
+    width:20%;
+    min-width:320px;
+    margin: 0 auto 0 auto;
+}
+.Orderius {
+    margin-left: 5%;
+    width: 250px;    
+    
+    text-align: center;
+    font-family: 'Century Gothic';
+        
+    border-radius: 10px;
+    box-shadow: rgba(129, 219, 233, 0.73) 0 0 8px 3px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.OrderTitle{
+    margin-bottom:5px;
+    
+    padding-top:20px;
+    padding-bottom: 25px;
+
+    font-size: 1.5em;
+    font-weight: 800;
+    color: rgba(177, 233, 241, 0.98);
+
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    background-color: rgba(1, 63, 95, 0.98);
+}
+
+#addeditem {
+    height:333px;
+    overflow-y:scroll;
+    padding-top: 20px;
+
+    color:black;
+    border-bottom:1px solid black;
+    background-color: rgba(199, 248, 255, 0.94);    
+}
+
+.TotalAmount {
+    position:relative;
+
+    padding-top:10px;
+    padding-bottom:15px;
+    
+    line-height: 150%;
+    font-size:1.3em;    
+    color:black;
+    
+    background-color: rgba(119, 206, 253, 0.94);
+}
+.OrderButtons {
+    position:relative;  
+    margin-top:2px;  
+    padding-top:10px;
+    padding-bottom:5px;
+    
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    
+    background-color: rgba(1, 63, 95, 0.98); 
+}
+
+.Order input {    
+    margin-bottom:5px;
+}
+.EmptyBasket{
+    width:150px;
+}
+
+/**************** POP UP PRODUCT WINDOW ****************/
+.PopupContainer {
+    position: absolute;
+    z-index: 1000;
+
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+
+    top: 2%;
+    left:5%;
+    right:5%;
+    
+    border-radius: 20px;
+    border: 1px solid aqua;
+    background-color: rgba(20,20,20,0.98);
+    box-shadow: rgba(0, 70, 170, 0.5) 0 0 20px 5px;
+}
+.PopupContainer input{
+    margin-left:12px;
+}
+
+.WindowHeader {
+    position: relative;
+    width: 100%;
+    height: 46px;
+
+    color: aqua;    
+    text-align: center;
+
+    border-bottom:1px solid aqua;
+}
+#popupwindowtitle{
+    position:absolute;
+    width:350px;
+    margin-left:225px;
+    margin-top:5px;
+
+    font-size: 1.6em;
+    color:white;
+}
+
+#windowphoto {
+    position: relative;
+    width: 70%;
+    height: 540px;
+    right: 15%;
+    left: 15%;    
+      
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color:#353535;
+}
+
+.ColumnNext, .ColumnPrevious{
+    position: absolute;
+    top: 47px;
+
+    width: 10%;
+    height: 609px;    
+}
+
+.ColumnPrevious {    
+    left: 0px;    
+}
+.ColumnNext {
+    right: 0px;    
+}
+
+.ColumnNext img, .ColumnPrevious img {
+    width: 100%;
+    height: 100%;
+}
+.ColumnNext:hover , .ColumnPrevious:hover{    
+    cursor: pointer;   
+}
+
+.ExitProduct {
+    position: relative;
+    width: 53px;
+    height: 38px;
+    margin: 0 0 auto auto;
+    padding-top: 5px; 
+    
+    font-family: 'Berlin Sans FB';
+    font-size:22px;
+    text-align: center;
+    color: white;  
+         
+    border: 1px solid rgba(160, 0, 0, 0.80);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 2px;
+    background-color: rgba(100,0,0,0.50);
+}
+
+.ExitProduct:hover {
+    cursor: pointer;
+    text-shadow:0px 0px 2px 4px rgba(150,150,150,0.4);
+    box-shadow: inset rgba(219, 0, 0, 0.5) 0 0 20px 5px;
+}
+
+.ProductTitle {
+    padding: 4px;    
+    font-size: 1.2em;
+    background-color: rgba(0, 255, 255, 0.8);
+}
+.Price {
+    padding: 4px;    
+    font-size: 1em;  
+    background-color: rgba(0, 255, 255, 0.7);  
+}
+
+#infosection {
+    position: relative;    
+    margin: 0 auto 0 auto;
+    width: 80%;
+
+    text-align: center;
+    font: candara;
+    font-size: 1.2em;    
+    color: rgb(20,20,20);
+}
+
+.ProductDescription {
+    color: whitesmoke;
+    font-family: "Century Gothic";
+}
+
+.ProductForm {
+    padding-top: 23px;
+    padding-bottom:10px;
+    color: whitesmoke;
+}
+.DropDownShop{
+    width:80px;
+	margin-right: 5px;
+}
+
+/*****************  POPUP FORM    *********************/
+#checkout{
+    position:absolute;
+    z-index:5200;
+    overflow-y:scroll;
+
+    height:100%;
+    width:100%;
+}
+#exitlayer{
+    width:100%;
+    height:100%;
+    min-height:1260px;
+
+    z-index:5300;
+    background-color: rgba(26,26,26,0.7);    
+}
+
+.PopupForm{
+    position:absolute;
+    z-index: 8000;
+
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+
+    top:10%;    
+    left:1%;
+    right:10%;    
+}
+
+.FormOrder {  
+    position: absolute;  
+       
+    width: 850px;
+    padding-top: 15px;
+     
+	font-family: "Century Gothic";
+    color: white;
+    text-align: center;    
+    font-size: 1.2em;
+    font-weight: normal;
+    
+    border-radius: 20px;
+    border: 1px solid aqua;
+
+    background-color: rgba(56, 56,56, 0.98);
+    box-shadow: rgba(0, 70, 170, 0.5) 0 0 20px 5px;    
+}
+.FormOrder fieldset {
+    text-align: center;
+    
+    padding-bottom: 12px;
+    padding-left: 170px;
+    margin-bottom: 40px;
+
+    border-color: rgba(0, 255, 255, 0.1);
+    border-radius: 2px;
+}
+
+.FormOrder legend {
+    color: rgba(0, 255, 255, 0.9);
+}
+
+.FormLeft {
+    text-align: right;
+}
+.FormRight {
+    text-align: left;
+}
+
+.TablePos{
+    margin-left:42px;
+}
+
+.TermsAndCondition {
+    font-size: 0.8em;  
+	padding-left:10px;
+    padding-right:10px;  	
+}
+
+.FormButtons {
+    width: 100%;
+    margin-bottom: 0px;
+
+    padding-top: 20px;
+    padding-bottom:25px;
+    
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    
+    border-top: 2px solid aqua;
+    background-color: rgba(66, 66,66, 0.9);    
+}
+.FormAsterisk{    
+    font-size: 0.9em;
+    padding-bottom:15px;    
+}
+.MailingList{    
+    color: aqua;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/sitemap.css
+    .SiteMap {
+        color: white;
+    }
+
+        .SiteMap td {
+            border: 1px dotted #555;
+            width: 50px;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .SiteMap tr {
+            min-height: 1px;
+            padding: 0px;
+        }
+
+        .SiteMap table {
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+
+    .SitePage {
+        transition-duration: 0.75s;
+        background-color: rgba(0, 148, 255,0.2);
+        border:1px solid rgba(0,0,0,0);
+        
+        border-radius: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+        .SitePage:hover {
+            transition-duration: 0.5s;
+                      
+            box-shadow: #aaa 0 0 15px 1px;
+            text-shadow: #aaa 0 0 15px 1px;
+            border:1px solid rgba(0, 148, 255,0.4);
+            background-color:rgba(0, 148, 255,0.7);
+        }
+
+    .SiteDownArrow {
+        background-image: url('../img/down.png');
+    }
+
+    .SiteUpArrow {
+        background-image: url('../img/up.png');
+    }
+
+    .SiteHorizontalLine {
+        position: relative;
+        height: 0px;
+        margin-left: 20px;
+        margin-right: 30px;
+        min-width: 25px;
+        border-bottom: 2px dotted white;
+        background-position: center;
+        background-repeat: repeat-x;
+    }
+
+    .SiteVerticalLine {
+        width: 10px;
+        min-height: 40px;
+        padding: 0px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: 2px dotted white;
+        vertical-align: baseline;
+    } 
+    .PageList li{
+        padding:5px;
+        border:1px solid rgba(0,0,0,0);
+        border-left:5px solid rgba(0,0,0,0);
+    }
+    .PageList li:hover{
+        border:1px solid rgba(0, 148, 255,0.4);
+        border-left:5px solid rgba(0, 148, 255,0.4);
+        background-color:rgba(0, 148, 255,0.2);
+    }
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/sk_cv.css
+.SKBody {
+    font-family: "Lato", sans-serif;
+    margin-left: 10%;
+    width: 60%;
+    border-left: 1px solid gray;
+    margin-right: 30%;
+    border-right: 1px solid gray;
+    padding: 1em;
+}
+
+.ProfilePic {
+    top: 0px;
+    position: relative;
+    float: right;
+    clear: none;
+    margin-right: 0px;
+    z-index: 2;
+}
+
+.WebLogo {
+    position: relative;
+    float: left;
+    clear:none;
+}
+
+.PersonalDetails {
+    margin-left: 190px;
+    text-align: center;
+    top: -15px;
+}
+ == FILE END == 
+
+
+ == FILE START== : .//mergerStandard/mergerStandard/styles/style.css
+body{
+    min-width:1024px;
+
+    /* IE scroll bar */
+    scrollbar-base-color: rgba(25,25,25,0.5); 
+    scrollbar-base-color: rgba(25,25,25,0.5); 
+    scrollbar-3dlight-color: rgba(25,25,25,0.5);
+    scrollbar-highlight-color:rgba(25,25,25,0.5); 
+    scrollbar-track-color: rgba(25,25,25,0.5); /* Main one */
+    scrollbar-arrow-color: rgba(150,150,150,0.5);
+    scrollbar-shadow-color: rgba(5,5,5,0.5);
+
+    /* Unselectable */    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor:default;
+}
+
+/* Chrome scroll bar */
+::-webkit-scrollbar { width: 15px; height: 100%;} 
+::-webkit-scrollbar-button {  background-color: rgba(50,50,50,0.5); } 
+::-webkit-scrollbar-track {  background-color: rgba(25,25,25,0.5);} /* Track */
+::-webkit-scrollbar-track-piece { background-color: rgba(25,25,25,0.5);} /* Also Track */
+::-webkit-scrollbar-thumb { height: 50px; background-color: rgba(75,75,75,0.5); border-radius: 10px;} /* Bar */
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;} 
+
+.Visible{
+    transition-duration:0.5s;
+    visibility:visible;    
+}
+
+.Invisible{
+    transition-duration:0.5s;
+    background-color:rgba(250,250,250,0);
+    color:rgba(250,250,250,0);
+    visibility:hidden;
+}
+
+.Header3{    
+    font-size:24px;
+    font-weight:800;
+    padding:0px;
+    margin:0px;
+    margin-left:auto;
+    margin-right:auto;
+    white-space:normal;
+    border:2px none rgba(25,25,25,0.8);
+    border-left:none;
+    border-right:none;
+    border-radius:1000px;
+    background-color:rgba(0,0,0,0.3);
+    box-shadow:0 0 20px 0px rgba(0, 70, 170, 0.8);
+    float:right;
+    margin-right:450px;
+    width:55px;
+    height:92px;    
+
+    padding-left:15px;
+    padding-right:25px;
+    
+}
+
+.LogoSlogan{
+    width:400px;
+    line-height:0px;
+    margin-top:3px;
+    padding-left:40px;
+}
+
+.PageHeader, .PageFooter{
+
+    position:relative;
+    float:left;
+    clear:both;    
+    color:white;
+    text-align:center;
+    width:100%;
+    height:25px;
+    background-color:rgba(0,0,0,0.3);
+    
+    border:1px solid rgba(240,240,240,0.2);
+    border-left:none;
+    border-right:none;
+    padding:0px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.PageHeader{
+    top:0px;
+    height:100px;
+    margin-bottom:0px;
+    right:0px;
+    width:100%;
+}
+.PageFooter{
+    position:absolute;
+    bottom:0px;
+    border-bottom:none;
+    margin-top:10px;
+}
+
+.MainBody {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x:hidden;
+    font-family: Calibri;   
+    background-image: url('../img/dna.jpg');    
+        
+    background-size:contain;
+    background-repeat:no-repeat;
+    
+}
+.MainFrame{
+    position:relative; 
+    float:left; 
+
+    clear:both; 
+    width:100%; 
+    
+    top:0px;
+    bottom:750px;
+}
+.PageContainer{  
+    
+    position:fixed;
+    border:none;
+    
+    float:left;
+    clear:right;  
+    
+    margin:0px;
+    top:178px;    
+    bottom:45px;
+    right:0px;
+
+    width:100%;
+
+    overflow-y:scroll;
+    /*  max-height:100%; */
+    background-color:rgba(0,0,0,0.3);          
+}
+
+#page_content{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+#page_links{
+   position:fixed;
+}
+
+.Nav li a{
+    display:block;   
+    height:50px;
+    line-height: 50px;
+}
+.Nav{      
+    position:relative;
+   
+    overflow:auto;
+    
+    
+    margin:0px;
+    margin-left:auto; 
+    margin-right:auto;
+    
+    z-index:5000;
+    padding:0px;
+    color:#CCC;
+
+    list-style:none;
+    transition-duration:0.5s;
+
+    border:1px solid rgba(240,240,240,0.2); 
+
+    
+}
+
+.HNav li {
+    float: left;
+    padding-top: 0px;
+    background-color: rgba(20,20,20,0.8);
+    border-right: 1px solid rgba(240,240,240,0.3);
+    cursor: pointer;
+    height:100%; 
+    border-bottom:5px solid #353535; 
+}
+.VNav li{
+    float:left;
+    clear:both;
+    width:99%;
+    border:1px solid rgba(240,240,240,0.3);
+    border-top:none;
+    cursor:pointer;
+    border-collapse:collapse;
+     
+    
+    padding-left:5px;
+    padding-top:0px;
+    background-color:rgba(20,20,20,0.2);
+    border-left:5px solid #353535; 
+}
+
+.HNavMain{
+    
+    position:relative;
+    float:left;
+    clear:both;
+
+    width:100%;
+    
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    overflow-y:hidden;
+}
+
+.HNavMain li{
+    border-bottom:5px solid #353535 inset; 
+    min-width:150px;
+    height:100%;       
+    background-color:rgba(20,20,20,0.8)
+}
+.VNavMain{
+    position:relative;    
+    
+    width:235px;    
+      
+    border-collapse:collapse;
+    border:none;
+}
+.VNavMain li{
+    float:left;
+    clear:both;
+    width:224px;
+    border:1px solid rgba(240,240,240,0.3);
+    border-left:5px solid #353535; 
+    border-top:none;
+    cursor:pointer;
+    border-collapse:collapse;
+    height:30px;     
+    padding-left:5px;
+    padding-top:0px;
+    background-color:rgba(20,20,20,0.2);
+    
+} 
+  
+.Nav li {
+    transition-duration:0.5s;
+
+    color: white;
+    text-align: center;    
+    height:50px;
+    text-decoration:none;
+    
+    border-collapse:collapse;    
+}
+.Nav li a:active {
+    display:block;
+    transition-duration:0.05s;
+    background-color: rgba(0, 255, 255, 0.50);
+}
+.Nav li:hover {
+     transition-duration:0.05s;
+    box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 20px 5px;
+    border-color:rgba(0, 170, 270, 0.8);
+    background-color:rgba(0, 70, 170, 0.1);
+    /*background-color:rgba(50,50,50,0.8);*/
+    
+    animation: Pulse 1.75s infinite normal;
+    
+}
+
+.VNav li:hover{
+     transition-duration:0.5s;    
+    border-left:5px solid aqua;
+    
+    
+    
+}
+.HNav li:hover{   
+    transition-duration:0.5s; 
+    border-bottom:5px solid aqua; 
+    
+     
+    border-right:1px solid rgba(240,240,240,0.3);
+     margin-bottom:0px;
+   
+}
+
+@keyframes Pulse {
+    0%{ background-color:none; box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 0px 0px; }
+    40%{ background-color:rgba(0, 70, 170, 0.2); box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 20px 2px; }
+    100%{ background-color:none; }
+}
+@keyframes FadeIn{
+    from{
+        background-color:rgba(0,0,0,0);
+        color:rgba(0,0,0,0);
+        box-shadow:0px 0px 5px 1px rgba(0,0,0,0.0);
+    }
+
+    to{
+        color:rgba(250,250,250,1);
+    }
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:visited{
+
+}
+
+.CVPage, .CVHeader, #cv_content, .Address, .CVPage a {
+    animation: FadeIn 2s ease 1;
+}
+.CVPage {
+    font-family: Calibri;
+    font-weight: 200;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 210mm;
+    border:1px solid rgba(200,200,200,0.1);
+    
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 50px 0px rgba(0, 70, 170, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.AuthorLink[data-authorname] {
+
+    transition-duration: 0.5s;
+    animation: Pulse 2s infinite normal;
+
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   
+
+    border: 1px solid rgba(0, 70, 170, 0.5);
+    border-radius: 50px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-right:none;
+    
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+    
+    padding: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    
+    width: 150px;
+    min-height: 20px;
+
+    margin:3px;
+    margin-right:0px;
+    margin-left:auto;
+    
+    
+}
+.AuthorLink::before{
+    content:"View Author";
+}
+.AuthorLink:hover{
+     transition-duration:0.75s;      
+    
+    /*background-color: rgba(240,240,240,0.2);*/
+    transition-duration:0.05s;        
+    /*padding-bottom: 0px;
+    border-bottom:5px solid aqua;*/
+    box-shadow:inset rgba(0, 70, 170, 0.5) 0 0 20px 2px;
+    border-color:rgba(0, 170, 270, 0.8);
+    background-color:rgba(50,50,50,0.8);
+    
+}
+.AuthorLink[data-authorname]:hover::after{
+       content: ": " attr(data-authorname);
+}
+.AuthorLink:active{
+    transition-duration:0.1s;
+    background-color:rgba(0,255,255,0.8);
+}
+
+.Logo{        
+    width:406px;
+    height:92px; 
+    background-image:url('../img/logo.gif'); 
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+/* Colour schemes */
+/* Dark */
+.Dark-translucent{
+    color:rgba(250,250,250,1);
+    background-color:rgba(25,25,25,0.5);
+}
+.Dark-dark{
+    color:rgba(250,250,250,1);
+    background-color:rgba(10,10,10,0.75);
+}
+.Dark-medium{
+    color:rgba(250,250,250,1);
+    background-color:rgba(20,20,20,0.8);
+}
+.Dark-light{
+    color:rgba(250,250,250,1);
+    background-color:rgba(100,100,100,0.8);
+}
+.Dark-highlight{
+    color:aqua;
+    background-color:rgba(25,25,25,0.8);
+}
+
+/* Light */
+.Light-translucent{
+    color:rgba(0,0,0,1);
+    background-color:rgba(175,175,175,0.5);
+}
+.Light-dark{
+    color:rgba(0,0,0,1);
+    background-color:rgba(100,100,100,0.8);
+}
+.Light-medium{
+    color:rgba(0,0,0,1);
+    background-color:rgba(150,150,150,0.8);
+}
+.Light-light{
+    color:rgba(0,0,0,1);
+    background-color:rgba(200,200,200,0.8);
+}
+.Light-highlight{
+    background-color:rgba(250,250,250,0.8);
+    color:aqua;
+}
+
+.SciPage{
+        
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:20px;
+
+    min-width:10%;
+    max-width:60%;    
+
+    background-color:rgba(5,5,5,0.5);
+    color:white;
+    
+    border:1px solid rgba(240,240,240,0.2); 
+}
+.SciPage p{
+    padding: 0px 20px 5px 20px;
+}
+.SciSection{
+    
+    background-color:none;
+    color:inherit;
+}
+
+.SciPageTitle, .SciSectionTitle{
+    padding-left:20px;
+    background-color:none;
+    color:inherit;
+    text-shadow:0px 0px 15px 5px rgba(0, 70, 170, 0.8);
+    margin-top:20px;
+}
+.SciPageTitle{
+    font-size:xx-large;
+}
+.SciSectionTitle{
+    font-size:x-large;
+}
+.SciSectionText{
+    background-color:none;
+    color:inherit;
+}
+.SciPageAuthor{
+   
+    background-color:none;
+    color:inherit;
+}
+
+.Reference{
+   color:Highlight;
+}
+.Reference:hover{
+    color:white;
+    background-color:rgba(0, 70, 170, 0.5);
+}
+
+textarea{
+
+    background-color:rgba(0,0,0,0.8);
+    color:white;
+    border:none;
+    width:252px;
+}
+ == FILE END == 
+
+

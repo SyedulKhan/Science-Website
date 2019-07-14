@@ -1,0 +1,40 @@
+﻿.FontControlPanel {    
+    position:absolute;
+    z-index: 5050;
+    float:right;
+
+    width:185px;
+    height: 112px;
+
+    margin-top:175px;
+    margin-left:905px;
+    
+    border:1px solid rgba(0, 255, 255,0.6);
+    background-color: rgba(20,20,20,0.9);
+}
+#fontPanel{
+    display:none;
+}
+.FontControlPanel input{
+    width:118px;
+    height:34px;
+
+	margin-left:2px;
+    margin-top:2px;
+    box-shadow: inset rgba(0, 70, 170, 0.5) 0 0 8px 1px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+#currentFontSize{    
+    float:right;   
+    width:55px;
+
+    margin-right:5px;
+    margin-top:10px;
+        
+    font-size:40px;
+    text-align:center;    
+}

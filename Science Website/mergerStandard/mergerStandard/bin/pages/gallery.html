@@ -1,0 +1,60 @@
+﻿<div id="colour_menu" class="SciPage" style="margin-bottom:0px; max-width:70%; min-width: 350px; padding:1px;">
+    <table style="margin:auto;">
+        <tr>
+            <td>
+                <label>Background Colour</label>
+            </td>
+            <td>
+                <select id="backgColorList" class="backgColorLi">
+                    <option id="ps" value="inherit" onclick="changeBackGColor()">Default</option>
+                    <option id="re" value="rgba(200,0,0,0.5)" onclick="changeBackGColor()">Red</option>
+                    <option id="bl" value="rgba(0,120,200,0.5)" onclick="changeBackGColor()">Blue</option>
+                    <option id="ye" value="rgba(250, 250, 0, 0.5)" onclick="changeBackGColor()">Yellow</option>
+                    <option id="gr" value="rgba(0,200,0,0.5)" onclick="changeBackGColor()">Green</option>
+                    <option id="pu" value="rgba(100,0,100,0.5)" onclick="changeBackGColor()">Purple</option>
+                </select>
+            </td>
+            <td rowspan="2" style="text-align:center;">
+                <input type="button" class="Button" onclick="resetColors();" value="Reset Colors" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Font Colour</label>
+            </td>
+            <td>
+                <select id="fontColorList">
+                    <option id="pls" value="inherit" onclick="changeFontColor()">Default</option>
+                    <option id="red" value="rgba(200,0,0,1)" onclick="changeFontColor()">Red</option>
+                    <option id="blu" value="rgba(0,120,200,1)" onclick="changeFontColor()">Blue</option>
+                    <option id="yel" value="rgba(250, 250, 0, 0.5)" onclick="changeFontColor()">Yellow</option>
+                    <option id="gre" value="rgba(0, 200, 0, 1)" onclick="changeFontColor()">Green</option>
+                    <option id="pur" value="rgba(100,0,100,1)" onclick="changeFontColor()">Purple</option>
+                    <option id="bro" value="rgba(100, 50, 50, 1)" onclick="changeFontColor()">Brown</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="SciPage" style="margin-bottom:0px; max-width:70%; padding:20px;">
+    <div id="largeImg" class="ViewArea" style="background-image:url('./img/gallery/chem.png')">
+
+    </div>
+    <div id="description" class="Description">
+        These are some test tubes used in chemistry experiments.
+    </div>
+    <div class="Thumbnails">
+        <div class="ThumbnailContainer">
+            <div id="imgs" onclick="changeImg(event)">
+                <img class="ThumbnailImage" src="./img/gallery/chem.png" alt="These are some test tubes used in chemistry experiments." />
+                <img class="ThumbnailImage" src="./img/gallery/eclipse.png" alt="This is a clear example of what a solar eclipse looks like." />
+                <img class="ThumbnailImage" src="./img/gallery/microscope.png" alt="This piece of equipment known as a microscope is used to see the finer and microscopic details of an extract." />
+                <img class="ThumbnailImage" src="./img/gallery/space.png" alt="This is an abstract view of what outer space looks like including the milkyway and stars." />
+                <img class="ThumbnailImage" src="./img/gallery/plasma.png" alt="This image shows a plasma ball that exerts electricity and can make hair go upwards when touched." />
+                <img class="ThumbnailImage" src="./img/gallery/emc.png" alt="This is an equation that we all have seen before." />
+            </div>
+        </div>
+    </div>
+    <div class="AuthorLink" data-authorname="Syedul" style="margin-top:20px; margin-right:-20px;" onclick="showPage('cvs/syedul_cv', true);" />
+</div>
+<script>startup();</script>

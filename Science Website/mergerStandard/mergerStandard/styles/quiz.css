@@ -1,0 +1,102 @@
+﻿.Question {
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid rgba(80,80,80,0.8);
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+    .Question > input {
+        padding-left: 10px;
+        margin-left: 40px;
+    }
+
+
+.Timer {
+    margin-top: 13px;
+    font-size: 24px;
+}
+
+.TimerWarning {
+    color: yellow;
+}
+
+.TimerDanger {
+    color: red;
+}
+
+input[type="submit"] {
+    background-color: rgba(25,25,25,0.8);
+    border-radius: 5px;
+    color: white;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px grey solid;
+}
+
+.PopUp {
+    position: fixed;
+    top: 177px;
+    width: 20%;
+    left: 17px;
+    margin-left: 20px;
+    z-index: 9000;
+    overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    visibility: hidden;
+    border:1px grey outset;
+}
+
+.PopUp table{
+    margin:0px;
+}
+
+.Unhidden {
+    transition-duration:3s;
+    animation: Pop 15s 1;
+    visibility: visible;
+    max-height: 0px;
+}
+
+@keyframes Pop {
+    0% {
+        border: 1px #555 solid;
+        visibility: visible;
+        height: 0px;
+    }
+
+    10% {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-height: 70%;
+    }
+
+    90% {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-height: 70%;
+    }
+
+    99% {
+        border: 1px #555 solid;
+        visibility: visible;
+    }
+
+    100% {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        max-height: 0px;
+        visibility: hidden;
+        border: none;
+    }
+}

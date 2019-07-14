@@ -1,0 +1,92 @@
+﻿<div class="PopUp Dark-dark" id="score_popup">This should not be visible.</div>
+<div class="SciPage" style="position:fixed; top:177px; margin:20px; text-align:center; display:block;">
+    <div class="Timer" id="TimeDisplay"></div>
+</div>
+<div class="SciPage" style="width:80%; margin-left:auto; margin-right:auto;">
+    <div class="AuthorLink" data-authorname="Abdul" onclick="showPage('cvs/abdul_cv', true);" style="float:right; clear:none; margin-right:-20px;"></div>
+    <ol style="margin:0px; margin-left:20px; padding:10px; display:block; ">
+        <li>
+            <div class="Question">
+                <p>What percentage of a dolphin's brain is dedicated to the cerebral cortex?</p>
+                <input type="radio" name="Q1" id="Q1A1" value="2" onclick="setQuestionScore(1, 2);" data-content="60%">60%<br />
+                <input type="radio" name="Q1" id="Q1A2" value="-1" onclick="setQuestionScore(1, -1);" data-content="70%">70%<br />
+                <input type="radio" name="Q1" id="Q1A3" value="-1" onclick="setQuestionScore(1, -1);" data-content="80%">80%<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>How are gravitional waves measured?</p>
+                <input type="radio" name="Q2" id="Q2A1" value="2" onclick="setQuestionScore(2, 2);" data-content="Lasers">Lasers<br />
+                <input type="radio" name="Q2" id="Q2A2" value="-1" onclick="setQuestionScore(2, -1);" data-content="Rulers">Rulers<br />
+                <input type="radio" name="Q2" id="Q2A3" value="-1" onclick="setQuestionScore(2, -1);" data-content="Tides">Tides<br />
+            </div>
+        </li>
+
+        <li>
+            <div class="Question">
+                <p>How long can a neuron can be expected to live?</p>
+                <input type="radio" name="Q3" id="Q3A1" value="-1" onclick="setQuestionScore(3, -1);" data-content="Up to a year">Up to a year<br />
+                <input type="radio" name="Q3" id="Q3A2" value="-1" onclick="setQuestionScore(3, -1);" data-content="Up to 50 years<">Up to 50 years<br />
+                <input type="radio" name="Q3" id="Q3A3" value="2" onclick="setQuestionScore(3, 2);" data-content="Over a hundred years">Over a hundred years<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Ageing eyes have trouble distinguishing which colour?</p>
+                <input type="radio" name="Q4" id="Q4A1" value="-1" onclick="setQuestionScore(4, -1);" data-content="Red">Red<br />
+                <input type="radio" name="Q4" id="Q4A2" value="-1" onclick="setQuestionScore(4, -1);" data-content="Green">Green<br />
+                <input type="radio" name="Q4" id="Q4A3" value="2" onclick="setQuestionScore(4, 2);" data-content="Blue">Blue<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Which of these chemicals can trigger pain receptors in the nose?</p>
+                <input type="radio" name="Q5" id="Q5A1" value="2" onclick="setQuestionScore(5, 2);" data-content="Ammonia">Ammonia<br />
+                <input type="radio" name="Q5" id="Q5A2" value="-1" onclick="setQuestionScore(5, -1);" data-content="Benzene">Benzene<br />
+                <input type="radio" name="Q5" id="Q5A3" value="-1" onclick="setQuestionScore(5, -1);" data-content="Carbon Dioxide">Carbon Dioxide<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Where do reflex responses such as a 'knee jerk' come from?</p>
+                <input type="radio" name="Q6" id="Q6A1" value="-1" onclick="setQuestionScore(6, -1);" data-content="The Knee">The Knee<br />
+                <input type="radio" name="Q6" id="Q6A2" value="-1" onclick="setQuestionScore(6, -1);" data-content="The Brain">The Brain<br />
+                <input type="radio" name="Q6" id="Q6A3" value="2" onclick="setQuestionScore(6, 2);" data-content="The Spinal Cord">The Spinal Cord<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>A hypershere (four dimensional) has how many surfaces?</p>
+                <input type="radio" name="Q7" id="Q7A1" value="2" onclick="setQuestionScore(7, -1);" data-content="0">0<br />
+                <input type="radio" name="Q7" id="Q7A2" value="-1" onclick="setQuestionScore(7, 2);" data-content="1">1<br />
+                <input type="radio" name="Q7" id="Q7A3" value="-1" onclick="setQuestionScore(7, -1);" data-content="2">2<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>What is the standard value of the gravitational constant?</p>
+                <input type="radio" name="Q8" id="Q8A1" value="-1" onclick="setQuestionScore(8, -1);" data-content="9.5 m/s<sup>2</sup>">9.5 m/s<sup>2</sup><br />
+                <input type="radio" name="Q8" id="Q8A2" value="2" onclick="setQuestionScore(8, 2);" data-content="9.8 m/s<sup>2</sup>">9.8 m/s<sup>2</sup><br />
+                <input type="radio" name="Q8" id="Q8A3" value="-1" onclick="setQuestionScore(8, -1);" data-content="10.7 m/s<sup>2</sup>">10.7 m/s<sup>2</sup><br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Approximately how many faces can an average human remember?</p>
+                <input type="radio" name="Q9" id="Q9A1" value="-1" onclick="setQuestionScore(9, -1);" data-content="100">100<br />
+                <input type="radio" name="Q9" id="Q9A2" value="-1" onclick="setQuestionScore(9, -1);" data-content="1,000">1,000<br />
+                <input type="radio" name="Q9" id="Q9A3" value="2" onclick="setQuestionScore(9, 2);" data-content="10,000">10,000<br />
+            </div>
+        </li>
+        <li>
+            <div class="Question">
+                <p>Approximately how much of an atom is empty space?</p>
+                <input type="radio" name="Q10" id="Q10A1" value="-1" onclick="setQuestionScore(10, -1);" data-content="81.8181818181818">81.8181818181818<br />
+                <input type="radio" name="Q10" id="Q10A2" value="-1" onclick="setQuestionScore(10, -1);" data-content="88.8888888888888">88.8888888888888<br />
+                <input type="radio" name="Q10" id="Q10A3" value="2" onclick="setQuestionScore(10, 2);" data-content="99.9999999999999">99.9999999999999<br />
+            </div>
+        </li>
+    </ol>
+</div>
+
+

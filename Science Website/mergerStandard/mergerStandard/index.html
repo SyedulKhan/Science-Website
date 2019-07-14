@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- High priority styles -->   
+    <!-- Presentation page -->
+    <link rel="stylesheet" type="text/css" href="./styles/presentation.css" />
+    <!-- Main page -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+
+    <title>RipStar Science</title>
+    <meta charset="utf-8" />
+    <!-- High load priority scripts -->
+    <script type="text/javascript" src="./scripts/main.js"></script>
+
+    <!-- Lower priority styles -->
+    <!-- Shop -->
+    <link rel="stylesheet" type="text/css" href="./styles/shop.css" />
+    <!-- Gallery -->
+    <link rel="stylesheet" type="text/css" href="./styles/gallery.css" />
+    <!-- Contact Page -->
+    <link rel="stylesheet" type="text/css" href="./styles/contact.css" />
+    <!-- About Page -->
+    <link rel="stylesheet" type="text/css" href="./styles/about.css" />
+    <!-- Site Map-->
+    <link rel="stylesheet" type="text/css" href="./styles/sitemap.css" />
+
+    <!-- Periodic Table Article -->
+    <link rel="stylesheet" type="text/css" href="./styles/periodic_table.css" />
+    <!-- Polymorphism -->
+    <link rel="stylesheet" type="text/css" href="./styles/polymorphism.css" />
+    <!-- Quiz -->
+    <link rel="stylesheet" type="text/css" href="./styles/quiz.css" />
+
+    <!-- Font sizing -->
+    <link rel="stylesheet" type="text/css" href="./styles/font_size.css" />
+
+    <!-- Syedul's CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/sk_cv.css" />
+    <!-- Laurence's CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/lt_cv.css" />
+    <!-- Abdul's CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/am_cv.css" />
+    <!-- Angelos' CV -->
+    <link rel="stylesheet" type="text/css" href="./styles/ab_cv.css" />
+
+    <!-- Lower load priority scripts -->
+    <script type="text/javascript" src="./scripts/quiz.js"></script>
+    <script type="text/javascript" src="./scripts/shop.js"></script>
+    <script type="text/javascript" src="./scripts/gallery.js"></script>
+    <script type="text/javascript" src="./scripts/font_size.js"></script>
+</head>
+
+<body class="MainBody Dark-dark">
+    <!-- Segment of Angelos' work starts here -->
+    <div class="PresentationContainer">
+        <div class="PresentationHeader">
+		<div class="LogoStar"><div class="PresentationLogo"></div></div>            
+            <span class="SubTitle">a project by</span>
+        </div>
+        <div class="NameLeft">
+            Syed<div class="Element">
+                <div class="AtomicNumber">92</div><div class="ElementSymbol">U</div>
+            </div>l K<div class="Element">
+                <div class="AtomicNumber">1</div><div class="ElementSymbol">H</div>
+            </div>an
+        </div>
+        <div class="NameRight">
+            A<div class="Element">
+                <div class="AtomicNumber">5</div><div class="ElementSymbol">B</div>
+            </div>dul <div class="Element">
+                <div class="AtomicNumber">14</div><div class="ElementSymbol">Si</div>
+            </div>kder
+        </div>
+        <div class="NameLeft">
+            <div class="Element">
+                <div class="AtomicNumber">57</div>
+                <div class="ElementSymbol">La</div>
+            </div>urence Turn<div class="Element">
+                <div class="AtomicNumber">68</div>
+                <div class="ElementSymbol">Er</div>
+            </div>
+        </div>
+        <div class="NameRight">
+            Angel<div class="Element">
+                <div class="AtomicNumber">76</div><div class="ElementSymbol">Os</div>
+            </div> <div class="Element">
+                <div class="AtomicNumber">4</div><div class="ElementSymbol">Be</div>
+            </div>rdos
+        </div>
+        <div class="PresentationFooter">Web Design & Development - 4MMCS003W.Y</div>
+    </div>
+    <!-- Segment of Angelos' work ends here -->
+
+    <div class="PageHeader Dark-dark">
+        <div class="Header3">
+            <div class="Logo"></div>
+            <div class="LogoSlogan">Making Sciency Things Happen</div>
+        </div>
+    </div>    
+
+    <!-- Segment of Angelos' work starts here -->
+    <div class="FontControlPanel" id="fontPanel">
+        <div id="currentFontSize">M</div>
+        <input type="button" onclick="changeFontSize(1);" name="increaseText" value="Increase font"><br>
+        <input type="button" onclick="changeFontSize(-1);" name="decreaseText" value="Decrease font">
+        <div class="AuthorLink" onclick="showPage('cvs/angelos_cv', true);" data-authorname="Angelos" style="border-radius:0; width: 164px;"></div>
+    </div>
+    <div id="checkout" style="display:none;">
+        <div id="exitlayer" onclick="makeInvisible();"></div>
+        <div class="PopupForm FontSize" id="formcontainer"></div>
+    </div>   
+    <!-- Segment of Angelos' work ends here -->
+       
+        <ul id="page_nav" class="Nav HNav HNavMain Dark-medium FontSize">
+            <li><a onclick="showPage('home', true);">Home</a></li>
+            <li><a onclick="showPage('shop', false); setImages();">Shop</a></li>
+            <li><a onclick="showPage('gallery', false); ">Gallery</a></li>
+            <li><a onclick="showPage('about', false); ">About Us</a></li>
+            <li><a onclick="showPage('contact', false);">Contact</a></li>
+            <li><a onclick="showPage('sitemap', false);">Site Map</a></li>
+            <li><a onclick="showFontSizePanel();" id="fontSizePanelTab">Font Size</a></li>
+        </ul>
+       
+    
+    <div id="page_container" class="PageContainer FontSize">
+        <ul id="page_links" class="Nav VNav VNavMain Dark-dark Invisible" style="float:right; right:16px;"></ul>
+        <div id="page_content"></div>
+        
+    </div>
+    <div class="PageFooter Dark-dark FontSize">Copyright shared by Angelos Berdos, Syedul Khan, Abdul Sikder and Laurence Turner.<div class="SciPageAuthor" style="float:right; clear:both;">
+    <!-- <div class="AuthorLink" data-authorname="Laurence" onclick="showPage('cvs/laurence_cv', true);" style="margin-bottom:10px; margin-top:auto;"></div> -->
+</div></div>
+    <script>
+        showPage('home', true);
+    </script>
+</body>
+</html>

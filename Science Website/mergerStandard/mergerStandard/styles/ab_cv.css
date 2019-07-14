@@ -1,0 +1,38 @@
+﻿.CVPhotoA {
+    border-radius: 30px;
+    width: 100px;
+}
+
+.CVTitleA {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.SideTableA {
+    vertical-align: top;
+    padding-top: 50px;
+    margin-right: 5px;
+}
+
+.PersonalInfoA {
+    border-right-style: solid;
+    border-right-width: 2px;
+    text-align: center;
+}
+
+.WrapperA h3 {
+    text-align: center;
+}
+
+.WrapperA {
+    width: 750px;
+}
+
+.JobTitleA {
+    font-weight: 800;
+    font-size: 17px;
+}

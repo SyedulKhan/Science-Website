@@ -1,0 +1,388 @@
+﻿<div class="BackgroundLayer">
+    <div class="ShopContainer">
+        <!--Container/Holder that will get its inner HTML parts/divs filled with product info when user selects one-->
+        <!-- Acts as an enlarged popup window. Switches from being diplayed or not depending on the user-->
+        <div class="PopupContainer" id="windowcontainer" style="display:none;">
+            <div class="WindowHeader">
+                <div id="popupwindowtitle">Selected Product</div>
+                <div class="ExitProduct" onclick="makeInvisible();">x</div>
+            </div>
+            <div class="ColumnPrevious" id="previouscolumn" onclick="changeProduct(0);"><img src="../img/shop/myleftarrow.png" /></div>
+            <div id="windowphoto"></div>
+            <div id="infosection"></div>
+            <div class="ColumnNext" id="nextcolumn" onclick="changeProduct(1);"><img src="../img/shop/myrightarrow.png" /></div>
+        </div>
+        <!-- Table that contains the product tiles and the top charity box-->
+        <table class="LayoutTable">
+            <tr>
+                <td colspan="3">
+                    <!-- Charity box -->
+                    <div class="CharityRow" id="charitywindow">
+                        <div class="Charity">
+                            <div class="CharityTitle">Your contribution to the world</div>
+                            5% of your order value will be given to various charities and environmental protection schemes! <br />
+                            <div id="charityamount">£ 0</div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Product tiles-->
+            <tr>
+                <td>
+                    <div class="Product" onclick="showProduct(1);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod1" title="T-Shirt"></div>
+                        <div class="SmallDescription">Oceanic t-shirt<br />£15</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(2);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod2" title="Keyring"></div>
+                        <div class="SmallDescription">Divine Keyring<br />£10</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(3);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod3" title="Science Glasses"></div>
+                        <div class="SmallDescription">Legendary Shades<br />£25</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="Product" onclick="showProduct(4);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod4" title="Valerian"></div>
+                        <div class="SmallDescription">Silencer - A.k.a. Valerian £5/gram</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(5);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod5" title="Sticker"></div>
+                        <div class="SmallDescription">Plutonium Sticker<br />£4</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Product" onclick="showProduct(6);">
+                        <div class="Overlay">Check me out!</div>
+                        <div class="PhotoTile" id="prod6" title="Poster"></div>
+                        <div class="SmallDescription">Antimatter Poster<br />£30</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- Side box that contains user's shopping basket -->
+    <div class="Order">
+        <div class="Orderius">
+            <div class="OrderTitle">YOUR ORDER</div>
+            <div id="addeditem"> </div>
+            <div class="TotalAmount">
+                Total Amount <br /><div id="tamount">£ 0</div>
+            </div>
+            <div class="OrderButtons">
+                <input type="button" name="emptyorder" class="EmptyBasket" value="Empty Order" onclick="emptyOrder(); makeInvisible();" /><br />
+                <input type="button" name="proceedtocheckout" value="Proceed To Checkout" onclick="basketValidation();" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="AuthorLink AuthorShop" data-authorname="Angelos" onclick="showPage('cvs/angelos_cv', true);" />
+<!-- The following contents are never displayed, but copied into the inner HTML of the enlarged popup window -->
+<!-- Information and form for T-Shirt-->
+<div class="AdditionalInfo" id="show1" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Oceanic t-shirt<br /></div><div class="Price">£15</div><hr />
+        <div class="ProductDescription">
+            Do not be fooled by the humble appearance of this T-shirt. It is in fact made by dry sea-weeds
+            that can only be found near the lost empire of Atlantis. Some say it makes your skin glow at night. Kinky...
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="tshirtquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                Size:&nbsp;<select name="tshirtsize" class="DropDownShop">
+                    <option value="x-small">x-Small</option>
+                    <option value="small">Small</option>
+                    <option value="medium" selected="selected">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">x-Large</option>
+                </select><input type="button" onclick="addToBasket(1,this.form);" name="addtobasket" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Information and form for keyring -->
+<div class="AdditionalInfo" id="show2" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Divine Keyring<br /></div><div class="Price">£10</div><hr />
+        <div class="ProductDescription">
+            This keyring shown in the picture is one of a few of the remaining artifacts forged by the ancient
+            God of blacksmiths, Hephaestus. Enhanced with divine powers once you allocate your keys in the key ring only their one true master
+            will be able to lift them from the ground and telepathically attract. Never lose them again!
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="keyringquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><input type="button" onClick="addToBasket(2,this.form);" name="addtobasket" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Information and form for glasses -->
+<div class="AdditionalInfo" id="show3" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Legendary Shades<br /></div><div class="Price">£25</div><hr />
+        <div class="ProductDescription">
+            Once thought lost these last few pairs of glasses were made and owned by legendary warrior Perseus.
+            As we have all heard he managed to kill Medusa using a mirror but the truth is that he handmade those glasses that protected him
+            until the end of his heroic actions. Wear them with confidence!
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="glassquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                Size:&nbsp;<select name="glasssize" class="DropDownShop">
+                    <option value="small">Small</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <input type="button" name="addtobasket" onclick="addToBasket(3, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Information and form for valerian -->
+<div class="AdditionalInfo" id="show4" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">The Silencer - A.k.a. Valerian<br /></div><div class="Price">£5/gram.</div><hr />
+        <div class="ProductDescription">
+            Only for a limited time, exclusively produced for our dedicated customers. Is your colleague at work chattering endlesly?
+            Are your classmates in the back row acting like a bunch of untrained baboons? Then look no further.
+            Step one: Simply slip a pinch of this in their drink or food and soon they will cease talking. Final step:
+            Embrace the tranquility. C'est la vie
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="valerianquantity" class="DropDownShop">
+                    <option value="1">1gram.</option>
+                    <option value="2">2gram.</option>
+                    <option value="4">4gram.</option>
+                    <option value="6">6gram.</option>
+                </select><input type="button" name="addtobasket" onclick="addToBasket(4, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Information and form for sticker -->
+<div class="AdditionalInfo" id="show5" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Plutonium Sticker<br /></div><div class="Price">£4</div><hr />
+        <div class="ProductDescription">
+            After being sold out, now back in stock! Designed and printed by our London team.
+            <br />Dimensions: H14cm &amp; W26cm
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="stickerquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select><input type="button" name="addtobasket" onClick="addToBasket(5, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Information and form for poster -->
+<div class="AdditionalInfo" id="show6" style="display:none;">
+    <div class="ProductInfo">
+        <div class="ProductTitle">Antimatter Poster - Limited Edition<br /></div><div class="Price">£30</div><hr />
+        <div class="ProductDescription">
+            Feeling bored? Feeling like something is missing from your wall? Because of science, as always,
+            we are now able to offer you this awesome poster of an Antimatter atom. Only a few pieces of it will
+            be made so get your hands on it before it's gone. Printed in the heart of London by our team, this
+            unique poster will dazzle anyone who looks at it.<br />Dimensions: H80cm & W120cm
+        </div>
+        <div class="ProductForm">
+            <form action="">
+                Quantity:&nbsp;<select name="posterquantity" class="DropDownShop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><input type="button" name="addtobasket" onClick="addToBasket(6, this.form);" value="Add to basket">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Form that needs to be filled at checkout from shop. When requested is copied into the inner HTML of popup window located in index.html -->
+<div class="Form" id="show7" style="display:none;">
+    <div class="FormOrder">
+        <form action="" id="customerform">
+            <div class="FormAsterisk">Please complete all fields marked with an asterisk(*)</div>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <table class="TablePos">
+                    <tr>
+                        <td class="FormLeft">*Title:</td>
+                        <td class="FormRight">
+                            <select name="title" id="customertitle" class="DropDownShop">
+                                <option value="-" disabled selected="selected">-</option>
+                                <option value="miss">Miss</option>
+                                <option value="mr">Mr</option>
+                                <option value="mrs">Mrs</option>
+                                <option value="ms">Ms</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*First Name:</td>
+                        <td class="FormRight">
+                            <input type="text" class="testingname" name="firstname" id="customerfirstname" maxlength="25" placeholder="Frodo">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Last Name:</td>
+                        <td class="FormRight">
+                            <input type="text" name="lastname" id="customerlastname" maxlength="25" placeholder="Smith">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="FormLeft">*Email:</td>
+                        <td class="FormRight">
+                            <input type="text" name="email" id="customeremail" placeholder="example@mail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">Phone number:</td>
+                        <td class="FormRight"><input type="text" name="number" id="customernumber"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="fields">
+                <legend>Address Info</legend>
+                <table class="TablePos">
+                    <tr>
+                        <td class="FormLeft">*Address line 1:</td>
+                        <td class="FormRight">
+                            <input type="text" name="address1" id="customeraddress1" placeholder="In a hole in the ground" maxlength="40">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">Address line 2:</td>
+                        <td class="FormRight">
+                            <input type="text" name="address2" id="customeraddress2" placeholder="Upper Shire" maxlength="40">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Postal Code:</td>
+                        <td class="FormRight">
+                            <input type="text" name="postcode" id="customerpostcode" placeholder="NW9 7WL" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*City:</td>
+                        <td class="FormRight">
+                            <input type="text" name="city" id="customercity" placeholder="The Shire" maxlength="20">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="fields">
+                <legend>Payment Info</legend>
+                <table>
+                    <tr>
+                        <td class="FormLeft">*Card type:</td>
+                        <td class="FormRight">
+                            <input type="radio" class="CardType" name="cardtype" value="visadebit" id="visadebit">
+                            <label for="visadebit">Visa Debit</label>
+                            <input type="radio" class="CardType" name="cardtype" value="visacredit" id="visacredit">
+                            <label for="visacredit">Visa Credit</label>
+                            <input type="radio" class="CardType" name="cardtype" value="mastercard" id="mastercard">
+                            <label for="mastercard">Mastercard</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Cardholder Name:</td>
+                        <td class="FormRight">
+                            <input type="text" name="cardholder" id="cardholder" placeholder="John Smith" maxlength="75">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Card Number:</td>
+                        <td class="FormRight">
+                            <input type="text" name="cardnumber" id="cardnumber" placeholder="2391123498381235" maxlength="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FormLeft">*Expiry Date:</td>
+                        <td class="FormRight">
+                            <select name="expirymonth" id="expirymonth" class="DropDownShop">
+                                <option value="-" disabled selected="selected">-</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select name="expiryyear" id="expiryyear" class="DropDownShop">
+                                <option value="-" disabled selected>-</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <div class="FormOptions">
+                <div class="MailingList">Subscribe to our mailing list<input type="checkbox" name="subscribe"></div><br>
+                <div class="TermsAndCondition">
+                    *I have read and understand this agreement and I accept and agree to all of its terms and conditions.
+                    I enter into this agreement voluntarily, with full knowledge of its effect.
+                    <input type="checkbox" name="termsandconditions" id="termsandconditions">
+                </div><br>
+            </div>
+            <div class="FormButtons">
+                <input type="button" onclick="makeInvisible();" name="goback" value="Back to products" />
+                <input type="button" onclick="emptyOrder(); makeInvisible();" name="cancelorder" value="Cancel order" />
+                <input type="button" onclick="validate(this.form);" name="confirmorder" value="Place order">
+            </div>
+        </form>
+    </div>
+</div>

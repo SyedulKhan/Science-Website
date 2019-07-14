@@ -1,0 +1,36 @@
+﻿.pTableContent {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pTable_Container {
+    text-align: justify;
+}
+
+.group_One_Table {
+    margin: 0 auto 0 auto;
+    border-color: blue;
+    background-color: rgba(150,150,250,0.7);
+    color: #000033;
+}
+
+.pTable_Pattern {
+    margin: 0 auto 0 auto;
+    list-style-type: square;
+}
+
+.pTable_Title {
+    text-align: center;
+}
+
+.pTable_Img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-image-repeat: stretch;
+}
+
+#prediction_Container {
+    border: 5px solid black;
+}

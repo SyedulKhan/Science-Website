@@ -1,0 +1,360 @@
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\ApplicationInsights.config
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll.config
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.pdb
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.dll
+C:\Users\Admin\Desktop\WebDev Shite\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.pdb
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\ApplicationInsights.config
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\csc.exe
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\vbc.exe
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll.config
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.pdb
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.dll
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.pdb
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\ApplicationInsights.config
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\csc.exe
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\vbc.exe
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll.config
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.pdb
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.xml
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.csprojResolveAssemblyReference.cache
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.dll
+C:\Users\Syedu\Dropbox\Web Design & Development\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.pdb
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\ApplicationInsights.config
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\mergerStandard.dll.config
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\mergerStandard.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\mergerStandard.pdb
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\obj\Debug\mergerStandard.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\obj\Debug\mergerStandard.dll
+C:\Users\Admin\Desktop\Uni\4MMCS003W Web Design and Development\final project\mergerstandard\mergerStandard\obj\Debug\mergerStandard.pdb
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\periodic_Table.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\abd_pic.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\poster.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\tshirt.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\valerian.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\abdul_cv_menu.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\abdul_cv.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\about.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\angelos_cv.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\angelos_cv_menu.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\chem.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\contact.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\menus\contact_menu.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\laurence_cv_menu.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\dna.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\eclipse.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\emc.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\scripts\font_size.js
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\scripts\gallery.js
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\scripts\main.js
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\scripts\quiz.js
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\scripts\shop.js
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\gallery.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\gravitational_waves.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\higgs_boson.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\home.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\index.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\keyringScience.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\Koala.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\laurence_cv.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\lau_pic.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\logo.gif
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\microscope.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\ang_pic.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\myleftarrow.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\myrightarrow.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\plasma.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\quiz.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\scienceglasses.jpg
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\menus\home_menu.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\shop.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\menus\shop_menu.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\sitemap.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\space.png
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\styles\font_size.css
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\styles\gallery.css
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\styles\presentation.css
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\styles\shop.css
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\styles\style.css
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\syedul_cv.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\syedul_cv_menu.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\sye_pic.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\ApplicationInsights.config
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\csc.exe
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\vbc.exe
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\VBCSCompiler.exe
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\periodic_Table.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\abd_pic.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\poster.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\tshirt.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\valerian.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\abdul_cv_menu.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\abdul_cv.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\about.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\angelos_cv.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\angelos_cv_menu.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\chem.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\contact.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\menus\contact_menu.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\laurence_cv_menu.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\dna.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\eclipse.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\emc.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\scripts\font_size.js
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\scripts\gallery.js
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\scripts\main.js
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\scripts\quiz.js
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\scripts\shop.js
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\gallery.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\gravitational_waves.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\higgs_boson.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\home.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\index.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\keyringScience.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\Koala.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\laurence_cv.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\lau_pic.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\logo.gif
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\microscope.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\ang_pic.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\myleftarrow.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\myrightarrow.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\plasma.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\quiz.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\shop\scienceglasses.jpg
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\menus\home_menu.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\shop.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\menus\shop_menu.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\sitemap.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\gallery\space.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\styles\font_size.css
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\styles\gallery.css
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\styles\presentation.css
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\styles\shop.css
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\styles\style.css
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\cvs\syedul_cv.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\menus\cvs\syedul_cv_menu.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\img\profile\sye_pic.png
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\mergerStandard.dll.config
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\mergerStandard.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\mergerStandard.pdb
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.Web.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.ApplicationInsights.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.Web.xml
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.ApplicationInsights.xml
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\obj\Debug\mergerStandard.csprojResolveAssemblyReference.cache
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\obj\Debug\mergerStandard.dll
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\obj\Debug\mergerStandard.pdb
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\polymorphism.html
+C:\Users\Admin\Dropbox\University\Coursework\4MMCS003W Web Design and Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\periodic_table.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\polymorphism.html
+C:\Users\elberd\Dropbox\Web Design & Development\Final Project\mergerstandard\mergerStandard\bin\pages\sci\periodic_table.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\ApplicationInsights.config
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\csc.exe
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Collections.Immutable.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\System.Reflection.Metadata.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\vbc.exe
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\roslyn\VBCSCompiler.exe.config
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\periodic_Table.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\profile\abd_pic.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\shop\poster.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\shop\tshirt.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\shop\valerian.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\menus\cvs\abdul_cv_menu.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\cvs\abdul_cv.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\sci\polymorphism.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\about.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\cvs\angelos_cv.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\menus\cvs\angelos_cv_menu.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\chem.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\sci\periodic_table.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\contact.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\menus\contact_menu.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\menus\cvs\laurence_cv_menu.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\dna.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\eclipse.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\emc.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\scripts\font_size.js
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\scripts\gallery.js
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\scripts\main.js
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\scripts\quiz.js
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\scripts\shop.js
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\gallery.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\sci\gravitational_waves.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\sci\higgs_boson.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\home.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\index.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\shop\keyringScience.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\Koala.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\cvs\laurence_cv.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\profile\lau_pic.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\logo.gif
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\microscope.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\profile\ang_pic.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\shop\myleftarrow.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\shop\myrightarrow.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\plasma.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\sci\quiz.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\shop\scienceglasses.jpg
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\menus\home_menu.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\shop.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\menus\shop_menu.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\sitemap.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\gallery\space.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\styles\font_size.css
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\styles\gallery.css
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\styles\presentation.css
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\styles\shop.css
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\styles\style.css
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\pages\cvs\syedul_cv.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\menus\cvs\syedul_cv_menu.html
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\img\profile\sye_pic.png
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll.config
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\mergerStandard.pdb
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Agent.Intercept.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.DependencyCollector.xml
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.Web.xml
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.AI.WindowsServer.xml
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.ApplicationInsights.xml
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.csprojResolveAssemblyReference.cache
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.dll
+F:\University\Web Dev\Final Project\mergerStandard\mergerStandard\obj\Debug\mergerStandard.pdb

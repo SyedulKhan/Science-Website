@@ -1,0 +1,57 @@
+﻿body {
+    color: white;
+}
+
+td {
+    padding: 5px;
+}
+
+input[type=text], select {
+    color: white;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.7);
+    
+    padding: 3px;
+}
+
+select {   
+    width: 260px;
+}
+
+#submit {
+    width: 150px;
+    background-color: rgba(55,55,55,0.7);
+}
+
+input[type=button]{
+    color:white;
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid rgba(240,240,240,0.2);
+    background-color: rgba(0,0,0,0.3);
+    transition-duration: 0.5s;
+    min-height:25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .Button:hover {
+        background-color: rgba(240,240,240,0.2);
+        transition-duration: 0.5s;
+    }
+
+.Submission {
+    margin: 20px;
+    border: 1px solid rgba(240,240,240,0.2);
+    background-color: rgba(0,0,0,0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+    .Submission > table {
+        margin-left: auto;
+        margin-right: auto;
+    }

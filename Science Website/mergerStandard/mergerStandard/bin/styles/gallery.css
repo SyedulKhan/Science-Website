@@ -1,0 +1,75 @@
+﻿#colour_menu {
+    color: inherit;
+}
+
+    #colour_menu td select {
+        width: 100px;
+    }
+
+    #colour_menu input, #colour_menu select, #colour_menu legend {
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        color: inherit;
+    }
+
+
+    #colour_menu select {
+        background-color: rgba(15,15,15,0.5);
+    }
+
+
+.ViewArea {
+    margin: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    background-position: center;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: inherit;
+    min-height: 400px;
+    border: 1px rgba(250,250,250,0.1) solid;
+}
+
+.ThumbnailImage {
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    margin: 5px;
+    cursor: pointer;
+}
+
+    .ThumbnailImage:hover {
+        border: 1px solid white;
+        box-shadow: 0px 0px 5px 1px #FFF;
+        
+    }
+
+/* Inner */
+.ThumbnailContainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: contents;
+}
+
+/* Outer */
+.Thumbnails {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    border: 1px rgba(250, 250, 250, 0.1) solid;
+    padding: 10px;
+}
+
+.Description {
+    border: 1px rgba(250, 250, 250, 0.1) solid;
+    padding: 10px;
+    min-height: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    text-align: center;
+}
